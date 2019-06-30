@@ -12,7 +12,7 @@ quarks = [{'name': 'up', 'charge': '+2/3'},
 
 @app.route('/', methods=['GET'])
 def hello_world():
-    return jsonify({'message' : 'Hello, World!'})
+    return jsonify({'message' : 'Hello, from Python!'})
 
 @app.route('/quarks', methods=['GET'])
 def returnAll():
