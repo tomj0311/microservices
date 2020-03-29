@@ -13,3 +13,5 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.
 cl /Zi /EHsc /Fe  z1.cpp /build/z1.exe D:\vcpkg\installed\x64-windows\lib\libzmq-mt-4_3_3.lib 
 
 cl.exe /Zi /EHsc /MD /Fe: c:\Users\1026420\Desktop\microservices\c-cpp\build\z1.exe c:\Users\1026420\Desktop\microservices\c-cpp\z1.cpp /link /LIBPATH: D:\vcpkg\installed\x64-windows\lib\libzmq-mt-4_3_3.lib 
+
+cl.exe /Zi /EHsc /MD -DSFML_STATIC /Fe: .\build\z1.exe .\z1.cpp C:\vcpkg\installed\x64-windows\lib\libzmq-mt-4_3_3.lib
