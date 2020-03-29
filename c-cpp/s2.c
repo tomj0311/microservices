@@ -15,10 +15,16 @@ int main()
     addr.sin_addr.s_addr = inet_addr("127.0.0.1"); // replace the ip with your futur server ip address. If server AND client are running on the same computer, you can use the local ip 127.0.0.1
     addr.sin_family = AF_INET;
     addr.sin_port = htons(5555);
- 
-    connect(server, (SOCKADDR *)&addr, sizeof(addr));
-    printf("Connected to server!\n");
- 
+    
+    int req_result;
+    req_result = connect(server, (SOCKADDR *)&addr, sizeof(addr));
+    if (req_result > 0){
+        printf("Connected to server!\n");
+    } else {
+        printf("Can't connect\n");
+        return -1;
+    }
+
     char buffer[1024];
 
     FILE *f;

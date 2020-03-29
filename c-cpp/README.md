@@ -8,3 +8,8 @@ C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um;C:\Program Files 
 
 LIB 
 C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.23.28105\lib\x64;C:\Program Files (x86)\Windows Kits\10\Lib\10.0.18362.0\um\x64;C:\Program Files (x86)\Windows Kits\10\Lib\10.0.18362.0\ucrt\x64;
+
+## include LIBPATH eg. ZeroMQ
+cl /Zi /EHsc /Fe  z1.cpp /build/z1.exe D:\vcpkg\installed\x64-windows\lib\libzmq-mt-4_3_3.lib 
+
+cl.exe /Zi /EHsc /MD /Fe: c:\Users\1026420\Desktop\microservices\c-cpp\build\z1.exe c:\Users\1026420\Desktop\microservices\c-cpp\z1.cpp /link /LIBPATH: D:\vcpkg\installed\x64-windows\lib\libzmq-mt-4_3_3.lib 
