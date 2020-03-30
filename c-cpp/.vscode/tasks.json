@@ -10,7 +10,8 @@
             "args": [
                 "/Zi",
                 "/EHsc",
-                "C:\\vcpkg\\installed\\x64-windows\\lib\\libzmq-mt-4_3_3.lib",
+                // "C:\\vcpkg\\installed\\x64-windows\\lib\\libzmq-mt-4_3_3.lib",
+                "D:\\vcpkg\\installed\\x64-windows\\lib\\SDL2.lib",
                 "/Fe:",
                 "${fileDirname}\\build\\${fileBasenameNoExtension}.exe",
                 "${file}"
