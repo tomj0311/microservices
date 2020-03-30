@@ -1,0 +1,41 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558 
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "cl.exe build active file - Debug",
+            "command": "cl.exe",
+            "args": [
+                "/Zi",
+                "/EHsc",
+                "C:\\vcpkg\\installed\\x64-windows\\lib\\libzmq-mt-4_3_3.lib",
+                "/Fe:",
+                "${fileDirname}\\bin\\debug\\${fileBasenameNoExtension}.exe",
+                "${file}"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build"
+        },
+        {
+            "type": "shell",
+            "label": "cl.exe build active file - Release",
+            "command": "cl.exe",
+            "args": [
+                // "/Zi", incude debug information pdf and ilk
+                "/EHsc",
+                "C:\\vcpkg\\installed\\x64-windows\\lib\\libzmq-mt-4_3_3.lib",
+                "/Fe:",
+                "${fileDirname}\\bin\\release\\${fileBasenameNoExtension}.exe",
+                "${file}"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build"
+        }
+    ]
+}
