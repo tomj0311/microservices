@@ -16,11 +16,12 @@
                 "${file}",
                 "C:\\vcpkg\\installed\\x64-windows\\lib\\SDL2.lib",
                 "C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link\\SDL2main.lib",
+                // "C:\\vcpkg\\installed\\x64-windows\\lib\\OpenGL32.lib",
                 "/link",
                 "/SUBSYSTEM:WINDOWS"
             ],
             "problemMatcher": [
-                "$gcc"
+                "$msCompile"
             ],
             "group": "build"
         },
@@ -37,11 +38,12 @@
                 "${file}",
                 "C:\\vcpkg\\installed\\x64-windows\\lib\\SDL2.lib",
                 "C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link\\SDL2main.lib",
+                // "C:\\vcpkg\\installed\\x64-windows\\lib\\OpenGL32.lib",
                 "/link",
                 "/SUBSYSTEM:WINDOWS"
             ],
             "problemMatcher": [
-                "$gcc"
+                "$msCompile"
             ],
             "group": "build"
         }
