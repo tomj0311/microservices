@@ -17,7 +17,7 @@ typedef enum {
     TRUE = (!FALSE)
 } bool;
 
-const int SCREEN_WIDTH = 580;
+const int SCREEN_WIDTH = 800;
 const int SCREEN_HEIGHT = 600;
 
 const unsigned int SHIP_SPEED = 360; // pixels/second
