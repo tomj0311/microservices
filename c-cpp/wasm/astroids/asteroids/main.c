@@ -1,6 +1,4 @@
 
-//main.c
-
 //Using SDL and standard IO
 #include <SDL2/SDL.h>
 #include <stdio.h>
@@ -9,7 +7,6 @@
 #include "player.h"
 #include "asteroids.h"
 
-// Import "emscripten_set_main_loop()" and "emscripten_cancel_main_loop()"
 #if __EMSCRIPTEN__
     #include <emscripten.h>
 #endif
@@ -26,7 +23,6 @@ uint32_t* pixels = NULL;				//The pixel buffer to draw to
 struct asteroid asteroids[ASTEROIDS];	//The asteroids
 struct player p;						//The player
 struct player lives[LIVES];				//Player lives left
-
 
 // Main game loop
 void mainloop()
@@ -190,7 +186,12 @@ int main (int argc, char* args[]) {
 #if __EMSCRIPTEN__
 	emscripten_set_main_loop(mainloop, 0, 1);
 #endif
-
+	while (1)
+	{
+		mainloop();
+		SDL_Delay(16);
+	}
+	
 	return 0;
 }
 

@@ -142,22 +142,18 @@ void bounds_player(struct player* p) {
 	int i = 0;
 	
 	if (p->location.x < -SCREEN_WIDTH / 2) {
-		
 		p->location.x = SCREEN_WIDTH / 2;
 	}
 	
 	if (p->location.x > SCREEN_WIDTH / 2) {
-		
 		p->location.x = -SCREEN_WIDTH / 2;
 	}
 
 	if (p->location.y < -SCREEN_HEIGHT / 2) {
-		
 		p->location.y = SCREEN_HEIGHT / 2;
 	}
 	
 	if (p->location.y > SCREEN_HEIGHT / 2) {
-		
 		p->location.y = -SCREEN_HEIGHT / 2;
 	}
 
@@ -166,12 +162,10 @@ void bounds_player(struct player* p) {
 	for (i = 0; i < BULLETS; i++) {
 		
 		if (p->bullets[i].location.x < 0 || p->bullets[i].location.x >= SCREEN_WIDTH) {
-			
 			p->bullets[i].alive = FALSE;
 		}
 		
 		if (p->bullets[i].location.y < 0 || p->bullets[i].location.y >= SCREEN_HEIGHT) {
-			
 			p->bullets[i].alive = FALSE;
 		}
 	}

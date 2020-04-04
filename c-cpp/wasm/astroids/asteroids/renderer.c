@@ -41,15 +41,11 @@ int draw_line(uint32_t* pixel_buffer, int x1, int y1, int x2, int y2, uint32_t c
 			
 			//loop through all the X values
 			for(i = 1; i <= dx; i++) {
-				
 				int x = x1 + i;
-				
 				draw_pixel(pixel_buffer, x, y, colour);
-				
 				error += slope;
 
 				if (error  >= 0.5) {
-				
 					y++;
 					error -= 1;
 				}
@@ -69,13 +65,10 @@ int draw_line(uint32_t* pixel_buffer, int x1, int y1, int x2, int y2, uint32_t c
 			for(i = 1; i <= dx; i++) {
 				
 				int x = x1 + i;
-				
 				draw_pixel(pixel_buffer, x, y, colour);
-				
 				error += slope;
 
 				if (error  <= -0.5) {
-				
 					y--;
 					error += 1;
 				}
@@ -101,15 +94,10 @@ int draw_line(uint32_t* pixel_buffer, int x1, int y1, int x2, int y2, uint32_t c
 			
 			//loop through all the y values
 			for(i = 1; i <= dy; i++) {
-				
 				int y = y1 + i;
-				
 				draw_pixel(pixel_buffer, x, y, colour);
-				
 				error += slope;
-
 				if (error  >= 0.5) {
-				
 					x++;
 					error -= 1;
 				}
@@ -118,24 +106,16 @@ int draw_line(uint32_t* pixel_buffer, int x1, int y1, int x2, int y2, uint32_t c
 		
 		//draw line from bottom to top
 		if (y1 > y2) {
-			
 			float ideal_x = x1 - slope;
 			int x = (int) round(ideal_x);
 			float error = ideal_x - x;
-
 			int i = 0;
-			
 			//loop through all the y values
 			for(i = 1; i <= fabs(dy); i++) {
-				
 				int y = y1 - i;
-				
 				draw_pixel(pixel_buffer, x, y, colour);
-				
 				error += slope;
-
 				if (error  <= -0.5) {
-				
 					x++;
 					error += 1;
 				}
@@ -147,16 +127,13 @@ int draw_line(uint32_t* pixel_buffer, int x1, int y1, int x2, int y2, uint32_t c
 }
 
 int draw_pixel(uint32_t* pixel_buffer, int x, int y, uint32_t colour) {
-	
 	//dont draw any pixels that are outside of the pixel buffer
 	if (x < 0 || y < 0) {
-			
 		return 1;
 	}
 	
 	//dont draw any pixels that are outside of the pixel buffer
 	if (x >= SCREEN_WIDTH || y >= SCREEN_HEIGHT) {
-			
 		return 1;
 	}
 
@@ -172,7 +149,6 @@ void clear_pixels(uint32_t* pixel_buffer, uint32_t colour) {
 	int buffer_size = SCREEN_WIDTH * SCREEN_HEIGHT;
 
 	for (i = 0; i < buffer_size; i++) {
-		
 		pixel_buffer[i] = colour;
 	}
 }
