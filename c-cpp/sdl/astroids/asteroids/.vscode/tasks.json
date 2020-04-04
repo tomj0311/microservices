@@ -1,0 +1,28 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558 
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "cl.exe build - Debug",
+            "command": "cl.exe",
+            "args": [
+                "/Zi",
+                "/EHsc",
+                "/MD",
+                "/Fe:",
+                "${workspaceFolder}\\bin\\debug\\main.exe",
+                "${fileDirName}*.c*",
+                "C:\\vcpkg\\installed\\x64-windows\\lib\\SDL2.lib",
+                "C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link\\SDL2main.lib",
+                "/link",
+                "/SUBSYSTEM:CONSOLE"
+            ],
+            "problemMatcher": [
+                "$msCompile"
+            ],
+            "group": "build"
+        },
+    ]
+}
