@@ -20,7 +20,7 @@ typedef enum {
     TRUE = (!FALSE)
 } bool;
 
-const int SCREEN_WIDTH = 550;
+const int SCREEN_WIDTH = 580;
 const int SCREEN_HEIGHT = 600;
 
 const unsigned int SHIP_SPEED = 360; // pixels/second
@@ -28,9 +28,9 @@ const unsigned int MAX_BULLETS = 128; // max. amounf of simultaneous sprites
 const unsigned int BULLET_SPEED = 480; // pixels/second
 
 const unsigned int MAX_ALIENS = 128; // max. amount of simultaneous sprites
-const unsigned int MAX_ALIEN_SPEED_X = 240; // pixels/second
-const unsigned int MAX_ALIEN_SPEED_Y = 480; // pixels/second
-const unsigned int MIN_ALIEN_SPEED_Y = 180; // pixels/second
+const unsigned int MAX_ALIEN_SPEED_X = 120; // pixels/second
+const unsigned int MAX_ALIEN_SPEED_Y = 240; // pixels/second
+const unsigned int MIN_ALIEN_SPEED_Y = 50; // pixels/second
 const unsigned int ALIEN_ANIM_HZ = 3; // times/second
 
 const unsigned int MAX_EXPLOSIONS = 128; // max. amount of simultaneous sprites
@@ -97,7 +97,7 @@ SDL_Surface *g_screen = NULL;
 unsigned int g_last_timestamp = 0;
 
 SDL_Surface *g_images[MAX_IMAGE_INDEX] = {NULL};
-Mix_Chunk *g_sfx[MAX_SFX_INDEX] = {NULL};
+// Mix_Chunk *g_sfx[MAX_SFX_INDEX] = {NULL};
 
 Ship g_ship;
 Bullet g_bullets[128];
@@ -110,7 +110,8 @@ Explosion g_explosions[128];
 
 int rand_between(int min, int max) {
     // NOTE: this is not a good random generator, but for this game it's enough
-    return (rand() % (max + 1 - min)) + min;
+    int rnum = (rand() % (max + 1 - min)) + min; 
+    return rnum;
 }
 
 SDL_Surface* load_image(char *filename) {
@@ -138,14 +139,14 @@ SDL_Surface* load_image(char *filename) {
     return optimized;
 }
 
-Mix_Chunk* load_sfx(char *filename) {
-    Mix_Chunk *sfx = Mix_LoadWAV(filename);
-    if (sfx == NULL) {
-        fprintf(stderr, "Unable to load sfx %s - %s", filename, SDL_GetError());
-    }
+// Mix_Chunk* load_sfx(char *filename) {
+//     Mix_Chunk *sfx = Mix_LoadWAV(filename);
+//     if (sfx == NULL) {
+//         fprintf(stderr, "Unable to load sfx %s - %s", filename, SDL_GetError());
+//     }
 
-    return sfx;
-}
+//     return sfx;
+// }
 
 void draw_image(SDL_Surface *image, int x, int y) {
     SDL_Rect rect = {x, y, image->w, image->h};
@@ -284,7 +285,7 @@ void update_ship(Ship *ship, const float delta, const Uint8 *keyboard) {
     // shoot
     if (!ship->wasSpaceDown && keyboard[SDL_SCANCODE_SPACE]) {
         shoot_bullet(ship->sprite.x, ship->sprite.y);
-        play_sfx(g_sfx[SFX_SHOOT]);
+        // play_sfx(g_sfx[SFX_SHOOT]);
     }
 
     ship->wasSpaceDown = keyboard[SDL_SCANCODE_SPACE];
@@ -414,7 +415,7 @@ void collide_bullets_vs_aliens() {
 
             if (sprite_intersect(&(bullet->sprite), &(alien->sprite))) {
                 explode(alien->sprite.x, alien->sprite.y);
-                play_sfx(g_sfx[SFX_BOOM]);
+                // play_sfx(g_sfx[SFX_BOOM]);
 
                 alien->sprite.alive = FALSE;
                 bullet->sprite.alive = FALSE;
@@ -436,8 +437,8 @@ void play_init() {
     g_images[IMG_ALIEN] = load_image("assets/images/alien.bmp");
     g_images[IMG_EXPLOSION] = load_image("assets/images/explosion.png");
 
-    g_sfx[SFX_SHOOT] = load_sfx("assets/audio/shoot.wav");
-    g_sfx[SFX_BOOM] = load_sfx("assets/audio/explosion.wav");
+    // g_sfx[SFX_SHOOT] = load_sfx("assets/audio/shoot.wav");
+    // g_sfx[SFX_BOOM] = load_sfx("assets/audio/explosion.wav");
 
     // init sprite lists
     for (unsigned int i = 0; i < MAX_BULLETS; i++) {
@@ -481,9 +482,9 @@ bool play_update(float delta) {
     }
 
     // randomly spawn new aliens
-    if (rand_between(0, 100) < 10) {
-        generate_alien(rand_between(0, SCREEN_WIDTH), -50);
-    };
+    // if (rand_between(0, 100) < 10) {
+    generate_alien(rand_between(0, SCREEN_WIDTH), -50);
+    // };
 
     update_ship(&g_ship, delta, keyboard);
     for (unsigned int i = 0; i < MAX_BULLETS; i++) {
@@ -498,6 +499,8 @@ bool play_update(float delta) {
 
     collide_bullets_vs_aliens();
 
+    SDL_Delay(16);
+
     return FALSE;
 }
 
@@ -511,12 +514,12 @@ void play_cleanup() {
     }
 
     // unload sfx
-    for (int i = 0; i < MAX_SFX_INDEX; i++) {
-        if (g_sfx[i] != NULL) {
-            Mix_FreeChunk(g_sfx[i]);
-            g_sfx[i] = NULL;
-        }
-    }
+    // for (int i = 0; i < MAX_SFX_INDEX; i++) {
+    //     if (g_sfx[i] != NULL) {
+    //         Mix_FreeChunk(g_sfx[i]);
+    //         g_sfx[i] = NULL;
+    //     }
+    // }
 }
 
 
@@ -534,10 +537,10 @@ bool startup(char *title) {
             fprintf(stderr, "SDL_image init error: %s\n", IMG_GetError());
             return FALSE;
         } // init SDL mixer
-        if (Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 2, 2048) < 0) {
-            fprintf(stderr, "SDL_mixer init error %s\n", Mix_GetError());
-            return FALSE;
-        }
+        // if (Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 2, 2048) < 0) {
+        //     fprintf(stderr, "SDL_mixer init error %s\n", Mix_GetError());
+        //     return FALSE;
+        // }
 
         g_window = SDL_CreateWindow(
             title,
