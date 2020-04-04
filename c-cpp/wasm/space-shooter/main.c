@@ -7,9 +7,6 @@
 
 #if __EMSCRIPTEN__
     #include <emscripten.h>
-    #include <SDL/SDL_mixer.h>
-#else
-    #include <SDL2/SDL_mixer.h>
 #endif
 
 #define MAX(a,b) ((a) > (b) ? a : b)
@@ -161,9 +158,9 @@ void draw_image_frame(SDL_Surface *image, int x, int y, int n_frames, int i) {
     SDL_BlitSurface(image, &image_rect, g_screen, &screen_rect);
 }
 
-void play_sfx(Mix_Chunk *sfx) {
-    Mix_PlayChannel(-1, sfx, 0);
-}
+// void play_sfx(Mix_Chunk *sfx) {
+//     Mix_PlayChannel(-1, sfx, 0);
+// }
 
 // =============================================================================
 // SPRITE UTILS
@@ -432,9 +429,9 @@ void play_init() {
     // load assets
     g_images[IMG_BACKGROUND] = load_image("assets/images/background.png");
     // g_images[IMG_SHIP] = load_image("assets/images/captain.png");
-    g_images[IMG_SHIP] = load_image("assets/images/ship.bmp");
+    g_images[IMG_SHIP] = load_image("assets/images/ship.png");
     g_images[IMG_BULLET] = load_image("assets/images/laser.png");
-    g_images[IMG_ALIEN] = load_image("assets/images/alien.bmp");
+    g_images[IMG_ALIEN] = load_image("assets/images/alien.png");
     g_images[IMG_EXPLOSION] = load_image("assets/images/explosion.png");
 
     // g_sfx[SFX_SHOOT] = load_sfx("assets/audio/shoot.wav");
@@ -547,6 +544,7 @@ bool startup(char *title) {
             SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,
             SCREEN_WIDTH, SCREEN_HEIGHT,
             SDL_WINDOW_SHOWN | SDL_WINDOW_OPENGL);
+
         g_screen = SDL_GetWindowSurface(g_window);
         SDL_GL_SetSwapInterval(1);
         return TRUE;

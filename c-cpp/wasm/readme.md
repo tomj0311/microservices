@@ -1,59 +1,73 @@
-Live demo: https://timhutton.github.io/sdl-canvas-wasm/
+Web Assembly started with assembly language in mind
+JavaScript is an interpreted language
+It rook brenden Eich to create live script in 10 days
 
-(If you want more sophisticated drawing than SDL can offer (e.g. 3D), then you should probably start [here](https://github.com/timhutton/opengl-canvas-wasm) instead.) 
+Source code -> Baseline compiler -> bytecode -> interpreter -> binary -> cpu
 
-Instructions:
--------------
+V8 engine -> source code -> full code gen to binary -> cpu
+                         -> crankshaft -> binay -> cpu
+						 
+The TurboFan optimization compiler can optimize this bytecode in the background (in separate threads) as the application is running and generate a very optimized machine code that will be replaced eventually.
 
-1. Install Emscripten:
+https://emscripten.org/docs/compiling/Deploying-Pages.html
 
-    http://emscripten.org
+https://www.hadean.com/blog/using-wasm-to-run-c-in-browser
 
-2. Clone this repo:
+websockify, a tool that “translates WebSockets traffic to normal socket traffic”!
+Running websockify with ./run -v 9881 localhost:8881 (listening on port 9881 and forwarding to localhost on port 8881) 
 
-    ```git clone https://github.com/timhutton/sdl-canvas-wasm.git```
-    
-    ```cd sdl-canvas-wasm```
-    
-3. Build index.js and index.wasm:
+https://github.com/mbasso/awesome-wasm#examples
+https://github.com/svoisen/wasm-imageviewer
 
-    ```emcc core.cpp -s WASM=1 -s USE_SDL=2 -O3 -o index.js```
+SDL2 Web Assembly
+https://github.com/timhutton/sdl-canvas-wasm
+emcc core.cpp -s WASM=1 -s USE_SDL=2 -O3 -o index.js
 
-4. Open index.html in a web browser. You should see a moving blue square in a red square:
+BINARYEN is requried for webassemply
+emcc compile with preload binaries
+emcc main.c -s USE_SDL=2 -s USE_SDL_IMAGE=2 -s USE_SDL_MIXER=2 -s SDL2_IMAGE_FORMATS='["png"]' -o ../dist/index.html -O2 --preload-file assets
 
-    ![image](https://user-images.githubusercontent.com/647092/34481732-a649fefa-efab-11e7-9fe3-aa0c9c870858.png)
+Working compile command for C in windows
+emcc main.c -s WASM=1 -s USE_SDL=2 -s USE_SDL_IMAGE=2 -s SDL2_IMAGE_FORMATS=["png"] -O3 -o index.js --preload-file assets -v
 
-    Chrome doesn't support file:// XHR requests, so you need to first start a webserver, e.g.:
+perfect examples
+http://main.lv/writeup/web_assembly_sdl_example.md
+https://www.it.iitb.ac.in/frg/wiki/images/a/ad/P1_Project_Presentation.pdf
 
-    with Python 2: ```python -m SimpleHTTPServer 8080```
-    
-    with Python 3: ```python -m http.server 8080```
+https://medium.com/@martin.sikora/libwebsockets-simple-websocket-server-68195343d64b
 
-    and then open this URL:
+It seems you are comparing frame size (2.34MBit) with the network speed (54MBit/sec). If that's the case, and you are getting 10 fps, your actual rate is 23.4 MBit/sec –– which is not that bad on a 54 MBit/sec connection.
 
-    http://localhost:8080/
-    
-MIT license:
-----------------
+https://webrtchacks.com/zoom-avoids-using-webrtc/ - webrt + webassembly
 
-```
-Copyright (c) 2018 Tim Hutton
+https://livebook.manning.com/book/webassembly-in-action/b-ccall-cwrap-and-direct-function-calls/v-7/27
+https://marcoselvatici.github.io/WASM_tutorial/
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+https://gist.github.com/cure53/f4581cee76d2445d8bd91f03d4fa7d3b
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    </head>
+    <body>
+        <script type='text/javascript'>
+          var Module = {};
+          fetch('index.wasm')
+            .then(response =>
+              response.arrayBuffer()
+            ).then(buffer => {
+              Module.canvas = document.getElementById("canvas");
+              Module.wasmBinary = buffer;
+              var script = document.createElement('script');
+              script.src = "index.js";
+              script.onload = function() {
+                console.log("Emscripten boilerplate loaded.")
+              }
+              document.body.appendChild(script);
+            });
+        </script>
+        <canvas id="canvas"></canvas>
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+    </body>
+</html>

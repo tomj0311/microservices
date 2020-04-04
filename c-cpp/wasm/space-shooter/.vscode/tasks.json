@@ -17,7 +17,6 @@
                 "C:\\vcpkg\\installed\\x64-windows\\lib\\SDL2.lib",
                 "C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link\\SDL2main.lib",
                 "C:\\vcpkg\\installed\\x64-windows\\lib\\SDL2_image.lib",
-                "C:\\vcpkg\\installed\\x64-windows\\lib\\SDL2_mixer.lib",
                 "/link",
                 "/SUBSYSTEM:WINDOWS"
             ],
