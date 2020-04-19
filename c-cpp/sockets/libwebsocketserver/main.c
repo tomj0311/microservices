@@ -40,6 +40,7 @@ static int callback_custom(struct lws *wsi, enum lws_callback_reasons reason, vo
         default:
             break;
     }
+    return 0;
 };
 
 static struct  lws_protocols protocols[] = 

@@ -27,18 +27,11 @@ struct player {
 };
 
 void init_player(struct player* p);
-
 void draw_player(uint32_t* pixel_buffer, struct player* p);
-
 void shoot_bullet(struct player* p);
-
 void update_player(struct player* p);
-
 void bounds_player(struct player* p);
-
 void apply_force(struct vector2d* velocity, struct vector2d v);
-
 void rotate_player(struct player* p, float degrees);
-
 struct vector2d get_direction(struct player* p);
 

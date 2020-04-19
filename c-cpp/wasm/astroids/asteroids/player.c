@@ -10,7 +10,7 @@ void init_player(struct player* p) {
 	int i = 0;
 	struct vector2d translation = {SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2};
 	
-	p->hit_radius = 15;
+	p->hit_radius = 25;
 	p->lives = 3;
 	p->location.x = 0;
 	p->location.y = 0;
@@ -56,9 +56,8 @@ void shoot_bullet(struct player* p) {
 	int i = 0;
 
 	for (i = 0; i < BULLETS; i++) {
-		
+
 		if (p->bullets[i].alive == FALSE) {
-			
 			p->bullets[i].alive = TRUE;
 			p->bullets[i].location = p->world_vert[0];
 			p->bullets[i].velocity = get_direction(p);
