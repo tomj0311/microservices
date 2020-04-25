@@ -11,10 +11,7 @@
 				"/Fe:",
 				"${fileDirname}\\${fileBasenameNoExtension}.exe",
 				"${file}",
-				"C:\\vcpkg\\installed\\x64-windows\\lib\\avformat.lib",
-				"C:\\vcpkg\\installed\\x64-windows\\lib\\avcodec.lib",
-				"C:\\vcpkg\\installed\\x64-windows\\lib\\avutil.lib",
-				"C:\\vcpkg\\installed\\x64-windows\\lib\\swscale.lib",
+				"C:\\vcpkg\\installed\\x64-windows\\lib\\OpenCL.lib",
 			],
 			"problemMatcher": [
 				"$msCompile"
