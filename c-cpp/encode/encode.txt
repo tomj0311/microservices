@@ -1,0 +1,30 @@
+bitrate - https://teradek.com/blogs/articles/what-is-the-optimal-bitrate-for-your-resolution
+
+good stuff - 
+https://blog.video.ibm.com/streaming-video-tips/what-is-video-encoding-codecs-compression-techniques/
+https://www.theoplayer.com/blog/basics-of-video-encoding
+
+https://www.stormingrobots.com/prod/tutorial/CommandLine%20Build.pdf
+
+If your input data is just a bunch of random images, not video, you're not going to do "video streaming". You're just going to be sending a bunch of full images. No need to involve video encoding technology, just do the simplest possible transmission of images. Video encoders rely on each frame having various relationships to the previous, as is common in actual video. For inputs of random images, they're not going to be able to compress that much, and single-frame compression (e.g. JPEG/PNG/whatever) is very likely already going to be applied to your input data. https://stackoverflow.com/questions/26577025/c-opencv-webcam-stream-to-html
+
+ffmpeg useful stuff - 
+Tutorial - https://dranger.com/ffmpeg/tutorial01.html
+good explanation - https://lembergsolutions.com/blog/how-process-live-video-stream-using-ffmpeg-and-opencv
+
+images in C - http://homepages.inf.ed.ac.uk/rbf/BOOKS/PHILLIPS/cips2ed.pdf
+article on streaming - https://blog.mi.hdm-stuttgart.de/index.php/2018/03/21/livestreaming-with-libav-tutorial-part-2/
+
+ffmpeg straming good article - https://github.com/leandromoreira/ffmpeg-libav-tutorial
+encoding - https://stackoverflow.com/questions/11713882/lossless-ffmpeg-conversion-encoding
+
+https://teradek.com/blogs/articles/what-is-the-optimal-bi
+
+OpenGL encoding - https://www.codeproject.com/Articles/1271925/H264-Video-Encoder-for-OpenGL
+https://cs.uwaterloo.ca/research/tr/2001/10/thesis.pdf
+http://www.songho.ca/opengl/gl_pbo.html
+
+Opengl ffmpeg - https://stackoverflow.com/questions/19070333/saving-the-opengl-context-as-a-video-output
+
+ffmpeg - SDL - https://dranger.com/ffmpeg/tutorial01.html
+ffmpeg exammples - https://github.com/FFmpeg/FFmpeg/blob/master/doc/examples/encode_video.c
