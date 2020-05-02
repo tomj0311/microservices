@@ -1,0 +1,19 @@
+https://webrtchacks.com/webassembly-experiments/
+https://bloggeek.me/choosing-webrtc-open-source-media-server/
+
+JITSI in AWS - https://meetrix.io/blog/webrtc/jitsi/meet/installing.html
+GO - https://github.com/strukturag/spreed-webrtc
+
+https://medium.com/linagora-engineering/scalability-in-video-conferencing-part-2-c63e8b22ed47
+
+http://blog.brkho.com/2017/03/15/dive-into-client-server-web-games-webrtc/
+
+very userfu artcle - https://bloggeek.me/webrtc-h264-video-codec-hardware-support/
+
+The full WebRTC stack includes video/audio streaming with vp8/vp9/h264 codecs & data is packaged using RTP. 
+Well WebRTC is generally p2p, however you could setup a "Server Peer" and designate it as having a source channel only (ie there is no input channel).This peer then becomes the "server" and all the other peers can view its contents when they connect.
+
+https://github.com/muaz-khan/WebRTC-Scalable-Broadcast
+
+MCU lib for webrtc - https://github.com/btagliani/erizo
+https://www.kurento.org/blog/kurento-webrtc-gateway-ip-cameras

@@ -1,0 +1,27 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "C/C++: cl.exe build active file",
+			"command": "cl.exe",
+			"args": [
+				"/Zi",
+				"/EHsc",
+				"/Fe:",
+				"${fileDirname}\\build\\${fileBasenameNoExtension}.exe",
+				"${file}",
+				"C:\\vcpkg\\installed\\x64-windows\\lib\\sfml-system.lib",
+				"C:\\vcpkg\\installed\\x64-windows\\lib\\sfml-window.lib",
+				"C:\\vcpkg\\installed\\x64-windows\\lib\\sfml-graphics.lib"
+			],
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}

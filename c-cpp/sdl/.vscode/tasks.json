@@ -15,6 +15,8 @@
                 "${fileDirname}\\bin\\debug\\${fileBasenameNoExtension}.exe",
                 "${file}",
                 "C:\\vcpkg\\installed\\x64-windows\\lib\\SDL2.lib",
+                "C:\\vcpkg\\installed\\x64-windows\\lib\\SDL2_image.lib",
+                "C:\\vcpkg\\installed\\x64-windows\\lib\\SDL2_ttf.lib",
                 "C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link\\SDL2main.lib",
                 // "C:\\vcpkg\\installed\\x64-windows\\lib\\OpenGL32.lib",
                 "/link",
@@ -25,27 +27,5 @@
             ],
             "group": "build"
         },
-        {
-            "type": "shell",
-            "label": "cl.exe build active file - Release",
-            "command": "cl.exe",
-            "args": [
-                // "/Zi", incude debug information pdf and ilk
-                "/EHsc",
-                "/MD",
-                "/Fe:",
-                "${fileDirname}\\bin\\release\\${fileBasenameNoExtension}.exe",
-                "${file}",
-                "C:\\vcpkg\\installed\\x64-windows\\lib\\SDL2.lib",
-                "C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link\\SDL2main.lib",
-                // "C:\\vcpkg\\installed\\x64-windows\\lib\\OpenGL32.lib",
-                "/link",
-                "/SUBSYSTEM:WINDOWS"
-            ],
-            "problemMatcher": [
-                "$msCompile"
-            ],
-            "group": "build"
-        }
     ]
 }

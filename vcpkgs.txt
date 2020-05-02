@@ -1,0 +1,1864 @@
+3fd                  2.6.2-3          C++ Framework For Fast Development
+7zip                 19.00            Library for archiving file with a high compression ratio.
+abseil               2019-05-08-1     an open-source collection designed to augment the C++ standard library.
+  Abseil is an open-source collection of C++ library code designed to augment the C++ standard library. The Abseil library code is collected from Google's own C++ code base, has been extensively tested and used in production, and is the same code we depend on in our daily coding lives.
+  In some cases, Abseil provides pieces missing from the C++ standard; in others, Abseil provides alternatives to the standard for special needs we've found through usage in the Google code base. We denote those cases clearly within the library code we provide you.
+  Abseil is not meant to be a competitor to the standard library; we've just found that many of these utilities serve a purpose within our code base, and we now want to provide those resources to the C++ community as a whole.
+ace                  6.5.6            The ADAPTIVE Communication Environment
+ace[wchar]                            Enable extra wide char functions in ACE
+ace[ssl]                              Enable SSL/TLS features in ACE
+ace[xml]                              Enable XML features in ACE
+activemq-cpp         3.9.5            Apache ActiveMQ is the most popular and powerful open source messaging and Integration Patterns server.
+ade                  0.1.1f           ADE Framework is a graph construction, manipulation, and processing framework. ADE Framework is suitable for organizing data flow processing and execution.
+aixlog               1.2.1-1          Header-only C++ logging library 
+alac                 2017-11-03-c38887c5-1 The Apple Lossless Audio Codec (ALAC) is a lossless audio codec developed by Apple and deployed on all of its platforms and devices.
+alac-decoder         0.2-1            ALAC C implementation of a decoder, written from reverse engineering the file format
+alembic              1.7.11-5         Alembic is an open framework for storing and sharing scene data that includes a C++ library, a file format, and client plugins and applications.
+aliyun-oss-c-sdk     3.7.1-1          Alibaba Cloud Object Storage Service (OSS) is a cloud storage service provided by Alibaba Cloud, featuring massive capacity, security, a low cost, and high reliability.
+allegro5             5.2.5.0          Allegro is a cross-platform library mainly aimed at video game and multimedia programming. It handles common, low-level tasks such as creating windows, accepting user input, loading data, drawing images, playing sounds, etc. and generally abstracting away the underlying platform. However, Allegro is not a game engine: you are free to design and structure your program as you like.
+ampl-mp              2019-03-21-1     An open-source library for mathematical programming
+amqpcpp              4.1.5            AMQP-CPP is a C++ library for communicating with a RabbitMQ message broker
+anax                 2.1.0-6          An open source C++ entity system.
+angelscript          2.33.1-1         The AngelCode Scripting Library, or AngelScript as it is also known, is an extremely flexible cross-platform scripting library designed to allow applications to extend their functionality through external scripts. It has been designed from the beginning to be an easy to use component, both for the application programmer and the script writer.
+angelscript[addons]                   Installs all addons for use in compiling scripts addons
+angle                2019-07-19-2     A conformant OpenGL ES implementation for Windows, Mac and Linux.
+  The goal of ANGLE is to allow users of multiple operating systems to seamlessly run WebGL and other OpenGL ES content by translating OpenGL ES API calls to one of the hardware-supported APIs available for that platform. ANGLE currently provides translation from OpenGL ES 2.0 and 3.0 to desktop OpenGL, OpenGL ES, Direct3D 9, and Direct3D 11. Support for translation from OpenGL ES to Vulkan is underway, and future plans include compute shader support (ES 3.1) and MacOS support.
+antlr4               4.7.1-3          ANother Tool for Language Recognition
+any-lite             0.2.0            A C++17-like any, a type-safe container for single values of any type for C++98, C++11 and later in a single-file header-only library
+anyrpc               2017-12-01       A multiprotocol remote procedure call system for C++.
+apr                  1.6.5-2          The Apache Portable Runtime (APR) is a C library that forms a system portability layer that covers many operating systems.
+apr[private-headers]                  Install non-standard files required for building Apache httpd
+apr-util             1.6.0-3          Apache Portable Runtime (APR) project  mission is to create and maintain software libraries that provide a predictable and consistent interface to underlying platform-specific implementation
+arb                  2.16.0           a C library for arbitrary-precision interval arithmetic
+argagg               0.4.6            A simple C++11 command line argument parser
+argh                 2018-12-18-1     Argh! A minimalist argument handler.
+argparse             1.9              Argument parser for modern C++
+args                 2019-07-11       A simple header-only C++ argument parser library.
+argtable2            2.13-2           Argtable is an ANSI C library for parsing GNU style command line options with a minimum of fuss.
+argtable3            2019-08-21       A single-file, ANSI C, command-line parsing library that parses GNU-style command-line options
+armadillo            2019-04-16-5     Armadillo is a high quality linear algebra library (matrix maths) for the C++ language, aiming towards a good balance between speed and ease of use
+arrow                0.14.1-1         Apache Arrow is a columnar in-memory analytics layer designed to accelerate big data. It houses a set of canonical in-memory representations of flat and hierarchical data along with multiple language-bindings for structure manipulation. It also provides IPC and common algorithm implementations.
+asio                 1.12.2-2         Asio is a cross-platform C++ library for network and low-level I/O programming that provides developers with a consistent asynchronous model using a modern C++ approach.
+asmjit               2019-07-11       Complete x86/x64 JIT and Remote Assembler for C++
+assimp               5.0.0            The Open Asset import library
+asynch               2019-09-21-1     Async.h - asynchronous, stackless subroutines.
+asyncplusplus        1.0-1            Async++ is a lightweight concurrency framework for C++11
+atk                  2.24.0-4         GNOME Accessibility Toolkit
+atkmm                2.24.2-1         atkmm is the official C++ interface for the ATK accessibility toolkit library. It may be used, for instance, by user interfaces implemented with gtkmm.
+atlmfc               0                a stub package that ensures VS has ATL/MFC installed.
+aubio                0.4.9            Aubio is a tool designed for the extraction of annotations from audio signals. Its features include segmenting a sound file before each of its attacks, performing pitch detection, tapping the beat and producing midi streams from live audio.
+aurora               2017-06-21-c75699d2a8caa726260c29b6d7a0fd35f8f28933 Aurora is an open-source C++ library providing various rather uncommon C++ utilities
+autobahn             18.4.1           WAMP for C++ in Boost/Asio 
+avro-c               1.8.2-3          Apache Avro is a data serialization system
+aws-c-common         0.4.1            AWS common library for C
+aws-c-event-stream   0.1.1            C99 implementation of the vnd.amazon.event-stream content-type.
+aws-checksums        0.1.3            Cross-Platform HW accelerated CRC32c and CRC32 with fallback to efficient SW implementations.
+aws-lambda-cpp       0.1.0-2          C++ Runtime for AWS Lambda.
+aws-sdk-cpp          1.7.142-1        AWS SDK for C++
+aws-sdk-cpp[access-management]        C++ SDK for the AWS access-management service
+aws-sdk-cpp[acm]                      C++ SDK for the AWS acm service
+aws-sdk-cpp[acm-pca]                  C++ SDK for the AWS acm-pca service
+aws-sdk-cpp[alexaforbusiness]         C++ SDK for the AWS alexaforbusiness service
+aws-sdk-cpp[amplify]                  C++ SDK for the AWS amplify service
+aws-sdk-cpp[apigateway]               C++ SDK for the AWS apigateway service
+aws-sdk-cpp[apigatewaymanagementapi]  C++ SDK for the AWS apigatewaymanagementapi service
+aws-sdk-cpp[apigatewayv2]             C++ SDK for the AWS apigatewayv2 service
+aws-sdk-cpp[application-autoscaling]  C++ SDK for the AWS application-autoscaling service
+aws-sdk-cpp[appmesh]                  C++ SDK for the AWS appmesh service
+aws-sdk-cpp[appstream]                C++ SDK for the AWS appstream service
+aws-sdk-cpp[appsync]                  C++ SDK for the AWS appsync service
+aws-sdk-cpp[athena]                   C++ SDK for the AWS athena service
+aws-sdk-cpp[autoscaling]              C++ SDK for the AWS autoscaling service
+aws-sdk-cpp[autoscaling-plans]        C++ SDK for the AWS autoscaling-plans service
+aws-sdk-cpp[AWSMigrationHub]          C++ SDK for the AWS AWSMigrationHub service
+aws-sdk-cpp[awstransfer]              C++ SDK for the AWS awstransfer service
+aws-sdk-cpp[backup]                   C++ SDK for the AWS backup service
+aws-sdk-cpp[batch]                    C++ SDK for the AWS batch service
+aws-sdk-cpp[budgets]                  C++ SDK for the AWS budgets service
+aws-sdk-cpp[ce]                       C++ SDK for the AWS ce service
+aws-sdk-cpp[chime]                    C++ SDK for the AWS chime service
+aws-sdk-cpp[cloud9]                   C++ SDK for the AWS cloud9 service
+aws-sdk-cpp[clouddirectory]           C++ SDK for the AWS clouddirectory service
+aws-sdk-cpp[cloudformation]           C++ SDK for the AWS cloudformation service
+aws-sdk-cpp[cloudfront]               C++ SDK for the AWS cloudfront service
+aws-sdk-cpp[cloudhsm]                 C++ SDK for the AWS cloudhsm service
+aws-sdk-cpp[cloudhsmv2]               C++ SDK for the AWS cloudhsmv2 service
+aws-sdk-cpp[cloudsearch]              C++ SDK for the AWS cloudsearch service
+aws-sdk-cpp[cloudsearchdomain]        C++ SDK for the AWS cloudsearchdomain service
+aws-sdk-cpp[cloudtrail]               C++ SDK for the AWS cloudtrail service
+aws-sdk-cpp[codebuild]                C++ SDK for the AWS codebuild service
+aws-sdk-cpp[codecommit]               C++ SDK for the AWS codecommit service
+aws-sdk-cpp[codedeploy]               C++ SDK for the AWS codedeploy service
+aws-sdk-cpp[codepipeline]             C++ SDK for the AWS codepipeline service
+aws-sdk-cpp[codestar]                 C++ SDK for the AWS codestar service
+aws-sdk-cpp[cognito-identity]         C++ SDK for the AWS cognito-identity service
+aws-sdk-cpp[cognito-idp]              C++ SDK for the AWS cognito-idp service
+aws-sdk-cpp[cognito-sync]             C++ SDK for the AWS cognito-sync service
+aws-sdk-cpp[comprehend]               C++ SDK for the AWS comprehend service
+aws-sdk-cpp[comprehendmedical]        C++ SDK for the AWS comprehendmedical service
+aws-sdk-cpp[config]                   C++ SDK for the AWS config service
+aws-sdk-cpp[connect]                  C++ SDK for the AWS connect service
+aws-sdk-cpp[cur]                      C++ SDK for the AWS cur service
+aws-sdk-cpp[datapipeline]             C++ SDK for the AWS datapipeline service
+aws-sdk-cpp[datasync]                 C++ SDK for the AWS datasync service
+aws-sdk-cpp[dax]                      C++ SDK for the AWS dax service
+aws-sdk-cpp[devicefarm]               C++ SDK for the AWS devicefarm service
+aws-sdk-cpp[directconnect]            C++ SDK for the AWS directconnect service
+aws-sdk-cpp[discovery]                C++ SDK for the AWS discovery service
+aws-sdk-cpp[dlm]                      C++ SDK for the AWS dlm service
+aws-sdk-cpp[dms]                      C++ SDK for the AWS dms service
+aws-sdk-cpp[docdb]                    C++ SDK for the AWS docdb service
+aws-sdk-cpp[ds]                       C++ SDK for the AWS ds service
+aws-sdk-cpp[dynamodb]                 C++ SDK for the AWS dynamodb service
+aws-sdk-cpp[dynamodbstreams]          C++ SDK for the AWS dynamodbstreams service
+aws-sdk-cpp[ec2]                      C++ SDK for the AWS ec2 service
+aws-sdk-cpp[ecr]                      C++ SDK for the AWS ecr service
+aws-sdk-cpp[ecs]                      C++ SDK for the AWS ecs service
+aws-sdk-cpp[eks]                      C++ SDK for the AWS eks service
+aws-sdk-cpp[elasticache]              C++ SDK for the AWS elasticache service
+aws-sdk-cpp[elasticbeanstalk]         C++ SDK for the AWS elasticbeanstalk service
+aws-sdk-cpp[elasticfilesystem]        C++ SDK for the AWS elasticfilesystem service
+aws-sdk-cpp[elasticloadbalancing]     C++ SDK for the AWS elasticloadbalancing service
+aws-sdk-cpp[elasticloadbalancingv2]   C++ SDK for the AWS elasticloadbalancingv2 service
+aws-sdk-cpp[elasticmapreduce]         C++ SDK for the AWS elasticmapreduce service
+aws-sdk-cpp[elastictranscoder]        C++ SDK for the AWS elastictranscoder service
+aws-sdk-cpp[email]                    C++ SDK for the AWS email service
+aws-sdk-cpp[es]                       C++ SDK for the AWS es service
+aws-sdk-cpp[events]                   C++ SDK for the AWS events service
+aws-sdk-cpp[firehose]                 C++ SDK for the AWS firehose service
+aws-sdk-cpp[fms]                      C++ SDK for the AWS fms service
+aws-sdk-cpp[fsx]                      C++ SDK for the AWS fsx service
+aws-sdk-cpp[gamelift]                 C++ SDK for the AWS gamelift service
+aws-sdk-cpp[glacier]                  C++ SDK for the AWS glacier service
+aws-sdk-cpp[globalaccelerator]        C++ SDK for the AWS globalaccelerator service
+aws-sdk-cpp[glue]                     C++ SDK for the AWS glue service
+aws-sdk-cpp[greengrass]               C++ SDK for the AWS greengrass service
+aws-sdk-cpp[guardduty]                C++ SDK for the AWS guardduty service
+aws-sdk-cpp[health]                   C++ SDK for the AWS health service
+aws-sdk-cpp[iam]                      C++ SDK for the AWS iam service
+aws-sdk-cpp[identity-management]      C++ SDK for the AWS identity-management service
+aws-sdk-cpp[importexport]             C++ SDK for the AWS importexport service
+aws-sdk-cpp[inspector]                C++ SDK for the AWS inspector service
+aws-sdk-cpp[iot]                      C++ SDK for the AWS iot service
+aws-sdk-cpp[iot-data]                 C++ SDK for the AWS iot-data service
+aws-sdk-cpp[iot-jobs-data]            C++ SDK for the AWS iot-jobs-data service
+aws-sdk-cpp[iot1click-devices]        C++ SDK for the AWS iot1click-devices service
+aws-sdk-cpp[iot1click-projects]       C++ SDK for the AWS iot1click-projects service
+aws-sdk-cpp[iotanalytics]             C++ SDK for the AWS iotanalytics service
+aws-sdk-cpp[kafka]                    C++ SDK for the AWS kafka service
+aws-sdk-cpp[kinesis]                  C++ SDK for the AWS kinesis service
+aws-sdk-cpp[kinesis-video-archived-media] C++ SDK for the AWS kinesis-video-archived-media service
+aws-sdk-cpp[kinesis-video-media]      C++ SDK for the AWS kinesis-video-media service
+aws-sdk-cpp[kinesisanalytics]         C++ SDK for the AWS kinesisanalytics service
+aws-sdk-cpp[kinesisanalyticsv2]       C++ SDK for the AWS kinesisanalyticsv2 service
+aws-sdk-cpp[kinesisvideo]             C++ SDK for the AWS kinesisvideo service
+aws-sdk-cpp[kms]                      C++ SDK for the AWS kms service
+aws-sdk-cpp[lambda]                   C++ SDK for the AWS lambda service
+aws-sdk-cpp[lex]                      C++ SDK for the AWS lex service
+aws-sdk-cpp[lex-models]               C++ SDK for the AWS lex-models service
+aws-sdk-cpp[license-manager]          C++ SDK for the AWS license-manager service
+aws-sdk-cpp[lightsail]                C++ SDK for the AWS lightsail service
+aws-sdk-cpp[logs]                     C++ SDK for the AWS logs service
+aws-sdk-cpp[machinelearning]          C++ SDK for the AWS machinelearning service
+aws-sdk-cpp[macie]                    C++ SDK for the AWS macie service
+aws-sdk-cpp[marketplace-entitlement]  C++ SDK for the AWS marketplace-entitlement service
+aws-sdk-cpp[marketplacecommerceanalytics] C++ SDK for the AWS marketplacecommerceanalytics service
+aws-sdk-cpp[mediaconnect]             C++ SDK for the AWS mediaconnect service
+aws-sdk-cpp[mediaconvert]             C++ SDK for the AWS mediaconvert service
+aws-sdk-cpp[medialive]                C++ SDK for the AWS medialive service
+aws-sdk-cpp[mediapackage]             C++ SDK for the AWS mediapackage service
+aws-sdk-cpp[mediastore]               C++ SDK for the AWS mediastore service
+aws-sdk-cpp[mediastore-data]          C++ SDK for the AWS mediastore-data service
+aws-sdk-cpp[mediatailor]              C++ SDK for the AWS mediatailor service
+aws-sdk-cpp[meteringmarketplace]      C++ SDK for the AWS meteringmarketplace service
+aws-sdk-cpp[mobile]                   C++ SDK for the AWS mobile service
+aws-sdk-cpp[mobileanalytics]          C++ SDK for the AWS mobileanalytics service
+aws-sdk-cpp[monitoring]               C++ SDK for the AWS monitoring service
+aws-sdk-cpp[mq]                       C++ SDK for the AWS mq service
+aws-sdk-cpp[mturk-requester]          C++ SDK for the AWS mturk-requester service
+aws-sdk-cpp[neptune]                  C++ SDK for the AWS neptune service
+aws-sdk-cpp[opsworks]                 C++ SDK for the AWS opsworks service
+aws-sdk-cpp[opsworkscm]               C++ SDK for the AWS opsworkscm service
+aws-sdk-cpp[organizations]            C++ SDK for the AWS organizations service
+aws-sdk-cpp[pi]                       C++ SDK for the AWS pi service
+aws-sdk-cpp[pinpoint]                 C++ SDK for the AWS pinpoint service
+aws-sdk-cpp[pinpoint-email]           C++ SDK for the AWS pinpoint-email service
+aws-sdk-cpp[polly]                    C++ SDK for the AWS polly service
+aws-sdk-cpp[pricing]                  C++ SDK for the AWS pricing service
+aws-sdk-cpp[queues]                   C++ SDK for the AWS queues service
+aws-sdk-cpp[quicksight]               C++ SDK for the AWS quicksight service
+aws-sdk-cpp[ram]                      C++ SDK for the AWS ram service
+aws-sdk-cpp[rds]                      C++ SDK for the AWS rds service
+aws-sdk-cpp[rds-data]                 C++ SDK for the AWS rds-data service
+aws-sdk-cpp[redshift]                 C++ SDK for the AWS redshift service
+aws-sdk-cpp[rekognition]              C++ SDK for the AWS rekognition service
+aws-sdk-cpp[resource-groups]          C++ SDK for the AWS resource-groups service
+aws-sdk-cpp[resourcegroupstaggingapi] C++ SDK for the AWS resourcegroupstaggingapi service
+aws-sdk-cpp[robomaker]                C++ SDK for the AWS robomaker service
+aws-sdk-cpp[route53]                  C++ SDK for the AWS route53 service
+aws-sdk-cpp[route53domains]           C++ SDK for the AWS route53domains service
+aws-sdk-cpp[route53resolver]          C++ SDK for the AWS route53resolver service
+aws-sdk-cpp[s3]                       C++ SDK for the AWS s3 service
+aws-sdk-cpp[s3-encryption]            C++ SDK for the AWS s3-encryption service
+aws-sdk-cpp[s3control]                C++ SDK for the AWS s3control service
+aws-sdk-cpp[sagemaker]                C++ SDK for the AWS sagemaker service
+aws-sdk-cpp[sagemaker-runtime]        C++ SDK for the AWS sagemaker-runtime service
+aws-sdk-cpp[sdb]                      C++ SDK for the AWS sdb service
+aws-sdk-cpp[secretsmanager]           C++ SDK for the AWS secretsmanager service
+aws-sdk-cpp[securityhub]              C++ SDK for the AWS securityhub service
+aws-sdk-cpp[serverlessrepo]           C++ SDK for the AWS serverlessrepo service
+aws-sdk-cpp[servicecatalog]           C++ SDK for the AWS servicecatalog service
+aws-sdk-cpp[servicediscovery]         C++ SDK for the AWS servicediscovery service
+aws-sdk-cpp[shield]                   C++ SDK for the AWS shield service
+aws-sdk-cpp[signer]                   C++ SDK for the AWS signer service
+aws-sdk-cpp[sms]                      C++ SDK for the AWS sms service
+aws-sdk-cpp[sms-voice]                C++ SDK for the AWS sms-voice service
+aws-sdk-cpp[snowball]                 C++ SDK for the AWS snowball service
+aws-sdk-cpp[sns]                      C++ SDK for the AWS sns service
+aws-sdk-cpp[sqs]                      C++ SDK for the AWS sqs service
+aws-sdk-cpp[ssm]                      C++ SDK for the AWS ssm service
+aws-sdk-cpp[states]                   C++ SDK for the AWS states service
+aws-sdk-cpp[storagegateway]           C++ SDK for the AWS storagegateway service
+aws-sdk-cpp[sts]                      C++ SDK for the AWS sts service
+aws-sdk-cpp[support]                  C++ SDK for the AWS support service
+aws-sdk-cpp[swf]                      C++ SDK for the AWS swf service
+aws-sdk-cpp[text-to-speech]           C++ SDK for the AWS text-to-speech service
+aws-sdk-cpp[transcribe]               C++ SDK for the AWS transcribe service
+aws-sdk-cpp[transfer]                 C++ SDK for the AWS transfer service
+aws-sdk-cpp[translate]                C++ SDK for the AWS translate service
+aws-sdk-cpp[waf]                      C++ SDK for the AWS waf service
+aws-sdk-cpp[waf-regional]             C++ SDK for the AWS waf-regional service
+aws-sdk-cpp[workdocs]                 C++ SDK for the AWS workdocs service
+aws-sdk-cpp[workmail]                 C++ SDK for the AWS workmail service
+aws-sdk-cpp[workspaces]               C++ SDK for the AWS workspaces service
+aws-sdk-cpp[xray]                     C++ SDK for the AWS xray service
+azmq                 1.0.2            Boost Asio style bindings for ZeroMQ
+  This library is built on top of ZeroMQ's standard C interface and is intended to work well with C++ applications which use the Boost libraries in general, and Asio in particular.
+  The main abstraction exposed by the library is azmq::socket which provides an Asio style socket interface to the underlying zeromq socket and interfaces with Asio's io_service(). The socket implementation participates in the io_service's reactor for asynchronous IO and may be freely mixed with other Asio socket types (raw TCP/UDP/Serial/etc.).
+azure-c-shared-utility 2019-08-20.1     Azure C SDKs common code
+azure-c-shared-utility[public-preview] Azure C SDKs common code (public preview)
+azure-iot-sdk-c      2019-08-20.1     A C99 SDK for connecting devices to Microsoft Azure IoT services 
+azure-iot-sdk-c[public-preview]       A version of the azure-iot-sdk-c containing public-preview features.
+azure-macro-utils-c  2019-08-20.1     A library of macros for the Azure IoT SDK Suite
+azure-storage-cpp    6.1.0-2          Microsoft Azure Storage Client SDK for C++
+  A client library for working with Microsoft Azure storage services including blobs, files, tables, and queues. This client library enables working with the Microsoft Azure storage services which include the blob service for storing binary and text data, the file service for storing binary and text data, the table service for storing structured non-relational data, and the queue service for storing messages that may be accessed by a client.
+azure-uamqp-c        2019-08-20.1     AMQP library for C
+azure-uamqp-c[public-preview]         AMQP library for C (public preview)
+azure-uhttp-c        2019-08-20.1     Azure HTTP Library written in C
+azure-uhttp-c[public-preview]         Azure HTTP Library written in C (public preview)
+azure-umqtt-c        2019-08-20.1     General purpose library for communication over the mqtt protocol
+azure-umqtt-c[public-preview]         General purpose library for communication over the mqtt protocol (public preview)
+basisu               1.11-2           Basis Universal is a supercompressed GPU texture and video compression format that outputs a highly compressed intermediate file format (.basis) that can be quickly transcoded to a wide variety of GPU texture compression formats. 
+bde                  3.2.0.0-1        Basic Development Environment - a set of foundational C++ libraries used at Bloomberg.
+bdwgc                8.0.4-1          The Boehm-Demers-Weiser conservative C/C++ Garbage Collector (libgc, bdwgc, boehm-gc)
+beast                0                HTTP/1 and WebSocket, header-only using Boost.Asio and C++11
+benchmark            1.5              A library to support the benchmarking of functions, similar to unit-tests.
+bento4               1.5.1-628        Bento4 is a C++ class library and tools designed to read and write ISO-MP4 files. This format is defined in international specifications ISO/IEC 14496-12, 14496-14 and 14496-15.
+berkeleydb           4.8.30-2         BDB - A high-performance embedded database for key/value data.
+bigint               2010.04.30-3     C++ Big Integer Library
+binn                 1.0              Binn is a binary data serialization format designed to be compact, fast and easy to use.
+bitserializer        0.8              The core part of library for serialization of arbitrary C++ types to various output formats.
+bitserializer-cpprestjson 0.8              This is an implementation of the BitSerializer archive for serialization JSON (based on CppRestSDK library).
+bitserializer-rapidjson 0.8              This is an implementation of the BitSerializer archive for serialization JSON (based on the RapidJson library).
+bitsery              5.0.0            Header only C++ binary serialization library
+blaze                3.6              Blaze is an open-source, high-performance C++ math library for dense and sparse arithmetic.
+blend2d              beta_2019-10-09  Beta 2D Vector Graphics Powered by a JIT Compiler
+blend2d[jit]                          Default feature. Enables jit pipeline compilation. Not supported for ARM and UWP.
+blend2d[logging]                      Default feature. Enables logging.
+blosc                1.17.0-1         A blocking, shuffling and loss-less compression library that can be faster than `memcpy()`
+bond                 8.1.0-2          Bond is a cross-platform framework for working with schematized data. It supports cross-language de/serialization and powerful generic mechanisms for efficiently manipulating data. Bond is broadly used at Microsoft in high scale services.
+boolinq              2019-07-22       Super tiny C++11 single-file header-only LINQ library
+boost                1.71.0           Peer-reviewed portable C++ source libraries
+boost[mpi]                            Build with MPI support
+boost-accumulators   1.71.0           Boost accumulators module
+boost-algorithm      1.71.0           Boost algorithm module
+boost-align          1.71.0           Boost align module
+boost-any            1.71.0           Boost any module
+boost-array          1.71.0           Boost array module
+boost-asio           1.71.0-1         Boost asio module
+boost-assert         1.71.0           Boost assert module
+boost-assign         1.71.0           Boost assign module
+boost-atomic         1.71.0           Boost atomic module
+boost-beast          1.71.0           Boost beast module
+boost-bimap          1.71.0           Boost bimap module
+boost-bind           1.71.0           Boost bind module
+boost-build          1.70.0-1         Boost.Build
+boost-callable-traits 1.71.0           Boost callable_traits module
+boost-chrono         1.71.0           Boost chrono module
+boost-circular-buffer 1.71.0           Boost circular_buffer module
+boost-compatibility  1.71.0           Boost compatibility module
+boost-compute        1.71.0           Boost compute module
+boost-concept-check  1.71.0           Boost concept_check module
+boost-config         1.71.0           Boost config module
+boost-container      1.71.0           Boost container module
+boost-container-hash 1.71.0           Boost container_hash module
+boost-context        1.71.0           Boost context module
+boost-contract       1.71.0           Boost contract module
+boost-conversion     1.71.0           Boost conversion module
+boost-convert        1.71.0           Boost convert module
+boost-core           1.71.0           Boost core module
+boost-coroutine      1.71.0           Boost coroutine module
+boost-coroutine2     1.71.0           Boost coroutine2 module
+boost-crc            1.71.0           Boost crc module
+boost-date-time      1.71.0           Boost date_time module
+boost-detail         1.71.0           Boost detail module
+boost-di             1.1.0            C++14 Dependency Injection Library.
+boost-disjoint-sets  1.71.0           Boost disjoint_sets module
+boost-dll            1.71.0           Boost dll module
+boost-dynamic-bitset 1.71.0           Boost dynamic_bitset module
+boost-endian         1.71.0           Boost endian module
+boost-exception      1.71.0           Boost exception module
+boost-fiber          1.71.0           Boost fiber module
+boost-filesystem     1.71.0           Boost filesystem module
+boost-flyweight      1.71.0           Boost flyweight module
+boost-foreach        1.71.0           Boost foreach module
+boost-format         1.71.0           Boost format module
+boost-function       1.71.0           Boost function module
+boost-function-types 1.71.0           Boost function_types module
+boost-functional     1.71.0           Boost functional module
+boost-fusion         1.71.0           Boost fusion module
+boost-geometry       1.71.0           Boost geometry module
+boost-gil            1.71.0           Boost gil module
+boost-graph          1.71.0           Boost graph module
+boost-graph-parallel 1.71.0           Boost graph_parallel module
+boost-hana           1.71.0           Boost hana module
+boost-heap           1.71.0           Boost heap module
+boost-histogram      1.71.0           Boost histogram module
+boost-hof            1.71.0           Boost hof module
+boost-icl            1.71.0           Boost icl module
+boost-integer        1.71.0           Boost integer module
+boost-interprocess   1.71.0           Boost interprocess module
+boost-interval       1.71.0           Boost interval module
+boost-intrusive      1.71.0           Boost intrusive module
+boost-io             1.71.0           Boost io module
+boost-iostreams      1.71.0           Boost iostreams module
+boost-iterator       1.71.0           Boost iterator module
+boost-lambda         1.71.0           Boost lambda module
+boost-lexical-cast   1.71.0           Boost lexical_cast module
+boost-local-function 1.71.0           Boost local_function module
+boost-locale         1.71.0           Boost locale module
+boost-locale[icu]                     ICU backend for Boost.Locale
+boost-lockfree       1.71.0           Boost lockfree module
+boost-log            1.71.0           Boost log module
+boost-logic          1.71.0           Boost logic module
+boost-math           1.71.0           Boost math module
+boost-metaparse      1.71.0           Boost metaparse module
+boost-modular-build-helper 1.70.0-2         
+boost-move           1.71.0           Boost move module
+boost-mp11           1.71.0           Boost mp11 module
+boost-mpi            1.71.0-1         Boost mpi module
+boost-mpl            1.71.0           Boost mpl module
+boost-msm            1.71.0           Boost msm module
+boost-multi-array    1.71.0           Boost multi_array module
+boost-multi-index    1.71.0           Boost multi_index module
+boost-multiprecision 1.71.0           Boost multiprecision module
+boost-numeric-conversion 1.71.0           Boost numeric_conversion module
+boost-odeint         1.71.0           Boost odeint module
+boost-optional       1.71.0           Boost optional module
+boost-outcome        1.71.0           Boost outcome module
+boost-parameter      1.71.0           Boost parameter module
+boost-parameter-python 1.71.0           Boost parameter_python module
+boost-phoenix        1.71.0           Boost phoenix module
+boost-poly-collection 1.71.0           Boost poly_collection module
+boost-polygon        1.71.0           Boost polygon module
+boost-pool           1.71.0           Boost pool module
+boost-predef         1.71.0           Boost predef module
+boost-preprocessor   1.71.0           Boost preprocessor module
+boost-process        1.71.0           Boost process module
+boost-program-options 1.71.0           Boost program_options module
+boost-property-map   1.71.0           Boost property_map module
+boost-property-tree  1.71.0           Boost property_tree module
+boost-proto          1.71.0           Boost proto module
+boost-ptr-container  1.71.0           Boost ptr_container module
+boost-python         1.71.0-1         Boost python module
+boost-qvm            1.71.0           Boost qvm module
+boost-random         1.71.0           Boost random module
+boost-range          1.71.0           Boost range module
+boost-ratio          1.71.0           Boost ratio module
+boost-rational       1.71.0           Boost rational module
+boost-regex          1.71.0           Boost regex module
+boost-regex[icu]                      ICU backend for Boost.Regex
+boost-safe-numerics  1.71.0           Boost safe_numerics module
+boost-scope-exit     1.71.0           Boost scope_exit module
+boost-serialization  1.71.0           Boost serialization module
+boost-signals        1.68.0           Boost signals module
+boost-signals2       1.71.0           Boost signals2 module
+boost-smart-ptr      1.71.0           Boost smart_ptr module
+boost-sort           1.71.0           Boost sort module
+boost-spirit         1.71.0           Boost spirit module
+boost-stacktrace     1.71.0           Boost stacktrace module
+boost-statechart     1.71.0           Boost statechart module
+boost-static-assert  1.71.0           Boost static_assert module
+boost-system         1.71.0           Boost system module
+boost-test           1.71.0-2         Boost test module
+boost-thread         1.71.0           Boost thread module
+boost-throw-exception 1.71.0           Boost throw_exception module
+boost-timer          1.71.0           Boost timer module
+boost-tokenizer      1.71.0           Boost tokenizer module
+boost-tti            1.71.0           Boost tti module
+boost-tuple          1.71.0           Boost tuple module
+boost-type-erasure   1.71.0           Boost type_erasure module
+boost-type-index     1.71.0           Boost type_index module
+boost-type-traits    1.71.0           Boost type_traits module
+boost-typeof         1.71.0           Boost typeof module
+boost-ublas          1.71.0           Boost ublas module
+boost-units          1.71.0           Boost units module
+boost-unordered      1.71.0           Boost unordered module
+boost-utility        1.71.0           Boost utility module
+boost-uuid           1.71.0           Boost uuid module
+boost-variant        1.71.0           Boost variant module
+boost-variant2       1.71.0           Boost variant2 module
+boost-vcpkg-helpers  6                a set of vcpkg-internal scripts used to modularize boost
+boost-vmd            1.71.0           Boost vmd module
+boost-wave           1.71.0           Boost wave module
+boost-winapi         1.71.0           Boost winapi module
+boost-xpressive      1.71.0           Boost xpressive module
+boost-yap            1.71.0           Boost yap module
+botan                2.11.0           A cryptography library written in C++11
+box2d                2.3.1-374664b-2  An open source C++ engine for simulating rigid bodies in 2D.
+breakpad             2019-07-11-1     a set of client and server components which implement a crash-reporting system.
+brigand              1.3.0            Brigand is a light-weight, fully functional, instant-compile time C++ 11 meta-programming library.
+brotli               1.0.7            a generic-purpose lossless compression algorithm that compresses data using a combination of a modern variant of the LZ77 algorithm, Huffman coding and 2nd order context modeling.
+brunocodutra-metal   v2.0.1-1         A single header C++11 library designed to make you love template metaprogramming
+brynet               1.0.3            A C++ cross platform high performance tcp network library, and support SSL/HTTP/Websocket.
+bullet3              2.88-1           Bullet Physics is a professional collision detection, rigid body, and soft body dynamics library
+bullet3[multithreading]               Multithreading funcitonality for bullet3
+butteraugli          2019-05-08       butteraugli estimates the psychovisual difference between two images
+byte-lite            0.2.0            A C++17-like byte type for C++98, C++11 and later in a single-file header-only library
+bzip2                1.0.6-4          High-quality data compressor.
+c-ares               2019-5-2-1       A C library for asynchronous DNS requests
+caf                  0.16.3           an open source C++11 actor model implementation featuring lightweight & fast actor implementations, pattern matching for messages, network transparent messaging, and more.
+caffe2               0.8.1-3          Caffe2 is a lightweight, modular, and scalable deep learning framework.
+cairo                1.16.0-2         Cairo is a 2D graphics library with support for multiple output devices. Currently supported output targets include the X Window System (via both Xlib and XCB), Quartz, Win32, image buffers, PostScript, PDF, and SVG file output. Experimental backends include OpenGL, BeOS, OS/2, and DirectFB.
+cairo[x11]                            build with x11 support
+cairomm              1.15.3-3         A C++ wrapper for the cairo graphics library
+capnproto            0.7.0-3          Data interchange format and capability-based RPC system
+capstone             4.0.1-120373dc   Multi-architecture disassembly framework
+capstone[arm]                         Capstone disassembly support for ARM
+capstone[arm64]                       Capstone disassembly support for ARM64
+capstone[evm]                         Capstone disassembly support for EVM
+capstone[m680x]                       Capstone disassembly support for M680X
+capstone[m68k]                        Capstone disassembly support for M68k
+capstone[mips]                        Capstone disassembly support for MIPS
+capstone[ppc]                         Capstone disassembly support for PowerPC
+capstone[sparc]                       Capstone disassembly support for SPARC
+capstone[sysz]                        Capstone disassembly support for SysZ
+capstone[tms320c64x]                  Capstone disassembly support for TMS320C64X
+capstone[x86]                         Capstone disassembly support for x86
+capstone[x86_reduce]                  Capstone disassembly support for x86 without support for less used instructions
+capstone[xcore]                       Capstone disassembly support for XCore
+capstone[diet]                        Build Capstone in diet mode (reduced features for smaller size)
+capstone[osxkernel]                   Support for emedding Capstone into OSX Kernel extensions
+cartographer         1.0.0-1          Google 2D & 3D SLAM package
+casclib              1.50b-1          An open-source implementation of library for reading CASC storage from Blizzard games since 2014
+catch                alias            Deprecated alias for Catch2 unit testing framework
+catch-classic        1.12.2           A modern, header-only test framework for unit tests
+ This is specifically the legacy 1.x branch provided for compatibility
+ with older compilers.
+catch2               2.9.2            A modern, header-only test framework for unit testing.
+cccapstone           9b4128ee1153e78288a1b5433e2c06a0d47a4c4e-1 c++ bindings for capstone disasembly framework
+ccd                  2.1-1            Library for collision detection between two convex shapes
+ccfits               2.5-3            CCfits is an object oriented interface to the cfitsio library. It is designed to make the capabilities of cfitsio available to programmers working in C++.
+cctz                 2.3-2            two libraries that cooperate with <chrono> to give C++ programmers all the necessary tools for computing with dates, times, and time zones in a simple and correct manner.
+celero               2.5.0-1          Celero is a modern cross-platform (Windows, Linux, MacOS) Microbenchmarking library for C++.
+cello                2019-07-23       Higher level programming in C
+cereal               1.2.2-2          a header-only C++11 serialization library (built in support for binary, XML and JSon)
+ceres                1.14.0-6         non-linear optimization package
+ceres[lapack]                         Use Lapack in Ceres
+ceres[suitesparse]                    SuiteSparse support for Ceres
+ceres[cxsparse]                       CXSparse support for Ceres
+ceres[eigensparse]                    Use of Eigen as a sparse linear algebra library in Ceres
+ceres[tools]                          Ceres tools
+cfitsio              3.410-2          Library of C and Fortran subroutines for reading and writing data files in FITS (Flexible Image Transport System) data format
+cgal                 4.14-3           The Computational Geometry Algorithms Library (CGAL) is a C++ library that aims to provide easy access to efficient and reliable algorithms in computational geometry.
+cgal[qt]                              Qt GUI support for CGAL
+cgicc                3.2.19-3         GNU Cgicc is an ANSI C++ compliant class library that greatly simplifies the creation of CGI applications for the World Wide Web
+cgl                  0.60.2-1         The COIN-OR Cut Generation Library (Cgl) is a collection of cut generators that can be used with other COIN-OR packages that make use of cuts, such as, among others, the linear solver Clp or the mixed integer linear programming solvers Cbc or BCP.
+cgltf                1.3              Single-file glTF 2.0 parser written in C99
+chaiscript           6.1.0-1          Embedded Scripting Language Designed for C++
+chakracore           1.11.13          Core part of the Chakra Javascript engine
+charls               2.0.0-2          CharLS, a C++ JPEG-LS library implementation.
+chartdir             6.3.1-1          ChartDirector is a powerful chart component for creating professional looking charts for web and windows applications.
+check                0.12.0-2         A unit testing framework for C
+chipmunk             7.0.3            A fast and lightweight 2D game physics library.
+chmlib               0.40-3           CHMLIB is a library for dealing with Microsoft ITSS/CHM format files. Right now, it is a very simple library, but sufficient for dealing with all of the .chm files I've come across. Due to the fairly well-designed indexing built into this particular file format, even a small library is able to gain reasonably good performance indexing into ITSS archives.
+cimg                 2.6.2            The CImg Library is a small, open-source, and modern C++ toolkit for image processing
+cityhash             2013-01-08       CityHash, a family of hash functions for strings.
+civetweb             2019-07-05       Easy to use, powerful, C/C++ embeddable web server.
+cjson                1.7.12           Ultralightweight JSON parser in ANSI C
+cjson[utils]                          Enable building the cJSON_Utils library
+clapack              3.2.1-12         CLAPACK (f2c'ed version of LAPACK)
+clara                1.1.5            A simple to use command line parser for C++
+clblas               2.12-2           clBLAS is an OpenCL 1.2 accelerated BLAS (Basic Linear Algebra Subsystem) library.
+clblast              1.5.0            A modern, lightweight, performant and tunable OpenCL BLAS library written in C++11.
+clfft                2.12.2-1         clFFT is an OpenCL 1.2 accelerated Fast Fourier Transform library.
+cli                  1.1.1            A library for interactive command line interfaces in modern C++
+cli11                1.8.0            CLI11 is a command line parser for C++11 and beyond that provides a rich feature set with a simple and intuitive interface.
+clickhouse-cpp       2019-05-22       C++ client for Yandex ClickHouse.
+clipp                2019-04-30       command line interfaces for modern C++
+clockutils           1.1.1-3651f232c27074c4ceead169e223edf5f00247c5-3 A lightweight c++ library for commonly needed tasks. Optimized for simplicity and speed.
+clp                  1.17.3           Clp (Coin-or linear programming) is an open-source linear programming solver written in C++. It is primarily meant to be used as a callable library, but a basic, stand-alone executable version is also available.
+clue                 1.0.0-alpha.7    clue is a C++03 header-only library to log messages with a severity and optional module identifier. 
+clue[test]                            Build test
+cmark                0.29.0           CommonMark parsing and rendering library
+cmcstl2              2019-07-20       An implementation of C++ Extensions for Ranges
+cmocka               1.1.5-1          An elegant unit testing framework for C with support for mock objects
+cnl                  2019-06-23       A Compositional Numeric Library for C++
+coinutils            2.11.2-2         CoinUtils (Coin-or Utilities) is an open-source collection of classes and functions that are generally useful to more than one COIN-OR project
+collada-dom          2.5.0-2          The COLLADA Document Object Model (DOM) is an application programming interface (API) that provides a C++ object representation of a COLLADA XML instance document.
+concurrentqueue      1.0.0-beta-dea078c A fast multi-producer, multi-consumer lock-free concurrent queue for C++11
+console-bridge       0.4.3-1          a ROS-independent package for logging that seamlessly pipes into rosconsole/rosout for ROS-dependent packages.
+constexpr            1.0-1            Small MIT License Library of general stdlib functions written as C++11 constexpr functions.
+coolprop             6.1.0-4          Thermophysical properties for the masses
+coroutine            1.4.3            C++ coroutine helper/example library
+corrade              2019.01-1        C++11/C++14 multiplatform utility library
+corrade[interconnect]                 Interconnect library
+corrade[pluginmanager]                PluginManager library
+corrade[testsuite]                    TestSuite library
+corrade[utility]                      Utility library
+cpp-base64           2019-06-19       Base64 encoding and decoding with c++.
+cpp-httplib          0.2.4            A single file C++11 header-only HTTP/HTTPS server and client library
+cpp-netlib           0.13.0-2         A collection of network-related routines/implementations geared towards providing a robust cross-platform networking library
+cpp-peglib           0.1.0            C++11 header-only PEG (Parsing Expression Grammars) library. 
+cpp-redis            4.3.1-2          cpp-redis is a C++11 Asynchronous Multi-Platform Lightweight Redis Client, with support for synchronous operations and pipelining.
+cpp-taskflow         2.2.0            Fast Parallel Tasking Programming Library using Modern C++.
+cppcms               1.2.1            CppCMS is a Free High Performance Web Development Framework (not a CMS) aimed at Rapid Web Application Development
+cppcodec             0.2              Header-only C++11 library to encode/decode base64, base64url, base32, base32hex and hex (a.k.a. base16) as specified in RFC 4648, plus Crockford's base32.
+cppfs                1.2.0-1          Cross-platform C++ file system library supporting multiple backends
+cppfs[ssh]                            SSH backend for cppfs
+cppgraphqlgen        3.0.2            C++ GraphQL schema service generator
+cppitertools         2019-04-14-2     Range-based for loop add-ons inspired by the Python builtins and itertools library
+cppkafka             0.3.1-1          cppkafka allows C++ applications to consume and produce messages using the Apache Kafka protocol. The library is built on top of librdkafka, and provides a high level API that uses modern C++ features to make it easier to write code while keeping the wrapper's performance overhead to a minimum.
+cppmicroservices     4.0.0-pre1       An OSGi-like C++ dynamic module system and service registry
+cpprestsdk           2.10.14-1        C++11 JSON, REST, and OAuth library
+  The C++ REST SDK is a Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design. This project aims to help C++ developers connect to and interact with services.
+cpprestsdk[default-features]          Features installed by default
+cpprestsdk[compression]               HTTP Compression support
+cpprestsdk[websockets]                Websockets support
+cpprestsdk[brotli]                    Brotli compression support
+cpptoml              v0.1.1           A header-only library for parsing TOML configuration files.
+cppunit              1.14.0           CppUnit is the C++ port of the famous JUnit framework for unit testing. Test output is in XML for automatic testing and GUI based for supervised tests.
+cpputest             2019-9-16        CppUTest unit testing and mocking framework for C/C++.
+cppwinrt             fall_2017_creators_update_for_vs_15.3-2 C++/WinRT is a standard C++ language projection for the Windows Runtime.
+cppzmq               4.4.1            lightweight messaging kernel, C++ bindings
+cpr                  1.3.0-7          C++ Requests is a simple wrapper around libcurl inspired by the excellent Python Requests project.
+cpuinfo              2019-07-28       CPU INFOrmation library (x86/x86-64/ARM/ARM64, Linux/Windows/Android/macOS/iOS)
+cpuinfo[tools]                        Build cpuinfo command-line tools
+crc32c               1.1.0            CRC32C implementation with support for CPU-specific acceleration instructions.
+crfsuite             2019-07-21       CRFSuite is an implementation of Conditional Random Fields (CRFs) for labeling sequential data.
+crossguid            0.2.2-2018-06-16-1 CrossGuid is a minimal, cross platform, C++ GUID library.
+crow                 0.1-1            Very fast and easy to use C++ micro web framework
+cryptopp             8.2.0            Crypto++ is a free C++ class library of cryptographic schemes.
+ctbignum             2019-08-02       This is a header-only template library for fixed-width "small big-integer" computations, for use during run-time as well as compile-time.
+ctemplate            2017-06-23-44b7c5-4 C++ CTemplate system
+ctre                 2.6.4            A Compile time PCRE (almost) compatible regular expression matcher 
+cub                  1.8.0            CUB is a flexible library of cooperative threadblock primitives and other utilities for CUDA kernel programming
+cuda                 10.1             A parallel computing platform and programming model
+cudnn                7.6              NVIDIA's cuDNN deep neural network acceleration library
+cunit                2.1.3-2          CUnit is a lightweight system for writing, administering, and running unit tests in C.  It provides C programmers a basic testing functionality with a flexible variety of user interfaces
+curl                 7.66.0           A library for transferring data with URLs
+curl[tool]                            Builds curl executable
+curl[non-http]                        Enables protocols beyond HTTP/HTTPS/HTTP2
+curl[http2]                           HTTP2 support
+curl[ssl]                             Default SSL backend
+curl[ssh]                             SSH support via libssh2
+curl[openssl]                         SSL support (OpenSSL)
+curl[winssl]                          SSL support (Secure Channel / "WinSSL")
+curl[mbedtls]                         SSL support (mbedTLS)
+curl[sectransp]                       SSL support (sectransp)
+curl[c-ares]                          c-ares support
+curl[sspi]                            SSPI support 
+curl[brotli]                          brotli support (brotli)
+curlpp               2018-06-15       C++ wrapper around libcURL
+cute-headers         2019-09-20       Collection of cross-platform one-file C/C++ libraries with no dependencies
+cutelyst2            2.8.0            A C++ Web Framework built on top of Qt, using the simple approach of Catalyst (Perl) framework
+cxxopts              2.2.0            This is a lightweight C++ option parser library, supporting the standard GNU style syntax for options
+czmq                 2019-06-10-3     High-level C binding for ZeroMQ
+czmq[tool]                            Build and install czmq tools (zmakecert)
+czmq[draft]                           Build and install draft APIs
+czmq[curl]                            Build with libcurl
+czmq[lz4]                             Build with lz4
+czmq[httpd]                           Build with HTTP server support (libmicrohttpd)
+czmq[uuid]                            Build with libuuid
+darknet              0.2.5.1          Darknet is an open source neural network framework written in C and CUDA. You only look once (YOLO) is a state-of-the-art, real-time object detection system, best example of darknet functionalities.
+darknet[cuda]                         Build darknet with support for CUDA
+darknet[cudnn]                        Build darknet with support for CUDNN
+darknet[opencv-base]                  Build darknet with support for OpenCV
+darknet[opencv-cuda]                  Build darknet with support for a CUDA-enabled OpenCV
+darknet[opencv3-base]                 Build darknet with support for OpenCV3
+darknet[opencv3-cuda]                 Build darknet with support for a CUDA-enabled OpenCV3
+darknet[weights]                      Download pre-built weights for test
+darknet[weights-train]                Download pre-built weights for training
+darknet[full]                         Build darknet fully-featured
+darts-clone          1767ab87cffe-1   A static double-array trie structure
+date                 2019-09-09       A date and time library based on the C++17 <chrono> header
+date[remote-api]                      support automatic download of tz data
+dbg-macro            2019-07-11       A dbg(...) macro for C++
+dbow2                2019-08-05       DBoW2 is an improved version of the DBow library, an open source C++ library for indexing and converting images into a bag-of-word representation. 
+dcmtk                3.6.4-2          This DICOM ToolKit (DCMTK) package consists of source code, documentation and installation instructions for a set of software libraries and applications implementing part of the DICOM/MEDICOM Standard.
+decimal-for-cpp      1.16             Decimal data type support, for COBOL-like fixed-point operations on currency values. 
+detours              4.0.1            Detours is a software package for monitoring and instrumenting API calls on Windows.
+devicenameresolver   2016-06-26-0850d88fa6-1 a little library that resolves a path from a (virtual) device name.
+devil                1.8.0-4          A full featured cross-platform image library
+devil[libpng]                         Use Libpng for .png (and some .ico)
+devil[tiff]                           Use Libtiff for .tif support
+devil[libjpeg]                        Use Libjpeg for .jpg (and some .blp) support
+devil[openexr]                        Use openexr
+devil[jasper]                         Use JasPer for .jp2 (and some .icns) support
+devil[lcms]                           Use Little CMS for color profiles
+dimcli               5.0.1            C++ command line parser toolkit
+directxmesh          aug2019          DirectXMesh geometry processing library
+directxtex           aug2019          DirectXTex texture processing library
+directxtk            aug2019          A collection of helper classes for writing DirectX 11.x code in C++.
+directxtk12          aug2019          A collection of helper classes for writing DirectX 12 code in C++.
+dirent               1.23.2           Dirent is a C/C++ programming interface that allows programmers to retrieve information about files and directories under Linux/UNIX. This project provides Linux compatible Dirent interface for Microsoft Windows.
+discord-rpc          3.4.0            Rich Presence allows you to leverage the totally overhauled "Now Playing" section in a Discord user's profile to help people play your game together.
+discount             2.2.6            DISCOUNT is a implementation of John Gruber & Aaron Swartz's Markdown markup language.
+distorm              3.4.1            Powerful Disassembler Library For x86/AMD64
+dlfcn-win32          1.1.1-3          dlfcn-win32 is an implementation of dlfcn for Windows.
+dlib                 19.17-1          Modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++
+dlib[cuda]                            CUDA support for dlib
+dmlc                 2019-08-12       DMLC-Core is the backbone library to support all DMLC projects, offers the bricks to build efficient and scalable distributed machine learning libraries.
+dmlc[openmp]                          Build with openmp
+docopt               2018-11-01       Command line arguments parser that will make you smile (C++11 port).
+doctest              2.3.5            The fastest feature-rich C++ single-header testing framework for unit tests and TDD
+double-conversion    3.1.5            Efficient binary-decimal and decimal-binary conversion routines for IEEE doubles.
+dpdk                 19.02            A set of libraries and drivers for fast packet processing
+draco                1.3.5            A library for compressing and decompressing 3D geometric meshes and point clouds. It is intended to improve the storage and transmission of 3D graphics.
+drlibs               2019-08-12       A collection of public domain single-file libraries for C/C++.
+dtl                  1.19             Diff template library
+duckx                2019-08-06       DuckX is a library for creation of Office docx files.
+duilib               2019-4-28-2      Duilib is a free open source DirectUI interface library under Windows. It is widely accepted by major Internet companies due to its simple and easy to expand design and stable and efficient implementation. It is widely used in IM, video client, stock market software, navigation software, and mobile phone assistive software. Duilib is still evolving, and will continue to improve in many aspects such as documentation, examples, animations, and rendering engines.
+duktape              2.4.0-4          Embeddable Javascript engine with a focus on portability and compact footprint.
+dx                   1.0.1-1          A modern C++ library for DirectX programming
+dxut                 11.14-3          A "GLUT"-like framework for Direct3D 11.x Win32 desktop applications
+eastl                3.14.01          Electronic Arts Standard Template Library.
+  It is a C++ template library of containers, algorithms, and iterators useful for runtime and tool development across multiple platforms. It is a fairly extensive and robust implementation of such a library and has an emphasis on high performance above all other considerations.
+easycl               0.3              OpenCL based lightweight c++ computing library
+easyhook             2.7.6789.0       This project supports extending (hooking) unmanaged code (APIs) with pure managed ones, from within a fully managed environment on 32- or 64-bit Windows Vista x64, Windows Server 2008 x64, Windows 7, Windows 8.1, and Windows 10.
+easyloggingpp        9.96.7-1         Easylogging++ is a single header efficient logging library for C++ applications.
+ebml                 1.3.9            a C++ libary to parse EBML files
+ecm                  5.60.0-1         Extra CMake Modules (ECM), extra modules and scripts for CMake
+ecsutil              1.0.7.3          Native Windows SDK for accessing ECS via the S3 HTTP protocol.
+effolkronium-random  1.3.0            Random with a modern C++ API
+egl-registry         2019-08-08       the EGL API and Extension Registry
+eigen3               3.3.7-3          C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.
+embree2              2.17.7           High Performance Ray Tracing Kernels.
+embree3              3.5.2-2          High Performance Ray Tracing Kernels.
+enet                 1.3.13-1         Reliable UDP networking library
+ensmallen            1.15.1           A header-only C++ library for mathematical optimization.
+entityx              1.3.0-1          EntityX - A fast, type-safe C++ Entity-Component system.
+entt                 3.1.1            Gaming meets modern C++ - a fast and reliable entity-component system and much more.
+epsilon              0.9.2            EPSILON is an Open Source wavelet image compressor, that is aimed on parallel and robust image processing.
+esaxx                ca7cb332011ec37  This library provides the implementation of enhanced suffix array.
+evpp                 0.7.0-1          A modern C++ network library based on libevent for developing high performance network services in TCP/UDP/HTTP protocols.
+exiv2                0.27.2-1         Image metadata library and tools
+exiv2[unicode]                        Compile with unicode support on windows
+expat                2.2.7            XML parser library written in C
+expected-lite        0.3.0            Expected objects in C++11 and later in a single-file header-only library
+exprtk               2019-07-11       Simple to use, easy to integrate and extremely efficient run-time C++ mathematical expression parser and evaluation engine.
+fadbad               2.1.0            FADBAD++ Templates for Automatic Differentiation
+fann                 2.2.0-1          Fast Artificial Neural Network (FANN) Library is a free open source neural network library, which implements multilayer artificial neural networks in C with support for both fully connected and sparsely connected networks.
+fast-cpp-csv-parser  2019-08-14       A small, easy-to-use and fast header-only library for reading comma separated value (CSV) files
+fastcdr              1.0.11           eProsima FastCDR is a C++ library that provides two serialization mechanisms. One is the standard CDR serialization mechanism, while the other is a faster implementation that modifies the standard.
+fastfeat             391d5e9-1        FAST feature detectors in C
+fastlz               1.0-3            A lightning-fast lossless compression library
+fastrtps             1.5.0-2          Eprosima Fast RTPS is a C++ implementation of the RTPS (Real Time Publish Subscribe) protocol, which provides publisher-subscriber communications over unreliable transports such as UDP, as defined and maintained by the Object Management Group (OMG) consortium.
+fcl                  0.5.0-6          a library for performing three types of proximity queries on a pair of geometric models composed of triangles
+fdk-aac              2018-07-08-1     A standalone library of the Fraunhofer FDK AAC code
+fdlibm               5.3-4            FDLIBM (Freely Distributable LIBM) is a C math library for machines that support IEEE 754 floating-point arithmetic
+ffmpeg               4.2              a library to decode, encode, transcode, mux, demux, stream, filter and play pretty much anything that humans and machines have created.
+  FFmpeg is the leading multimedia framework, able to decode, encode, transcode, mux, demux, stream, filter and play pretty much anything that humans and machines have created. It supports the most obscure ancient formats up to the cutting edge. No matter if they were designed by some standards committee, the community or a corporation. It is also highly portable: FFmpeg compiles, runs, and passes our testing infrastructure FATE across Linux, Mac OS X, Microsoft Windows, the BSDs, Solaris, etc. under a wide variety of build environments, machine architectures, and configurations.
+ffmpeg[ffmpeg]                        build the ffmpeg.exe application
+ffmpeg[ffserver]                      ffserver appplication support in ffmpeg
+ffmpeg[ffplay]                        ffplay appplication support in ffmpeg
+ffmpeg[ffprobe]                       ffprobe appplication support in ffmpeg
+ffmpeg[openssl]                       openssl support in ffmpeg
+ffmpeg[lzma]                          lzma support in ffmpeg
+ffmpeg[bzip2]                         bzip2 support in ffmpeg
+ffmpeg[vpx]                           WebM VP8/VP9 support in ffmpeg
+ffmpeg[x264]                          x264 support in ffmpeg
+ffmpeg[opencl]                        opencl support in ffmpeg
+ffmpeg[nonfree]                       allow nonfree and unredistributable libraries
+ffmpeg[gpl]                           allow GPL licensed libraries
+ffmpeg[avresample]                    Libav audio resampling library support in ffmpeg
+fftw3                3.3.8-6          FFTW is a C subroutine library for computing the discrete Fourier transform (DFT) in one or more dimensions, of arbitrary input size, and of both real and complex data (as well as of even/odd data, i.e. the discrete cosine/sine transforms or DCT/DST).
+fftw3[openmp]                         Builds openmp enabled lib
+fftw3[sse]                            Builds part of the library with sse
+fftw3[sse2]                           Builds part of the library with sse2, sse
+fftw3[avx]                            Builds part of the library with avx, sse2, sse
+fftw3[avx2]                           Builds part of the library with avx2, fma, avx, sse2, sse
+fftw3[threads]                        Enable threads in fftw3
+field3d              1.7.2            An open source library for storing voxel data. It provides C++ classes that handle in-memory storage and a file format based on HDF5 that allows the C++ objects to be written to and read from disk.
+fizz                 2019.07.08.00    a TLS 1.3 implementation by Facebook
+flann                2019-04-07-1     Fast Library for Approximate Nearest Neighbors
+flatbuffers          1.11.0-1         Memory Efficient Serialization Library
+ FlatBuffers is an efficient cross platform serialization library for games and other memory constrained apps. It allows you to directly access serialized data without unpacking/parsing it first, while still having great forwards/backwards compatibility.
+flint                2.5.2-3          Fast Library for Number Theory
+fltk                 1.3.4-7          FLTK (pronounced fulltick) is a cross-platform C++ GUI toolkit for UNIX/Linux (X11), Microsoft Windows, and MacOS X. FLTK provides modern GUI functionality without the bloat and supports 3D graphics via OpenGL and its built-in GLUT emulation.
+fluidsynth           2.0.5-1          FluidSynth reads and handles MIDI events from the MIDI input device. It is the software analogue of a MIDI synthesizer. FluidSynth can also play midifiles using a Soundfont.
+fmem                 c-libs-2ccee3d2fb A cross-platform library for opening memory-backed libc streams.
+fmi4cpp              0.7.0-2          FMI 2.0 implementation written in modern C++
+fmi4cpp[curl]                         Allows loading FMUs from URL
+fmi4cpp[odeint]                       Adds support for wrapping Model Exchange models as Co-simulation models using odeint solvers
+fmilib               2.0.3-2          FMI library is intended as a foundation for applications interfacing FMUs (Functional Mockup Units) that follow FMI Standard. This version of the library supports FMI 1.0 and FMI2.0.
+fmt                  6.0.0            Formatting library for C++. It can be used as a safe alternative to printf or as a fast alternative to IOStreams.
+folly                2019.06.17.00    An open-source C++ library developed and used at Facebook. The library is UNSTABLE on Windows
+folly[zlib]                           Support zlib for compression
+folly[bzip2]                          Support bzip2 for compression
+folly[lzma]                           Support LZMA for compression
+folly[zstd]                           Support zstd for compression
+folly[snappy]                         Support Snappy for compression
+folly[lz4]                            Support lz4 for compression
+fontconfig           2.12.4-9         Library for configuring and customizing font access.
+foonathan-memory     2019-07-21-1     STL compatible C++ memory allocator library
+foonathan-memory[tool]                Build foonathan memory tool
+forest               12.0.3           Template Library of Tree Data Structures in C++17
+forge                1.0.4-1          Helps with high performance visualizations involving OpenGL-CUDA/OpenCL interop.
+fplus                0.2.3-p0         Functional Programming Library for C++. Write concise and readable C++ code. 
+freeglut             3.0.0-7          Open source implementation of GLUT with source and binary backwards compatibility.
+freeimage            3.18.0-7         Support library for graphics image formats
+freeopcua            20190125-2       OPC-UA server and client library written in C++ and with a lot of code auto-generated from xml specification using python.
+freerdp              2.0.0-rc4-2      A free implementation of the Remote Desktop Protocol (RDP)
+freetds              1.1.6-1          Implementation of the Tabular Data Stream protocol
+freetds[openssl]                      OpenSSL support
+freetype             2.10.1-1         A library to render fonts.
+freetype-gl          2019-03-29-1     OpenGL text using one vertex buffer, one texture and FreeType
+freexl               1.0.4-2          FreeXL is an open source library to extract valid data from within an Excel (.xls) spreadsheet
+fribidi              2019-02-04-1     GNU FriBidi is an implementation of the Unicode Bidirectional Algorithm (bidi)
+fruit                3.4.0-1          Fruit, a dependency injection framework for C++ by Google
+ftgl                 2.4.0-1          FTGL is a free open source library to enable developers to use arbitrary fonts in their OpenGL (www.opengl.org) applications.
+  Unlike other OpenGL font libraries FTGL uses standard font file formats so doesn't need a preprocessing step to convert the high quality font data into a lesser quality, proprietary format.
+  FTGL uses the Freetype (www.freetype.org) font library to open and 'decode' the fonts. It then takes that output and stores it in a format most efficient for OpenGL rendering.
+fuzzylite            6.0-2            A fuzzy logic control library in C++
+g2o                  20170730_git-5   g2o: A General Framework for Graph Optimization
+g3log                2019-07-29       Asynchronous logger with Dynamic Sinks
+gainput              1.0.0-2          Gainput is a multiplatform C++ input library, supporting mouse, keyboard and controllers
+gamma                gamma-2018-01-27-1 Gamma is a cross-platform, C++ library for doing generic synthesis and filtering of signals. It is oriented towards real-time sound and graphics applications, but is equally useful for non-real-time tasks. Gamma is designed to be "light-footed" in terms of memory and processing making it highly suitable for plug-in development or embedding in other C++ projects.
+gaussianlib          2019-08-04       Basic linear algebra C++ library for 2D and 3D applications
+gcem                 1.12.0           A C++ compile-time math library using generalized constant expressions
+gdal                 2.4.1-8          The Geographic Data Abstraction Library for reading and writing geospatial raster and vector data.
+gdal[mysql-libmariadb]                Add mysql support using libmariadb
+gdal[libspatialite]                   Create or update SpatiaLite databases using libspatialite
+gdcm                 3.0.0-5          Grassroots DICOM library
+gdcm2                deprecated       This port was renamed to gdcm.  The gdcm2 name is deprecated.
+gdk-pixbuf           2.36.9-3         Image loading library.
+genann               2019-07-10       Genann is a minimal, well-tested library for training and using feedforward artificial neural networks (ANN) in C.
+geogram              1.6.9-7          Geogram is a programming library of geometric algorithms.
+geogram[graphics]                     Build viewers and geogram_gfx library.
+geographiclib        1.47-patch1-9    a small set of C++ classes for performing conversions between geographic, UTM, UPS, MGRS, geocentric, and local cartesian coordinates, for gravity (e.g., EGM2008), geoid height, and geomagnetic field (e.g., WMM2010) calculations, and for solving geodesic problems.
+geos                 3.6.3-3          Geometry Engine Open Source
+geotrans             3.7              Geotrans is a library that allows you convert geographic coordinates among a wide variety of coordinate systems, map projections, and datums.
+getopt               0                The getopt and getopt_long functions automate some of the chore involved in parsing typical unix command line options.
+getopt-win32         0.1              An implementation of getopt.
+gettext              0.19-11          The GNU gettext utilities are a set of tools that provides a framework to help other GNU packages produce multi-lingual messages. Provides libintl.
+gettimeofday         2017-10-14-2     An implementation of gettimeofday for WIN32
+gflags               2.2.2-1          A C++ library that implements commandline flags processing
+gherkin-c            2019-10-07-1     Gherkin parser/compiler in C 
+giflib               5.1.4-3          A library for reading and writing gif images.
+gl2ps                1.4.0-3          OpenGL to PostScript Printing Library
+gl3w                 2018-05-31-1     Simple OpenGL core profile loading
+glad                 0.1.31           Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs.
+glbinding            3.1.0-2          glbinding is an MIT licensed, cross-platform C++ binding for the OpenGL API
+glew                 2.1.0-6          The OpenGL Extension Wrangler Library (GLEW) is a cross-platform open-source C/C++ extension loading library.
+glfw3                3.3-2            GLFW is a free, Open Source, multi-platform library for OpenGL, OpenGL ES and Vulkan application development. It provides a simple, platform-independent API for creating windows, contexts and surfaces, reading input, handling events, etc.
+gli                  dd17acf          OpenGL Image (GLI)
+glib                 2.52.3-14-3      Portable, general-purpose utility library.
+glib[selinux]                         Build with selinux support.
+glibmm               2.52.1-9         This is glibmm, a C++ API for parts of glib that are useful for C++.
+glm                  0.9.9.5-3        OpenGL Mathematics (GLM)
+globjects            1.1.0-2          C++ library strictly wrapping OpenGL objects.
+glog                 0.4.0-2          C++ implementation of the Google logging module
+glslang              2019-03-05-1     Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
+gmime                3.2.3-1          GMime is a C/C++ library which may be used for the creation and parsing of messages using the Multipurpose Internet Mail Extension (MIME).
+gmmlib               19.2.3           intel's graphics memory management library
+google-cloud-cpp     0.13.0           C++ Client Libraries for Google Cloud Platform APIs.
+googleapis           0.1.5            C++ Proto Libraries for Google APIs.
+gppanel              2018-04-06       gpPanel is chart libary for wxWidget. It inheritance from wxPanel and use modified wxMathPlot library at chart engine. 
+graphicsmagick       1.3.33           Image processing library
+graphite2            1.3.13           Graphite is a "smart font" system developed specifically to handle the complexities of lesser-known languages of the world.
+  Graphite2 is a rework of the original Graphite engine that is faster, smaller, and uses an API that is better suited to the layout architecture of most text-processing applications.
+graphqlparser        0.7.0-1          A GraphQL query parser in C++ with C and C++ APIs
+greatest             1.4.2            Single-file testing system for C
+grpc                 1.23.0           An RPC library and framework
+grppi                0.4.0            GrPPI is an open source generic and reusable parallel pattern programming interface developed at University Carlos III of Madrid.  
+gsl                  2.4-3            The GNU Scientific Library is a numerical library for C and C++ programmers
+gsl-lite             0.28.0           A single-file header-only version of ISO C++ Guideline Support Library (GSL) for C++98, C++11 and later
+gsoap                2.8.93-1         The gSOAP toolkit is a C and C++ software development toolkit for SOAP and REST XML Web services and generic C/C++ XML data bindings.
+gtest                2019-08-14-2     GoogleTest and GoogleMock testing frameworks.
+gtk                  3.22.19-3        Portable library for creating graphical user interfaces.
+gtkmm                3.22.2-1         gtkmm is the official C++ interface for the popular GUI library GTK+.
+gts                  0.7.6-1          A Library intended to provide a set of useful functions to deal with 3D surfaces meshed with interconnected triangles
+guetzli              2018-07-30-2     Perceptual JPEG encoder
+gumbo                0.10.1-3         An HTML5 parsing library in pure C99
+halide               release_2019_08_27 Halide is a programming language designed to make it easier to write high-performance image processing code on modern machines.
+halide[app]                           app support
+halide[tutorials]                     tutorials support
+halide[utils]                         utils
+halide[nativeclient]                  nativeclient
+halide[hexagon]                       hexagon
+halide[metal]                         metal support
+halide[mips]                          mips support
+halide[powerpc]                       powerpc support
+halide[ptx]                           ptx support
+halide[opencl]                        opencl support
+halide[opengl]                        opengl support
+halide[rtti]                          rtti support
+halide[docs]                          docs
+halide[test]                          test
+harfbuzz             2.5.3            HarfBuzz OpenType text shaping engine
+harfbuzz[graphite2]                   Graphite2 shaper support
+harfbuzz[icu]                         icu support for harfbuzz
+harfbuzz[ucdn]                        Builtin (UCDN) Unicode callbacks support
+harfbuzz[glib]                        Glib Unicode callbacks support
+hayai                2019-08-10       C++ benchmarking framework
+hdf5                 1.10.5-8         HDF5 is a data model, library, and file format for storing and managing data
+hdf5[parallel]                        parallel support for HDF5
+hdf5[cpp]                             Builds cpp lib
+hedley               2019-05-08-1     A C/C++ header to help move #ifdefs out of your code
+hfsm2                beta7            Header-only heriarchical FSM framework in C++14, with fully statically-defined structure (no dynamic allocations), built with variadic templates.
+hidapi               2019-08-30       A Simple library for communicating with USB and Bluetooth HID devices on Linux, Mac and Windows.
+highfive             2.0              HighFive is a modern C++/C++11 friendly interface for libhdf5
+hpx                  1.3.0-2          The C++ Standards Library for Concurrency and Parallelism
+  HPX is a C++ Standards Library for Concurrency and Parallelism. It implements all of the corresponding facilities as defined by the C++ Standard. Additionally, in HPX we implement functionalities proposed as part of the ongoing C++ standardization process. We also extend the C++ Standard APIs to the distributed case.
+http-parser          2.9.2-1          HTTP Parser.
+hungarian            v0.1.3           C-implementation of the Hungarian Method: finding the optimal assignment (assigning a set of jobs to a set of machines) in O(n^3), where n=max{#jobs, #machines}. The implementation is a sligntly enhanced version of the implementation provided by the Stanford GraphBase
+hunspell             1.7.0            The most popular spellchecking library.
+hwloc                1.11.7-3         Portable Hardware Locality (hwloc) 
+  The Portable Hardware Locality (hwloc) software package provides a portable abstraction (across OS, versions, architectures, ...) of the hierarchical topology of modern architectures, including NUMA memory nodes, sockets, shared caches, cores and simultaneous multithreading. It also gathers various system attributes such as cache and memory information as well as the locality of I/O devices such as network interfaces, InfiniBand HCAs or GPUs. 
+hyperscan            5.0.1-1          A regular expression library with O(length of input) match times that takes advantage of Intel hardware to provide blazing speed.
+hypre                2.11.2-2         SCALABLE LINEAR SOLVERS AND MULTIGRID METHODS
+icu                  61.1-7           Mature and widely used Unicode and localization library.
+ideviceinstaller     1.1.2.23-1       Manage apps of iOS devices
+idevicerestore       1.0.12-3         Restore/upgrade firmware of iOS devices
+if97                 2.1.2            This repository implements the IF97 formulation for the properties of pure water substance.
+igloo                1.1.1            A framework for unit testing in C++
+ignition-cmake0      0.6.2-1          CMake helper functions for building robotic applications
+ignition-common1     1.1.1            Common libraries for robotics applications
+ignition-fuel-tools1 1.2.0            Tools for using fuel API to download robot models
+ignition-math4       4.0.0            Math API for robotic applications
+ignition-modularscripts 2019-09-11       Vcpkg helpers to package ignition libraries
+ignition-msgs1       1.0.0            Middleware protobuf messages for robotics
+ignition-transport4  4.0.0            Transport middleware for robotics
+ilmbase              2.3.0            empty package, linking to newer one
+imgui                1.72b            Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies.
+imgui-sfml           2.1              ImGui binding for use with SFML
+immer                2019-06-07       Postmodern immutable and persistent data structures for C++
+inih                 45               Simple .INI file parser
+inja                 2.1.0-1          Inja - A Template Engine for Modern C++
+intel-ipsec          0.52             Intel(R) Multi-Buffer Crypto for IPsec Library
+intel-mkl            2018.0.1         Intel® Math Kernel Library (Intel® MKL) accelerates math processing routines, increases application performance, and reduces development time on Intel® processors. 
+intelrdfpmathlib     20U2             Intel(R) Decimal Floating-Point Math Library
+io2d                 2019-07-11-1     a lightweight, cross platform drawing library
+irrlicht             1.8.4-2          Irrlicht lightning fast 3d engine
+irrlicht[fast-fpu]                    Enable fast maths (at the expense of precision)
+irrlicht[tools]                       Build the Tools FileToHeader, FontTool, GUIEditor and MeshConverter
+isal                 2.25.0           Intel(R) Intelligent Storage Acceleration Library
+ismrmrd              1.4.0-1          ISMRM Raw Data Format
+itk                  5.0.1-1          Insight Segmentation and Registration Toolkit (ITK) is used for image processing and analysis.
+itk[vtk]                              Build ITKVtkGlue module.
+itpp                 4.3.1-1          IT++ is a C++ library of mathematical, signal processing and communication classes and functions. Its main use is in simulation of communication systems and for performing research in the area of communications.
+ixwebsocket          6.1.0            Lightweight WebSocket Client and Server + HTTP Client and Server
+ixwebsocket[ssl]                      Default SSL backend
+ixwebsocket[openssl]                  SSL support (OpenSSL)
+ixwebsocket[mbedtls]                  SSL support (mbedTLS)
+ixwebsocket[sectransp]                SSL support (sectransp)
+jack2                1.9.12-2         Cross-platform API that enables device sharing and inter-application audio routing
+jansson              2.12-1           Jansson is a C library for encoding, decoding and manipulating JSON data
+jasper               2.0.16-2         Open source implementation of the JPEG-2000 Part-1 standard
+jbig2dec             0.16-1           a decoder library and example utility implementing the JBIG2 bi-level image compression spec. Also known as ITU T.88 and ISO IEC 14492, and included by reference in Adobe's PDF version 1.4 and later.
+jbigkit              2.1-3            A software implementation of the JBIG1 data compression standard (ITU-T T.82)
+jemalloc             4.3.1-4          jemalloc is a general purpose malloc(3) implementation that emphasizes fragmentation avoidance and scalable concurrency support
+jinja2cpplight       2018-05-08       (very) lightweight version of Jinja2 for C++, Lightweight templating engine for C++, based on Jinja2.
+jsmn                 2019-04-27       A minimalistic JSON parser in C.
+json-c               2019-09-10       A JSON implementation in C
+json-dto             0.2.8-2          A small header-only library for converting data between json representation and c++ structs.
+json-spirit          4.1.0-1          json parser using boost library
+json11               2017-06-20-2     json11 is a tiny JSON library for C++11, providing JSON parsing and serialization.
+json5-parser         1.0.0            An enhancement of the JSON Spirit C++ library to understand json5.
+jsoncons             0.136.0          A C++, header-only library for constructing JSON and JSON-like text and binary data formats, with JSON Pointer, JSON Patch, JSONPath, CSV, MessagePack, CBOR, BSON, UBJSON
+jsoncpp              1.9.1            jsoncpp is an implementation of a JSON reader and writer in C++. JSON (JavaScript Object Notation) is a lightweight data-interchange format that it is easy to parse and redeable for human.
+jsonnet              0.13.0           Jsonnet - The data templating language
+jwt-cpp              2019-05-07       A header only library for creating and validating json web tokens in c++
+jxrlib               1.1-8            Open source implementation of the jpegxr image format standard.
+kangaru              4.2.0            A dependency injection container for C++11, C++14 and later
+kd-soap              1.8.0            A Qt-based client-side and server-side SOAP component
+kealib               1.4.11-1         kealib is gdal model using HDF5 standard.
+kealib[parallel]                      Use parallel support for HDF5
+keystone             0.9.1            Lightweight multi-platform, multi-architecture assembler framework
+kf5archive           5.58.0           File compression
+kf5holidays          5.58.0           Holiday calculation library
+kf5plotting          5.58.0           Lightweight plotting framework
+kinectsdk1           1.8-2            Kinect for Windows SDK for Kinect v1 sensor.
+kinectsdk2           2.0-2            Kinect for Windows SDK for Kinect v2 sensor.
+kvasir-mpl           2019-08-06       This library is part of the Kvasir project. Kvasir is a collection of zero cost statically checked libraries for resource constrained systems including microcontrollers. 
+kvasir-mpl[test]                      Build with test
+lastools             2019-07-10       LAStools: award-winning software for efficient LiDAR processing (with LASzip)
+laszip               3.4.1            LASzip - free and lossless LiDAR compression
+lazy-importer        2019-08-10       Library for importing functions from dlls in a hidden, reverse engineer unfriendly way
+lcm                  1.4.0            Lightweight Communications and Marshalling (LCM)
+  LCM is a set of libraries and tools for message passing and data marshalling, targeted at real-time systems where high-bandwidth and low latency are critical. It provides a publish/subscribe message passing model and automatic marshalling/unmarshalling code generation with bindings for applications in a variety of programming languages.
+lcms                 2.9              Little CMS.
+leaf                 0.2.2            Lightweight error augmentation framework 
+lemon                0                Deprecated port, use liblemon instead
+leptonica            1.78.0-1         An open source library containing software that is broadly useful for image processing and image analysis applications
+lest                 1.35.1           A modern, C++11-native, single-file header-only, tiny framework for unit-tests, TDD and BDD (includes C++98 variant)
+leveldb              1.22-1           LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.
+libaiff              5.0-1            LibAiff is an open-source library, providing C applications transparent read & write operations for Audio Interchange File Format (AIFF) files, with the goal of supporting all of its features
+libarchive           3.4.0            Library for reading and writing streaming archives
+libarchive[bzip2]                     BZip2 support
+libarchive[libxml2]                   Libxml2 support
+libarchive[lz4]                       LZ4 support
+libarchive[lzma]                      LZMA support
+libarchive[lzo]                       LZO support
+libarchive[openssl]                   OpenSSL support
+libass               0.14.0           libass is a portable subtitle renderer for the ASS/SSA (Advanced Substation Alpha/Substation Alpha) subtitle format.
+libbf                1.0.0-1          Bloom filters for C++11.
+libbson              1.14.0-1         libbson is a library providing useful routines related to building, parsing, and iterating BSON documents.
+libcds               2.3.3            a collection of concurrent containers that don't require external (manual) synchronization for shared access, and safe memory reclamation (SMR) algorithms like Hazard Pointer and user-space RCU that is used as an epoch-based SMR.
+libcerf              1.13             A self-contained numeric library that provides an efficient and accurate implementation of complex error functions, along with Dawson, Faddeeva, and Voigt functions.
+libconfig            1.7.2-1          C/C++ library for processing configuration files
+libconfuse           2019-07-14       Small configuration file parser library for C
+libcopp              1.2.0            A cross-platfrom coroutine library for C++
+libcroco             0.6.13-1         A standalone css2 parsing and manipulation library
+libcuckoo            2018-12-24-1     A high-performance, concurrent hash table
+libdatrie            0.2.10-2         implementation of double-array structure for representing trie
+libdisasm            0.23-2           x86 Disassembler Library.
+libdshowcapture      0.6.0-1          Free and Open Source C++11 Library for capturing DirectShow video/audio devices on windows.
+libepoxy             1.5.3-1          Epoxy is a library for handling OpenGL function pointer management for you
+libevent             2.1.11           An event notification library
+libexif              0.6.21-2         a library for parsing, editing, and saving EXIF data
+libfabric            1.8.0            The OpenFabrics Interfaces Working Group (OFIWG) and the Libfabric open-source community are pleased to announce the release of version v1.6.2 of libfabric. See NEWS.md for the list of features and enhancements that have been added since the last release.
+libffi               3.1-5            Portable, high level programming interface to various calling conventions
+libflac              1.3.2-6          Library for manipulating FLAC files
+libfreenect2         0.2.0-3          Open source drivers for the Kinect for Windows v2 device
+libftdi              0.20-1           FTDI USB driver with bitbang mode (v0.20)
+libftdi1             1.4              FTDI USB driver with bitbang mode (v1.4)
+libgd                2.2.5-3          Open source code library for the dynamic creation of images by programmers.
+libgd[fontconfig]                     Support for fontconfig
+libgd[freetype]                       Support for freetype
+libgd[jpeg]                           Support for jpeg
+libgd[png]                            Support for png
+libgd[tiff]                           Support for tiff
+libgd[webp]                           Support for webp
+libgeotiff           1.4.2-9          Libgeotiff is an open source library normally hosted on top of libtiff for reading, and writing GeoTIFF information tags.
+libgit2              0.28.3           Git linkable library
+libgo                2.8-2            The best stackful coroutine by c++11.
+libgta               1.0.8-1          Libgta is a portable library that implements the Generic Tagged Array (GTA) file format.
+libguarded           2019-08-27       The libGuarded library is a standalone header-only library for multithreaded programming.
+libharu              2017-08-15-8     libharu - free PDF library
+libhydrogen          2019-08-11       A lightweight, secure, easy-to-use crypto library suitable for constrained environments
+libiconv             1.15-6           GNU Unicode text conversion
+libics               1.6.3            Reference library for ICS (Image Cytometry Standard), an open standard for writing images of any dimensionality and data type to file, together with associated information regarding the recording equipment or recorded subject.
+libideviceactivation 1.2.68-1         A library to handle the activation process of iOS devices
+libidn2              2.2.0            GNU Libidn is an implementation of the Stringprep, Punycode and IDNA 2003 specifications. Libidn's purpose is to encode and decode internationalized domain names.
+libimobiledevice     1.2.76           A cross-platform protocol library to communicate with iOS devices
+libirecovery         1.0.25-2         Library and utility to talk to iBoot/iBSS via USB on Mac OS X, Windows, and Linux
+libjpeg-turbo        2.0.2            libjpeg-turbo is a JPEG image codec that uses SIMD instructions (MMX, SSE2, NEON, AltiVec) to accelerate baseline JPEG compression and decompression on x86, x86-64, ARM, and PowerPC systems.
+libkml               1.3.0-3          Reference implementation of OGC KML 2.2
+liblas               1.8.1-2          A C/C++ library for reading and writing the very common LAS LiDAR format.
+liblas[jpeg]                          Support for jpeg
+liblas[zlib]                          Support zlib for compression
+liblbfgs             1.10             libLBFGS: a library of Limited-memory Broyden-Fletcher-Goldfarb-Shanno (L-BFGS) 
+liblemon             2019-06-13       Library for Efficient Modeling and Optimization in Networks
+liblinear            230              A Library for Large Linear Classification
+liblo                0.30             liblo is an implementation of the Open Sound Control protocol for POSIX systems
+liblsl               1.13.0-b11-1     C++ lsl library for multi-modal time-synched data transmission over the local network
+liblzma              5.2.4-2          Compression library with an API similar to that of zlib.
+libmad               0.15.1-3         high-quality MPEG audio decoder
+libmariadb           3.0.10-4         MariaDB Connector/C is used to connect C/C++ applications to MariaDB and MySQL databases
+libmaxminddb         1.3.2-2          C library for the MaxMind DB file format
+libmicrohttpd        0.9.63           GNU libmicrohttpd is a small C library that is supposed to make it easy to run an HTTP server as part of another application
+libmikmod            3.3.11.1-5       Mikmod is a module player and library supporting many formats, including mod, s3m, it, and xm.
+libmodbus            3.1.6            libmodbus is a free software library to send/receive data with a device which respects the Modbus protocol
+libmodplug           0.8.9.0-4        The ModPlug mod file playing library.
+libmorton            0.2              header-only library for encoding/decoding Morton codes in/from 2D/3D coordinates
+libmspack            0.10.1-1         libmspack is a portable library for some loosely related Microsoft compression formats.
+libmupdf             1.15.0-1         a lightweight PDF, XPS, and E-book library
+libmysql             8.0.4-4          A MySQL client library for C development.
+libnice              0.1.15-1         Libnice is an implementation of the IETF's Interactive Connectivity Establishment (ICE) standard (RFC 5245) and the Session Traversal Utilities for NAT (STUN) standard (RFC 5389).
+libnoise             1.0.0            A general-purpose library that generates three-dimensional coherent noise. Useful for terrain generation and procedural texture generation. Uses a broad number of techniques (Perlin noise, ridged multifractal, etc.) and combinations of those techniques.
+libodb               2.4.0-6          ODB library, base runtime for the ODB ORM solution
+libodb-boost         2.4.0-3          Description: Boost support for the ODB ORM library
+libodb-mysql         2.4.0-4          MySQL support for the ODB ORM library
+libodb-pgsql         2.4.0-3          Description: PostgreSQL support for the ODB ORM library
+libodb-sqlite        2.4.0-5          Sqlite support for the ODB ORM library
+libogg               1.3.4            Ogg is a multimedia container format, and the native file and stream format for the Xiph.org multimedia codecs.
+libopenmpt           2017-01-28-cf2390140 a library to render tracker music
+libopusenc           0.2.1            Library for encoding .opus audio files and live streams.
+libosip2             5.1.0            oSIP is an LGPL implementation of SIP. It's stable, portable, flexible and compliant! -may be more-! It is used mostly with eXosip2 stack (GPL) which provides simpler API for User-Agent implementation.
+libp7-baical         4.4-4            P7 is a library for high-speed sending telemetry & trace data from application
+libp7client          5.2-1            Open source, cross-platform, fastest library for sending logs, telemetry & trace data from your application.
+libpcap              1.9.0            A portable C/C++ library for network traffic capture
+libpff               2018-07-14-1     Library and tools to access the Personal Folder File (PFF) and the Offline Folder File (OFF) format.
+libplist             1.2.77           A library to handle Apple Property List format in binary or XML 
+libpmemobj-cpp       1.7              C++ bindings for libpmemobj (https://github.com/pmem/pmdk).
+libpng               1.6.37-4         libpng is a library implementing an interface for reading and writing PNG (Portable Network Graphics) format files.
+libpng-apng          1.6.37           libpng-apng is a library implementing an interface for reading and writing (A)PNG ((Animated) Portable Network Graphics) format files. This is backward compatible with the regular libpng, both in library usage and format.
+libpopt              1.16-10~vcpkg1-1 Library for parsing command line parameters
+libpq                9.6.1-8          The official database access API of postgresql
+libpqxx              6.4.5            The official C++ client API for PostgreSQL
+libqglviewer         2.7.0-2          libQGLViewer is an open source C++ library based on Qt that eases the creation of OpenGL 3D viewers.
+libqrencode          4.0.2-1          libqrencode - a fast and compact QR Code encoding library
+libqrencode[tool]                     Build qrencode tool
+librabbitmq          0.9.0-1          A C-language AMQP client library for use with v2.0+ of the RabbitMQ broker.
+libraqm              0.7.0            A library for complex text layout 
+libraw               201903-1         raw image decoder library
+librdkafka           1.2.0-2          The Apache Kafka C/C++ library
+librdkafka[lz4]                       Enable external LZ4 library support 
+librdkafka[ssl]                       Build with OpenSSL
+librdkafka[zlib]                      Build with zlib
+librdkafka[zstd]                      Build with zstd
+librdkafka[snappy]                    Build with snappy
+libressl             2.9.1-2          LibreSSL is a version of the TLS/crypto stack forked from OpenSSL in 2014, with goals of modernizing the codebase, improving security, and applying best practice development processes.
+libressl[tools]                       Build openssl and ocspcheck executables
+librsvg              2.40.20          A small library to render Scalable Vector Graphics (SVG)
+librsync             2.0.2-1          librsync is a library for calculating and applying network deltas, with an interface designed to ease integration into diverse network applications.
+librtmp              2.4-1            RTMPDump Real-Time Messaging Protocol API
+libsamplerate        0.1.9.0-1        Sample Rate Converter for audio
+libsigcpp            2.10-1           Typesafe callback framework for C++
+libsndfile           1.0.29-8         Library to read, write and manipulate many soundfile types. Authored by Eric de Castro Lopo
+libsndfile[external-libs]             Support Ogg Vorbis and FLAC audio files
+libsodium            1.0.18-1         A modern and easy-to-use crypto library
+libsoundio           2.0.0            libsoundio is C library providing cross-platform audio input and output.
+libspatialindex      1.9.0            C++ implementation of R*-tree, an MVR-tree and a TPR-tree with C API.
+libspatialite        4.3.0a-4         SpatiaLite is an open source library intended to extend the SQLite core to support fully fledged Spatial SQL capabilities.
+libsquish            1.15-2           Open source DXT compression library.
+libsrtp              2.2.0            This package provides an implementation of the Secure Real-time Transport Protocol (SRTP), the Universal Security Transform (UST), and a supporting cryptographic kernel.
+libssh               0.7.6-1          libssh is a multiplatform C library implementing the SSHv2 and SSHv1 protocol on client and server side
+libssh[zlib]                          libssh with zlib
+libssh2              1.9.0            The SSH library
+libstemmer           2017-9-4         Snowball is a small string processing language designed for creating stemming algorithms for use in Information Retrieval
+libstk               4.6.1            The Synthesis ToolKit in C++ (STK) is a set of open source audio signal processing and algorithmic synthesis classes written in the C++ programming language. 
+libsvm               323              A library for Support Vector Machines
+libsvm[tools]                         Build libsvm tools
+libtheora            1.2.0alpha1-20170719~vcpkg1-3 Theora is a free and open video compression format from the Xiph.org Foundation.
+libtins              4.2              High-level, multiplatform C++ network packet sniffing and crafting library
+libtorrent           1.2.1-bcb26fd6   An efficient feature complete C++ BitTorrent implementation 
+libu2f-server        1.1.0            Yubico Universal 2nd Factor (U2F) Server C Library
+libudis86            2018-01-28-56ff6c87 Disassembler Library for x86 and x86-64 
+libui                2018-11-03-1     Simple and portable (but not inflexible) native GUI library in C.
+libunibreak          4.2              an implementation of the line breaking and word breaking algorithms as described in [Unicode Standard Annex 14] 1 and [Unicode Standard Annex 29] 2. Check the project's [home page] 3 for up-to-date information.
+libusb               1.0.22-4         a cross-platform library to access USB devices
+libusb-win32         1.2.6.0-2        Allows user space applications to access many USB device on Windows.
+libusbmuxd           1.2.77           A client library to multiplex connections from and to iOS devices
+libuuid              1.0.3-2          Universally unique id library
+libuv                1.30.1           libuv is a multi-platform support library with a focus on asynchronous I/O.
+libvorbis            1.3.6-9eadecc-3  Ogg Vorbis is a fully open, non-proprietary, patent-and-royalty-free, general-purpose compressed audio format.
+libvpx               1.8.1            The reference software implementation for the video coding formats VP8 and VP9.
+libwebm              1.0.0.27-5       WebM File Parser
+libwebp              1.0.2-7          Lossy compression of digital photographic images.
+libwebp[all]                          enable all webp features
+libwebsockets        3.2.0            Libwebsockets is a lightweight pure C library built to use minimal CPU and memory resources, and provide fast throughput in both directions as client or server.
+libxlsxwriter        0.8.7-1          Libxlsxwriter is a C library that can be used to write text, numbers, formulas and hyperlinks to multiple worksheets in an Excel 2007+ XLSX file.
+libxml2              2.9.9-4          Libxml2 is the XML C parser and toolkit developed for the Gnome project (but usable outside of the Gnome platform)
+libxmlpp             2.40.1-3         a C++ wrapper for the libxml XML parser library.
+libxmp-lite          4.4.1-1          Lightweight version of libxmp that supports MOD, S3M, XM and IT modules.
+libxslt              1.1.33-2         Libxslt is a XSLT library implemented in C for XSLT 1.0 and most of EXSLT
+libyaml              0.2.2-2          A C library for parsing and emitting YAML.
+libyuv               fec9121          libyuv is an open source project that includes YUV scaling and conversion functionality.
+libzen               0.4.37           ZenLib is a C++ utility library for easiest cross-platform development
+libzip               rel-1-5-2        A library for reading, creating, and modifying zip archives.
+libzip[bzip2]                         Support bzip2-compressed zip archives
+libzip[openssl]                       AES (encryption) support using OpenSSL
+libzippp             2019-07-22       Simple basic C++ wrapper around the libzip library. It is meant to be a portable and easy-to-use library for ZIP handling
+linalg               2.1              linalg.h is a single header public domain linear algebra library for C++11
+linenoise-ng         4754bee2d8eb3-1  A small, portable GNU readline replacement for Linux, Windows and MacOS which is capable of handling UTF-8 characters.
+live555              latest           A complete RTSP server application
+llgl                 2019-08-15       Low Level Graphics Library (LLGL) is a thin abstraction layer for the modern graphics APIs OpenGL, Direct3D, Vulkan, and Metal.
+llgl[opengl]                          Support for opengl
+llgl[direct3d11]                      Support for direct3d11
+llvm                 8.0.0-2          The LLVM Compiler Infrastructure
+lmdb                 0.9.23-2         LMDB is an extraordinarily fast, memory-efficient database
+lodepng              2018-09-18-2     PNG encoder and decoder in C and C++
+log4cplus            2.0.4-1          A simple to use C++ logging API providing thread--safe, flexible, and arbitrarily granular control over log management and configuration
+log4cpp              2.9.1-1          Log4cpp is library of C++ classes for flexible logging to files, syslog, IDSA and other destinations. It is modeled after the Log4j Java library, staying as close to their API as is reasonable.
+loguru               v2.0.0           A lightweight and flexible C++ logging library
+lpeg                 1.0.1-3          LPeg is a pattern-matching library for Lua, based on Parsing Expression Grammars (PEGs).
+lua                  5.3.5-2          a powerful, fast, lightweight, embeddable scripting language
+lua[cpp]                              Builds lua for C++ linkage.
+luabridge            2.3.2            A lightweight, dependency-free library for binding Lua to C++
+luafilesystem        1.7.0.2          LuaFileSystem is a Lua library developed to complement the set of functions related to file systems offered by the standard Lua distribution.
+luajit               2.0.5-2          LuaJIT is a Just-In-Time (JIT) compiler for the Lua programming language.
+luasocket            2019-05-07       LuaSocket is a Lua extension library that is composed by two parts: a C core that provides support for the TCP and UDP transport layers, and a set of Lua modules that add support for functionality commonly needed by applications that deal with the Internet.
+lz4                  1.9.2            Lossless compression algorithm, providing compression speed at 400 MB/s per core.
+lzfse                1.0-1            Lempel-Ziv style data compressor using Finite State Entropy coding.
+lzo                  2.10-3           Lossless data compression library
+magic-enum           0.6.0            Header-only C++17 library provides static reflection for enums, work with any enum type without any macro or boilerplate code.
+magic-get            2019-09-02       This C++14 library is meant for accessing structure elements by index and providing other std::tuple like methods for user defined types without any macro or boilerplate code.
+magnum               2019.01-1        C++11/C++14 graphics middleware for games and data visualization 
+magnum[al-info]                       magnum-al-info utility
+magnum[anyimageimporter]              AnyImageImporter plugin
+magnum[anyaudioimporter]              AnyAudioImporter plugin
+magnum[anyimageconverter]             AnyImageConverter plugin
+magnum[anysceneimporter]              AnySceneImporter plugin
+magnum[audio]                         Audio library
+magnum[debugtools]                    DebugTools library
+magnum[distancefieldconverter]        magnum-distancefieldconverter utility
+magnum[fontconverter]                 magnum-fontconverter utility
+magnum[gl]                            GL library
+magnum[gl-info]                       gl-info utility
+magnum[glfwapplication]               GlfwApplication library
+magnum[imageconverter]                magnum-imageconverter utility
+magnum[magnumfont]                    MagnumFont plugin
+magnum[magnumfontconverter]           MagnumFontConverter plugin
+magnum[meshtools]                     MeshTools library
+magnum[objimporter]                   ObjImporter plugin
+magnum[tgaimageconverter]             TgaImageConverter plugin
+magnum[opengltester]                  OpenGLTester library
+magnum[primitives]                    Primitives library
+magnum[sdl2application]               Sdl2Application library
+magnum[scenegraph]                    SceneGraph library
+magnum[shaders]                       Shaders library
+magnum[text]                          Text library
+magnum[texturetools]                  TextureTools library
+magnum[tgaimporter]                   TgaImporter plugin
+magnum[trade]                         Trade library
+magnum[wavaudioimporter]              WavAudioImporter plugin
+magnum[windowlesswglapplication]      WindowlessWglApplication library
+magnum[eglcontext]                    EglContext library
+magnum[cglcontext]                    CglContext library
+magnum[glxcontext]                    GlxContext library
+magnum[wglcontext]                    WglContext library
+magnum[windowlesseglapplication]      WindowlessEglApplication library
+magnum[eglcontext]                    EglContext library
+magnum[windowlessglxapplication]      WindowlessGlxApplication library
+magnum[glxcontext]                    GlxContext library
+magnum-extras        2019.01-2        Extras for magnum, C++11/C++14 graphics middleware for games and data visualization
+magnum-extras[ui]                     Ui library
+magnum-integration   2019.01-2        Integrations for magnum, C++11/C++14 graphics middleware for games and data visualization
+magnum-integration[bullet]            BulletIntegration library
+magnum-integration[glm]               GlmIntegration library
+magnum-integration[imgui]             ImGuiIntegration library
+magnum-plugins       2019.01-1        Plugins for magnum, C++11/C++14 graphics middleware for games and data visualization
+magnum-plugins[assimpimporter]        AssimpImporter plugin
+magnum-plugins[openddl]               OpenDdl library
+magnum-plugins[ddsimporter]           DdsImporter plugin
+magnum-plugins[devilimageimporter]    DevIlImageImporter plugin
+magnum-plugins[drflacaudioimporter]   DrFlacAudioImporter plugin
+magnum-plugins[drwavaudioimporter]    DrWavAudioImporter plugin
+magnum-plugins[freetypefont]          FreeTypeFont plugin
+magnum-plugins[harfbuzzfont]          HarfBuzzFont plugin
+magnum-plugins[jpegimporter]          JpegImporter plugin
+magnum-plugins[jpegimageconverter]    JpegImageConverter plugin
+magnum-plugins[miniexrimageconverter] MiniExrImageConverter plugin
+magnum-plugins[opengeximporter]       OpenGexImporter plugin
+magnum-plugins[pngimageconverter]     PngImageConverter plugin
+magnum-plugins[pngimporter]           PngImporter plugin
+magnum-plugins[stanfordimporter]      StanfordImporter plugin
+magnum-plugins[stbimageconverter]     StbImageConverter plugin
+magnum-plugins[stbimageimporter]      StbImageImporter plugin
+magnum-plugins[stbtruetypefont]       StbTrueTypeFont plugin
+magnum-plugins[stbvorbisaudioimporter] StbVorbisAudioImporter plugin
+magnum-plugins[tinygltfimporter]      TinyGltfImporter plugin
+mapbox-variant       1.1.6-0f734f0-1  C++11/C++14 Variant
+marl                 2019-09-13       A hybrid thread/fiber task scheduler written in C++ 11
+mathc                2019-09-29       Pure C math library for 2D and 3D programming
+mathgl               2.4.3-2          MathGL is a free library of fast C++ routines for the plotting of the data varied in one or more dimensions
+mathgl[hdf5]                          hdf5 module
+mathgl[fltk]                          fltk module
+mathgl[gif]                           gif module
+mathgl[png]                           png module
+mathgl[zlib]                          zlib module
+mathgl[jpeg]                          jpeg module
+mathgl[gsl]                           gsl module
+mathgl[opengl]                        opengl module
+mathgl[glut]                          glut module
+mathgl[wx]                            wx module
+mathgl[qt5]                           qt5 module
+matio                1.5.16           MATLAB MAT File I/O Library
+matplotlib-cpp       2019-09-24       Extremely simple yet powerful header-only C++ plotting library built on the popular matplotlib
+matroska             1.5.2            a C++ libary to parse Matroska files (.mkv and .mka)
+mbedtls              2.16.3           An open source, portable, easy to use, readable and flexible SSL library
+mdnsresponder        765.30.11        The mDNSResponder project is a component of Bonjour, Apple's ease-of-use IP networking initiative.
+mecab                1.0              A morphological analysis engine based on CRF
+meschach             1.2b-2           Matrix computations in C
+metis                5.1.0-5          Serial Graph Partitioning and Fill-reducing Matrix Ordering
+mhook                2.5.1-1          A Windows API hooking library.
+milerius-sfml-imgui  1.1-2            imgui dll for sfml usage
+mimalloc             2019-06-25-1     Compact general purpose allocator with excellent performance
+mimalloc[asm]                         Generate assembly files
+mimalloc[override]                    Override the standard malloc interface
+mimalloc[secure]                      Use security mitigations (like guard pages and randomization)
+minhook              1.3.3            The Minimalistic x86/x64 API Hooking Library for Windows.
+minifb               2019-08-20-1     MiniFB (Mini FrameBuffer) is a small cross platform library that makes it easy to render (32-bit) pixels in a window.
+minimp3              2019-07-24-1     Minimalistic, single-header library for decoding MP3. minimp3 is designed to be small, fast (with SSE and NEON support), and accurate (ISO conformant).
+minisat-master-keying 2.2-mod-2        A minimalistic high-performance SAT solver
+  This is a modernized, cross-platform, CMake-enabled fork of the original MiniSat. 
+minitrace            2019.02.06       Simple C/C++ library for producing JSON traces suitable for Chrome's built-in trace viewer.
+miniupnpc            2.1              UPnP client library/tool to access Internet Gateway Devices
+miniz                2.1.0            Single C source file zlib-replacement library
+minizip              1.2.11-5         Zip compression library
+minizip[bzip2]                        Support compression using bzip2 library
+mio                  2019-02-10       Cross-platform header-only C++11 library for memory mapped file IO.
+mlpack               3.1.1-1          mlpack is a fast, flexible machine learning library, written in C++, that aims to provide fast, extensible implementations of cutting-edge machine learning algorithms.
+mlpack[tools]                         Build command-line executables and tests.
+mman                 git-f5ff813-2    A light implementation of the mmap functions for MinGW.
+modp-base64                           
+mongo-c-driver       1.14.0-4         Client library written in C for MongoDB.
+mongo-c-driver[snappy]                Enables snappy compressor support
+mongo-cxx-driver     3.4.0-3          MongoDB C++ Driver.
+mongo-cxx-driver[mnmlstc]             Use MNMLSTC/core C++17 polyfill.
+mongo-cxx-driver[system-mnmlstc]      Use an available version of MNMLSTC on your system as C++17 polyfill.
+mongo-cxx-driver[boost]               Use Boost C++17 polyfill. The only option under MSVC.
+mongo-cxx-driver[std-experimental]    Use optional and string_view from std::experimental.
+mongoose             6.15-1           Embedded web server / embedded networking library
+monkeys-audio        4.8.3            Monkey's Audio is an excellent audio compression tool which has multiple advantages over traditional methods.
+  Audio files compressed with it ends with .ape extension.
+moos-core            10.4.0-3         A very light weight, easy to use middleware.
+moos-essential       10.0.1-1         a set of useful applications that leverage the core-moos communications layer.
+moos-ui              10.0.1-2         set of user interface tools to use and leverage the MOOS project.
+morton-nd            2.0.0            (C++14) header-only library for fast Morton encoding/decoding in N dimensions.
+mosquitto            1.6.3            Mosquitto is an open source message broker that implements the MQ Telemetry Transport protocol versions 3.1 and 3.1.1.
+  MQTT provides a lightweight method of carrying out messaging using a publish/subscribe model. This makes it suitable for "machine to machine" messaging such as with low power sensors or mobile devices such as phones, embedded computers or microcontrollers like the Arduino.
+mozjpeg              3.2-3            MozJPEG reduces file sizes of JPEG images while retaining quality and compatibility with the vast majority of the world's deployed decoders. It's compatible with libjpeg API and ABI, and can be used as a drop-in replacement for libjpeg.
+mp3lame              3.100            LAME is a high quality MPEG Audio Layer III (MP3) encoder licensed under the LGPL.
+mpark-variant        1.4.0            an implementation of C++17 std::variant for C++11/14/17.
+mpfr                 4.0.2-1          The MPFR library is a C library for multiple-precision floating-point computations with correct rounding
+mpg123               1.25.8-6         mpg123 is a real time MPEG 1.0/2.0/2.5 audio player/decoder for layers 1, 2 and 3 (MPEG 1.0 layer 3 also known as MP3).
+mpi                  1                Message Passing Interface (MPI) is a standardized and portable message-passing standard designed by a group of researchers from academia and industry to function on a wide variety of parallel computing architectures. The standard defines the syntax and semantics of a core of library routines useful to a wide range of users writing portable message-passing programs in C, C++, and Fortran. There are several well-tested and efficient implementations of MPI, many of which are open-source or in the public domain.
+mpir                 3.0.0-7          Multiple Precision Integers and Rationals.
+mpmcqueue            2019-07-26       A bounded multi-producer multi-consumer lock-free queue written in C++11
+ms-angle             2018-04-18-2     The UWP version of a conformant OpenGL ES implementation for Windows, Mac and Linux.
+  The goal of ANGLE is to allow users of multiple operating systems to seamlessly run WebGL and other OpenGL ES content by translating OpenGL ES API calls to one of the hardware-supported APIs available for that platform. ANGLE currently provides translation from OpenGL ES 2.0 and 3.0 to desktop OpenGL, OpenGL ES, Direct3D 9, and Direct3D 11. Support for translation from OpenGL ES to Vulkan is underway, and future plans include compute shader support (ES 3.1) and MacOS support.
+ms-gsl               2019-07-11       Microsoft implementation of the Guidelines Support Library
+msgpack              3.2.0            MessagePack is an efficient binary serialization format, which lets you exchange data among multiple languages like JSON, except that it's faster and smaller.
+msinttypes           2018-02-25       msinttypes is a package to provide missing  ISO C9x  compliant headers for Microsoft Visual Studio
+msix                 MsixCoreInstaller-preview-1 The MSIX Packaging SDK project is an effort to enable developers on a variety of platforms to pack and unpack packages for the purposes of distribution from either the Microsoft Store, or their own content distribution networks.
+  The MSIX Packaging APIs that a client app would use to interact with .msix/.appx packages are a subset of those documented here. See sample/ExtractContentsSample/ExtractContentsSample.cpp for additional details.
+msmpi                10.0-2           Microsoft MPI
+mujs                 2018-07-30-1     An embeddable Javascript interpreter in C
+muparser             2.2.6.1          Fast math parser library 
+nameof               2019-07-13       Nameof operator for modern C++
+nana                 1.7.1-1          Cross-platform library for GUI programming in modern C++ style.
+nano-signal-slot     commit-25aa2aa90d450d3c7550c535c7993a9e2ed0764a Pure C++17 Signals and Slots
+nanodbc              2.12.4-4         A small C++ wrapper for the native C ODBC API.
+nanogui              2019-09-23       NanoGUI is a minimalistic cross-platform widget library for OpenGL 3.x or higher.
+nanomsg              1.1.5-1          a simple high-performance implementation of several "scalability protocols".
+  These scalability protocols are light-weight messaging protocols which can be used to solve a number of very common messaging patterns, such as request/reply, publish/subscribe, surveyor/respondent, and so forth. These protocols can run over a variety of transports such as TCP, UNIX sockets, and even WebSocket.
+nanomsg[tool]                         nanomsg tool (nanocat)
+nanopb               2019-02-12-2     A small code-size Protocol Buffers implementation in ANSI C.
+nanorange            0.0.0            NanoRange is a C++14 implementation of the C++20 Ranges proposals.
+nanort               2019-08-20       Single header only modern ray tracing kernel
+nanovg               2019-8-30-1      NanoVG is small antialiased vector graphics rendering library for OpenGL.
+nativefiledialog     2019-08-28       A tiny, neat C library that portably invokes native file open and save dialogs
+nativefiledialog[zenity]              Using Zenity backend on Linux
+netcdf-c             4.7.0-4          a set of self-describing, machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data.
+netcdf-cxx4          4.3.0-4          a set of machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data.
+networkdirect-sdk    2.0.1            The Network Direct architecture allows hardware vendors to expose the advanced capabilities of their networking devices.
+nghttp2              1.39.2           Implementation of the Hypertext Transfer Protocol version 2 in C
+nlohmann-json        3.7.0            JSON for Modern C++
+nlopt                2.6.1-1          a library for nonlinear local and global optimization, for functions with and without gradient information.
+nmap                 7.70-1           A library for scanning network ports.
+nmslib               1.8.1            Non-Metric Space Library (NMSLIB) is an efficient similarity search library and a toolkit for evaluation of k-NN methods for generic non-metric spaces.
+nng                  2019-02-27       NNG, like its predecessors nanomsg (and to some extent ZeroMQ), is a lightweight, broker-less library, offering a simple API to solve common recurring messaging problems, such as publish/subscribe, RPC-style request/reply, or service discovery.
+nng[mbedtls]                          nng built with TLS support(needs mbedTLS)
+nngpp                2019-07-25       C++ wrapper around the nanomsg NNG API.
+nonius               2019-04-20-1     A C++ micro-benchmarking framework
+nrf-ble-driver       4.1.1            BLE driver is a library for Bluetooth Low Energy communication using Nordic Semiconductor development kits.
+nt-wrapper           2019-08-10       A header only wrapper library around native windows system APIs
+nuklear              2019-07-11       This is a minimal state immediate mode graphical user interface toolkit written in ANSI C and licensed under public domain
+numactl              2.0.12           NUMA support for Linux
+nvtt                 2.1.1            Texture processing tools with support for Direct3D 10 and 11 formats.
+observer-ptr-lite    0.4.0            A C++17-like observer_ptr for C++98 and later in a single-file header-only library
+octomap              2017-03-11-7     An Efficient Probabilistic 3D Mapping Framework Based on Octrees
+ode                  0.15.1-2         Open Dynamics Engine
+offscale-libetcd-cpp 2019-07-10       A C++ client library for etcd. etcd is a distributed, reliable key-value store.
+ogdf                 2019-08-23       Open Graph Drawing Framework
+ogre                 1.12.1           3D Object-Oriented Graphics Rendering Engine
+ogre[d3d9]                            Build Direct3D9 RenderSystem
+ogre[csharp]                          Build csharp bindings
+ogre[java]                            Build Java (JNI) bindings
+ogre[python]                          Build Python bindings
+ompl                 1.4.2-2          The Open Motion Planning Library, consists of many state-of-the-art sampling-based motion planning algorithms
+ompl[app]                             Add support for reading meshes and performing collision checking
+oniguruma            6.9.3            Modern and flexible regular expressions library
+oniguruma[non-posix]                  Disable POSIX API
+open62541            0.3.0-4          open62541 is an open source C (C99) implementation of OPC UA licensed under the Mozilla Public License v2.0.
+openal-soft          1.19.1-2         OpenAL Soft is an LGPL-licensed, cross-platform, software implementation of the OpenAL 3D audio API.
+openblas             0.3.6-6          OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version.
+opencl               2.2 (2018.08.31) C/C++ headers and ICD loader (Installable Client Driver) for OpenCL
+opencl[wdk]                           Windows Driver Kit support
+opencolorio          1.1.1            OpenColorIO (OCIO) is a complete color management solution geared towards motion picture production with an emphasis on visual effects and computer animation. OCIO provides a straightforward and consistent user experience across all supporting applications while allowing for sophisticated back-end configuration options suitable for high-end production usage. OCIO is compatible with the Academy Color Encoding Specification (ACES) and is LUT-format agnostic, supporting many popular formats.
+opencolorio[applications]             Enable OpenColorIO tools
+opencsg              1.4.2-1          OpenCSG is a library that does image-based CSG rendering using OpenGL. OpenCSG is written in C++ and supports most modern graphics hardware using Microsoft Windows or the Linux operating system.
+opencv               4.1.1-1          Computer vision library
+opencv[nonfree]                       opencv nonfree module
+opencv[ade]                           graph api
+opencv[contrib]                       opencv_contrib module
+opencv[cuda]                          CUDA support for opencv
+opencv[dnn]                           Enable dnn module
+opencv[eigen]                         Eigen support for opencv
+opencv[ffmpeg]                        ffmpeg support for opencv
+opencv[gdcm]                          GDCM support for opencv
+opencv[ipp]                           Enable Intel Integrated Performance Primitives
+opencv[jasper]                        JPEG 2000 support for opencv
+opencv[jpeg]                          JPEG support for opencv
+opencv[openexr]                       OpenEXR support for opencv
+opencv[opengl]                        opengl support for opencv
+opencv[openmp]                        Enable openmp support for opencv
+opencv[ovis]                          opencv_ovis module
+opencv[png]                           PNG support for opencv
+opencv[qt]                            Qt GUI support for opencv
+opencv[sfm]                           opencv_sfm module
+opencv[tbb]                           Enable Intel Threading Building Blocks
+opencv[tiff]                          TIFF support for opencv
+opencv[vtk]                           vtk support for opencv
+opencv[webp]                          WebP support for opencv
+opencv[halide]                        Halide support for opencv
+opencv[world]                         Compile to a single package support for opencv
+opencv3              3.4.7-1          computer vision library
+opencv3[nonfree]                      allow nonfree and unredistributable libraries
+opencv3[flann]                        opencv_flann module
+opencv3[contrib]                      opencv_contrib module
+opencv3[cuda]                         CUDA support for opencv
+opencv3[dnn]                          Enable dnn module
+opencv3[eigen]                        Eigen support for opencv
+opencv3[ffmpeg]                       ffmpeg support for opencv
+opencv3[gdcm]                         GDCM support for opencv
+opencv3[ipp]                          Enable Intel Integrated Performance Primitives
+opencv3[jasper]                       JPEG 2000 support for opencv
+opencv3[jpeg]                         JPEG support for opencv
+opencv3[openexr]                      OpenEXR support for opencv
+opencv3[opengl]                       opengl support for opencv
+opencv3[ovis]                         opencv_ovis module
+opencv3[png]                          PNG support for opencv
+opencv3[qt]                           Qt GUI support for opencv
+opencv3[sfm]                          opencv_sfm module
+opencv3[tbb]                          Enable Intel Threading Building Blocks
+opencv3[tiff]                         TIFF support for opencv
+opencv3[vtk]                          vtk support for opencv
+opencv3[webp]                         WebP support for opencv
+opencv3[halide]                       Halide support for opencv
+opencv3[world]                        Compile to a single package support for opencv
+opencv4              4.1.1-2          computer vision library
+opencv4[nonfree]                      allow nonfree and unredistributable libraries
+opencv4[ade]                          graph api
+opencv4[contrib]                      opencv_contrib module
+opencv4[cuda]                         CUDA support for opencv
+opencv4[dnn]                          Enable dnn module
+opencv4[eigen]                        Eigen support for opencv
+opencv4[ffmpeg]                       ffmpeg support for opencv
+opencv4[gdcm]                         GDCM support for opencv
+opencv4[ipp]                          Enable Intel Integrated Performance Primitives
+opencv4[jasper]                       JPEG 2000 support for opencv
+opencv4[jpeg]                         JPEG support for opencv
+opencv4[openexr]                      OpenEXR support for opencv
+opencv4[opengl]                       opengl support for opencv
+opencv4[openmp]                       Enable openmp support for opencv
+opencv4[ovis]                         opencv_ovis module
+opencv4[png]                          PNG support for opencv
+opencv4[qt]                           Qt GUI support for opencv
+opencv4[sfm]                          opencv_sfm module
+opencv4[tbb]                          Enable Intel Threading Building Blocks
+opencv4[tiff]                         TIFF support for opencv
+opencv4[vtk]                          vtk support for opencv
+opencv4[webp]                         WebP support for opencv
+opencv4[halide]                       Halide support for opencv
+opencv4[world]                        Compile to a single package support for opencv
+openexr              2.3.0-4          OpenEXR is a high dynamic-range (HDR) image file format developed by Industrial Light & Magic for use in computer imaging applications
+opengl               0.0-5            Open Graphics Library (OpenGL)[3][4][5] is a cross-language, cross-platform application programming interface (API) for rendering 2D and 3D vector graphics.
+opengl-registry      2019-08-22       the API and Extension registries for the OpenGL family APIs
+openigtlink          3.0              OpenIGTLink is an open-source network communication interface specifically designed for image-guided interventions.
+openimageio          2019-08-08-4     A library for reading and writing images, and a bunch of related classes, utilities, and application
+openimageio[libraw]                   Enable RAW image files support
+openimageio[opencolorio]              Enable opencolorio support for openimageio
+openjpeg             2.3.1-1          JPEG 2000 image library
+openmama             6.2.3-1          OpenMAMA is a high performance vendor neutral lightweight wrapper that provides a common API interface to different middleware and messaging solutions across a variety of platforms and languages.
+openmesh             8.0              A generic and efficient polygon mesh data structure
+openmpi              4.0.1            The Open MPI Project is an open source Message Passing Interface implementation that is developed and maintained by a consortium of academic, research, and industry partners. Open MPI is therefore able to combine the expertise, technologies, and resources from all across the High Performance Computing community in order to build the best MPI library available. Open MPI offers advantages for system and software vendors, application developers and computer science researchers.
+openmvg              1.4-6            open Multiple View Geometry library. Basis for 3D computer vision and Structure from Motion.
+openmvg[opencv]                       opencv support for openmvg
+openmvg[openmp]                       openmp support for openmvg
+openmvs              1.0-2            OpenMVS: open Multi-View Stereo reconstruction library
+openni2              2.2.0.33-10      OpenNI is open source library for access to Natural Interaction (NI) devices such as RGB-D camera.
+openssl              1                OpenSSL is an open source project that provides a robust, commercial-grade, and full-featured toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols. It is also a general-purpose cryptography library.
+openssl-unix         1.0.2s-1         OpenSSL is an open source project that provides a robust, commercial-grade, and full-featured toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols. It is also a general-purpose cryptography library.
+openssl-uwp          1.0.2r           OpenSSL is an open source project that provides a robust, commercial-grade, and full-featured toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols. It is also a general-purpose cryptography library.
+openssl-windows      1.0.2s-1         OpenSSL is an open source project that provides a robust, commercial-grade, and full-featured toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols. It is also a general-purpose cryptography library.
+opentracing          1.5.1-1          C++ implementation of the OpenTracing API
+openvdb              6.1.0            Sparse volume data structure and tools
+openvdb[tools]                        OpenVDB utilities: view, print and render
+openvpn3             2018-03-21-1     a C++ class library that implements the functionality of an OpenVPN client, and is protocol-compatible with the OpenVPN 2.x branch.
+openvr               1.5.17           an API and runtime that allows access to VR hardware from multiple vendors without requiring that applications have specific knowledge of the hardware they are targeting.
+openxr-loader        2019-09-25       Khronos API for abstracting VR/MR/AR hardware
+openxr-loader[vulkan]                 Vulkan functionality for OpenXR
+optional-bare        1.1.0            A simple version of a C++17-like optional for default-constructible, copyable types, for C++98 and later in a single-file header-only library
+optional-lite        3.2.0            A C++17-like optional, a nullable object for C++98, C++11 and later in a single-file header-only library
+opus                 1.3.1            Totally open, royalty-free, highly versatile audio codec
+opusfile             0.11-3           Stand-alone decoder library for .opus streams
+opusfile[opusurl]                     Support decoding of http(s) streams
+orc                  1.5.6            The smallest, fastest columnar storage for Hadoop workloads.
+orocos-kdl           1.4-2            Kinematics and Dynamics Library
+osg                  3.6.4            The OpenSceneGraph is an open source high performance 3D graphics toolkit.
+osg[collada]                          Support for Collada (.dae) files
+osg-qt               Qt4              osgQt - Qt project for making use of OpenSceneGraph(OSG)
+osgearth             2.10.2           osgEarth - Dynamic map generation toolkit for OpenSceneGraph Copyright 2015 Pelican Mapping.
+osi                  0.108.4-2        Osi (Open Solver Interface) provides an abstract base class to a generic linear programming (LP) solver, along with derived classes for specific solvers. Many applications may be able to use the Osi to insulate themselves from a specific LP solver.
+otl                  4.0.443          Oracle, Odbc and DB2-CLI Template Library
+outcome              2.1              Provides very lightweight outcome<T> and result<T> (non-Boost edition)
+p-ranav-csv          2019-07-11       CSV for modern C++
+paho-mqtt            1.3.0            Paho project provides open-source client implementations of MQTT and MQTT-SN messaging protocols aimed at new, existing, and emerging applications for the Internet of Things
+paho-mqttpp3         1.0.1-2          Paho project provides open-source C++ wrapper for Paho C library
+paho-mqttpp3[ssl]                     Build with SSL support
+pango                1.40.11-4        Text and font handling library.
+pangolin             0.5-7            Lightweight GUI Library
+pangomm              2.40.1-1         pangomm is the official C++ interface for the Pango font layout library. See, for instance, the Pango::Layout class.
+parallel-hashmap     1.24             A header-only, very fast and memory-friendly family of C++ hash maps. 
+parallelstl          20190522-1       Parallel STL is an implementation of the C++ standard library algorithms with support for execution policies, as specified in ISO/IEC 14882:2017 standard, commonly called C++17.
+parmetis             4.0.3-3          Parallel Graph Partitioning and Fill-reducing Matrix Ordering
+parquet              0                Parquet-cpp is a C++ library to read and write the Apache Parquet columnar data format.  It is now part of the arrow library.
+parson               2019-07-11       a lighweight json library written in C
+pbc                  0.5.14-1         Pairing-Based Crypto library provides low-level routines for pairing-based cryptosystems.
+pcg                  0.98.1           Permuted Congruential Generator
+pcl                  1.9.1-9          Point Cloud Library (PCL) is open source library for 2D/3D image and point cloud processing.
+pcl[openni2]                          OpenNI2 support for PCL
+pcl[qt]                               Qt support for PCL
+pcl[pcap]                             PCAP support for PCL
+pcl[tools]                            Build PCL utilities
+pcl[cuda]                             CUDA support for PCL
+pcl[opengl]                           OpenGL support for PCL
+pcre                 8.41-3           Perl Compatible Regular Expressions
+pcre2                10.30-5          PCRE2 is a re-working of the original Perl Compatible Regular Expressions library
+pdal                 1.7.1-5          PDAL - Point Data Abstraction Library is a library for manipulating point cloud data.
+pdal-c               1.8-2            C API for the Point Data Abstraction Library (PDAL)
+pdcurses             3.8              Public Domain Curses - a curses library for environments that don't fit the termcap/terminfo model.
+pdqsort              2019-07-30       Pattern-defeating quicksort (pdqsort) is a novel sorting algorithm
+pegtl                3.0.0-pre-697aaa0 The Parsing Expression Grammar Template Library (PEGTL) is a zero-dependency C++ header-only parser combinator library for creating parsers according to a Parsing Expression Grammar (PEG).
+pegtl-2              2.8.1            The Parsing Expression Grammar Template Library (PEGTL) is a zero-dependency C++ header-only parser combinator library for creating parsers according to a Parsing Expression Grammar (PEG). This version maintains compatibility with C++11.
+pfultz2-linq         2019-05-14       Linq for list comprehension in C++
+physfs               3.0.2            a library to provide abstract access to various archives
+physx                4.1.1-1          The NVIDIA PhysX SDK is a scalable multi-platform physics solution supporting a wide range of devices, from smartphones to high-end multicore CPUs and GPUs
+picojson             1.3.0            A header-file-only, JSON parser serializer in C++.
+picosha2             2018-07-30       PicoSHA2 - a C++ SHA256 hash generator
+piex                 2019-07-11       The Preview Image Extractor (PIEX) is designed to find and extract the largest
+pistache             2019-08-05       Pistache is a modern and elegant HTTP and REST framework for C++. It is entirely written in pure-C++11 and provides a clear and pleasant API.
+pixel                0.3              Simple 2D Graphics based on standard and portable OpenGL.
+pixman               0.38.0-3         Pixman is a low-level software library for pixel manipulation, providing features such as image compositing and trapezoid rasterization.
+platform-folders     4.0.0-5          A C++ library to look for special directories like "My Documents" and "%APPDATA%"
+plf-colony           2019-08-10       An unordered data container providing fast iteration/insertion/erasure while maintaining pointer validity to non-erased elements
+plf-list             2019-08-10       A drop-in replacement for std::list with 293% faster insertion, 57% faster erasure, 17% faster iteration and 77% faster sorting on average
+plf-nanotimer        2019-08-10       A simple C++ 03/11/etc timer class for ~microsecond-precision cross-platform benchmarking
+plf-stack            2019-08-10       A C++ data container replicating std::stack functionality but with better performance
+plib                 1.8.5-3          A suite of portable game libraries
+plibsys              0.0.4-2          Highly portable C system library: threads and synchronization, sockets, IPC, data structures and more.
+plog                 1.1.4            Portable, simple and extensible C++ logging library.
+plplot               5.13.0-2         PLplot is a cross-platform software package for creating scientific plots whose (UTF-8) plot symbols and text are limited in practice only by what Unicode-aware system fonts are installed on a user's computer.
+plplot[wxwidgets]                     plplot wxwidgets module
+plustache            0.4.0-1          {{mustaches}} for C++
+pmdk                 1.6-1            Persistent Memory Development Kit
+pngwriter            0.7.0-2          PNGwriter is a very easy to use open source graphics library that uses PNG as its output format
+poco                 1.9.2-1          Modern, powerful open source C++ class libraries for building network and internet-based applications that run on desktop, server, mobile and embedded systems.
+poco[mysql]                           Mysql support for POCO
+poco[mariadb]                         MariaDB support for POCO
+poco[postgresql]                      PostgreSQL support for POCO
+poco[pdf]                             Haru support for POCO
+podofo               0.9.6-7          PoDoFo is a library to work with the PDF file format
+podofo[fontconfig]                    Enable font manager support on Unix platforms.
+polyclipping         6.4.2            The Clipper library performs clipping and offsetting for both lines and polygons. All four boolean clipping operations are supported - intersection, union, difference and exclusive-or. Polygons can be of any shape including self-intersecting polygons.
+ponder               3.0.0            A C++ multi-purpose reflection library.
+portable-snippets    2019-09-20       Collection of miscellaneous portable C snippets
+portaudio            19.0.6.00-5      PortAudio Portable Cross-platform Audio I/O API PortAudio is a free, cross-platform, open-source, audio I/O library.  It lets you write simple audio programs in 'C' or C++ that will compile and run on many platforms including Windows, Macintosh OS X, and Unix (OSS/ALSA). It is intended to promote the exchange of audio software between developers on different platforms. Many applications use PortAudio for Audio I/O.
+portmidi             0.217.1          Free, cross-platform, open-source I/O library for MIDI
+ppconsul             0.3-1            A C++ client library for Consul. Consul is a distributed tool for discovering and configuring services in your infrastructure.
+pprint               2019-07-19       Pretty Printer for Modern C++
+pqp                  1.3-3            a proximity query package
+proj                 0                a stub package that pulls in proj4. Do not depend on this package.
+proj4                4.9.3-4          PROJ.4 library for cartographic projections
+prometheus-cpp       0.7.0            Prometheus Client Library for Modern C++
+prometheus-cpp[compression]           Enable zlib compression
+prometheus-cpp[tests]                 Additional testing support
+prometheus-cpp[pull]                  Support for regular pull mode
+prometheus-cpp[push]                  Support push gateway
+protobuf             3.9.1            Protocol Buffers - Google's data interchange format
+protobuf[zlib]                        ZLib based features like Gzip streams
+ptex                 2.3.2            Per-Face Texture Mapping for Production Rendering.
+pthread              3.0.0            empty package, linking to other port
+pthreads             3.0.0-3          pthreads for windows
+pugixml              1.10             C++ XML processing library
+pybind11             2.3.0            pybind11 is a lightweight header-only library that exposes C++ types in Python and vice versa, mainly to create Python bindings of existing C++ code.
+pystring             1.1.3-2          Pystring is a collection of C++ functions which match the interface and behavior of python's string class methods using std::string
+python2              2.7.15-1         The Python programming language as an embeddable library
+python3              3.7.3            The Python programming language as an embeddable library
+qca                  2.2.1            Qt Cryptographic Architecture (QCA).
+qcustomplot          2.0.1-1          QCustomPlot is a Qt C++ widget for plotting and data visualization.
+qhull                7.3.2-1          computes the convex hull, Delaunay triangulation, Voronoi diagram
+qpid-proton          0.28.0           Qpid Proton is a high-performance, lightweight messaging library.
+qscintilla           2.10-8           QScintilla is a port to Qt of the Scintilla editing component. Features syntax highlighting, code-completion and much more (Barebone build without python bindings (missing dependeny PyQt) and without QtDesigner plugin)
+qt-advanced-docking-system 2019-08-14       Create customizable layouts using an advanced window docking system similar to what is found in many popular IDEs such as Visual Studio
+qt5                  5.12.5           Qt5 Application Framework
+qt5[latest]                           Build latest qt version (5.13.1) instead of LTS
+qt5-3d               5.12.5-1         Qt5 3d Module - Functionality for near-realtime simulation systems with support for 2D and 3D rendering
+qt5-activeqt         5.12.5           Qt5 ActiveQt Module - ActiveX components
+qt5-base             5.12.5-1         Qt5 Application Framework Base Module. Includes Core, GUI, Widgets, Networking, SQL, Concurrent and other essential qt components.
+qt5-base[latest]                      Build latest qt version (5.13.1) instead of LTS
+qt5-charts           5.12.5-1         Qt5 Charts Module - UI components for displaying charts, driven by static or dynamic data models
+qt5-connectivity     5.12.5-1         Qt5 Connectivity module - Provides access to Bluetooth and NFC hardware
+qt5-datavis3d        5.12.5-1         Qt5 Data Visualization 3d Module - UI Components for creating 3D data visualizations
+qt5-declarative      5.12.5-1         Qt5 Declarative (Quick 2) Module. Includes QtQuick, QtQuickParticles, QtQuickWidgets, QtQml, and QtPacketProtocol.
+qt5-gamepad          5.12.5-1         Qt5 Gamepad Module - Enables Qt applications to support the use of gamepad hardware
+qt5-graphicaleffects 5.12.5           Qt5 GraphicalEffects Module.
+qt5-imageformats     5.12.5-1         Qt5 Image Formats Module - Plugins for additional image formats: TIFF, MNG, TGA, WBMP
+qt5-location         5.12.5-1         Qt5 Location Module - Displays map, navigation, and place content in a QML application.
+qt5-macextras        5.12.5           Qt5 Mac Extras Module. Provides platform-specific APIs for mac.
+qt5-modularscripts   deprecated       now part of qt5-base, formerly vcpkg helpers to package qt5 modules
+qt5-mqtt             5.12.5           Qt5 MQTT module.
+qt5-multimedia       5.12.5-1         Qt5 Multimedia Module - Classes and widgets for audio, video, radio and camera functionality
+qt5-networkauth      5.12.5           Qt5 Network Authorization Module
+qt5-purchasing       5.12.5-1         Qt5 Purchasing Module - Enables in-app purchase of products in Qt applications.
+qt5-quickcontrols    5.12.5-1         Qt5 QuickControls Module.
+qt5-quickcontrols2   5.12.5-1         Qt5 QuickControls2 Module.
+qt5-remoteobjects    5.12.5-1         Qt5 Remoteobjects module - Provides an easy to use mechanism for sharing a QObject's API (Properties/Signals/Slots) between processes or devices.
+qt5-script           5.12.5-1         Qt5 Script Module.
+qt5-scxml            5.12.5           Qt5 SCXML Module - Provides classes and tools for creating state machines from SCXML files and embedding them in applications
+qt5-sensors          5.12.5-1         Qt5 Sensors module - Provides access to sensor hardware and motion gesture recognition.
+qt5-serialport       5.12.5           Qt5 Serial Port - provides access to hardware and virtual serial ports
+qt5-speech           5.12.5-1         Qt5 Speech Module
+qt5-svg              5.12.5           Qt5 SVG Module - provides classes for displaying the contents of SVG files
+qt5-tools            5.12.5-1         Qt5 Tools Module; Includes deployment tools and helpers, Qt Designer, Assistant, and other applications
+qt5-virtualkeyboard  5.12.5-1         Qt5 Virtual Keyboard Module - A framework for implementing different input methods. Supports localized keyboard layouts and custom visual themes
+qt5-webchannel       5.12.5-1         Qt5 Web Channel module - Provides access to QObject or QML objects from HTML clients for seamless integration of Qt applications with HTML/JavaScript clients.
+qt5-websockets       5.12.5           Qt5 Web Sockets Module - provides WebSocket communication compliant with RFC 6455
+qt5-webview          5.12.5-1         Qt5 WebView module - Provides a way to display web content in a QML application without necessarily including a full web browser stack by using native APIs where it makes sense.
+qt5-winextras        5.12.5-1         Qt5 Windows Extras Module. Provides platform-specific APIs for Windows.
+qt5-xmlpatterns      5.12.5           Qt5 XML Patterns Module - Support for XPath, XQuery, XSLT and XML schema validation
+qtkeychain           v0.9.1           qtkeychain - Platform-independent Qt API for storing passwords securely
+quantlib             2019-09-02       The QuantLib C++ library
+quickfast            1.5              QuickFAST is an Open Source native C++ implementation of the FAST Protocol [SM].
+quickfix             1.15.1           QuickFIX is a free and open source implementation of the FIX protocol.
+quirc                1.0-3            quirc is one of the C library available for scanning QR Codes
+qwt                  6.1.3-8          Qt widgets library for technical applications
+rabit                0.1-2            rabit is a light weight library that provides a fault tolerant interface of Allreduce and Broadcast. It is designed to support easy implementations of distributed machine learning programs, many of which fall naturally under the Allreduce abstraction.
+ragel                6.10-2           Ragel State Machine Compiler
+rang                 3.1.0            Colors for your Terminal.
+range-v3             0.9.0-20190822   Range library for C++11/14/17.
+range-v3-vs2015      20151130-vcpkg5  Range library for C++11/14/17.
+rapidcheck           2018-11-05-1     A property-based testing library for C++ (a la QuickCheck) with the goal of being simple to use with as little boilerplate as possible.
+rapidjson            d87b698-1        A fast JSON parser/generator for C++ with both SAX/DOM style API <http://rapidjson.org/>
+rapidstring          2018-08-03       rapidstring is maybe the fastest string library ever written in ANSI C.
+rapidxml             1.13             RapidXml is an attempt to create the fastest XML parser possible, while retaining useability, portability and reasonable W3C compatibility.
+rapidxml-ns          1.13.2           RapidXML with added XML namespaces support.
+raylib               2.5.0            A simple and easy-to-use library to enjoy videogames programming
+raylib[non-audio]                     Build raylib without audio module
+re2                  2019-09-01       RE2 is a fast, safe, thread-friendly alternative to backtracking regular expression engines like those used in PCRE, Perl, and Python. It is a C++ library.
+readerwriterqueue    1.0.0-1          A single-producer, single-consumer lock-free queue
+readline             0                GNU readline and history libraries
+readline-win32       5.0-2            Implementation of readline for Windows Desktop
+readosm              1.1.0-1          ReadOSM is an open source library to extract valid data from within an Open Street Map input file (.osm or .osm.pbf)
+realsense2           2.22.0-2         Intel® RealSense™ SDK 2.0 is a cross-platform library for Intel® RealSense™ depth cameras (D400 series and the SR300).
+realsense2[tools]                     Build Intel® RealSense™ examples and tools
+realsense2[openni2]                   Build Intel® RealSense™ OpenNI2 driver
+recast               1.5.1-3          Navigation-mesh Toolset for Games
+refprop-headers      2017-11-7-882aec454b2bc3d5323b8691736ff09c288f4ed6 The REFPROP Headers
+reproc               8.0.1            Cross-platform library that simplifies working with external CLI applications from C and C++ 
+restbed              4.16-07-28-2018-1 Corvusoft's Restbed framework brings asynchronous RESTful functionality to C++11 applications.
+restbed[openssl]                      Secure over the wire communication allowing you to transmit private data online.
+restclient-cpp       0.5.1-2          Binn is a binary data serialization format designed to be compact, fast and easy to use.
+restinio             0.6.0            A header-only C++14 library that gives you an embedded HTTP/Websocket server targeted primarily for asynchronous processing of HTTP-requests.
+rhash                1.3.8            C library for computing a wide variety of hash sums
+riffcpp              2.2.4            Simple library for reading RIFF files
+ring-span-lite       0.3.0            A C++yy-like ring_span type for C++98, C++11 and later in a single-file header-only library
+roaring              2019-03-05-2     A better compressed bitset in C (and C++)
+robin-hood-hashing   3.4.0            Fast & memory efficient hashtable based on robin hood hashing for C++14
+robin-map            0.6.1            A C++ implementation of a fast hash map and hash set using robin hood hashing
+rocksdb              6.1.2-1          A library that provides an embeddable, persistent key-value store for fast storage
+rocksdb[lz4]                          lz4 support in rocksdb
+rocksdb[snappy]                       snappy support in rocksdb
+rocksdb[zlib]                         zlib support in rocksdb
+rocksdb[tbb]                          tbb support in rocksdb
+rocksdb[zstd]                         zstd support in rocksdb
+rpclib               2.2.1-1          a RPC library for C++, providing both a client and server implementation. It is built using modern C++14.
+rs-core-lib          2019-07-11       Minimal common utilities by Ross Smith
+rtmidi               4.0.0            A set of C++ classes that provide a common API for realtime MIDI input/output across Linux (ALSA & JACK), Macintosh OS X (CoreMidi & JACK) and Windows (Multimedia)
+rttr                 0.9.6-1          an easy and intuitive way to use reflection in C++
+rxcpp                4.1.0            Reactive Extensions for C++
+rxqt                 bb2138c          The Reactive Extensions for Qt.
+safeint              3.21             SafeInt is a class library for C++ that manages integer overflows
+sais                 2.4.1            An implementation of the induced sorting algorithm
+sajson               2018-09-21       Lightweight, extremely high-performance JSON parser for C++11
+scintilla            4.1.2            A free source code editing component for Win32, GTK+, and OS X
+sciter               4.2.6.9-1        Sciter is an embeddable HTML/CSS/scripting engine.
+scnlib               0.1.2            scnlib is a modern C++ library for replacing scanf and std::istream
+scylla-wrapper       2018-08-26-16e6f435 This is a wrapper around Scylla.  It exports functions for IAT fixing, dumping and PE rebuilding. based on https://github.com/NtQuery/Scylla commit 0f6b7198be  (v0.9.6b).
+sdformat6            6.2.0            Simulation Description Format (SDF) parser and description files.
+sdl1                 1.2.15-8         Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D.
+sdl1-net             1.2.8-3          Networking library for SDL
+sdl2                 2.0.9-4          Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D.
+sdl2[vulkan]                          Vulkan functionality for SDL
+sdl2-gfx             1.0.4-2          Graphics primitives (line, circle, rectangle etc.) with AA support, rotozoomer and other drawing related support functions wrapped up in a C based add-on library for the Simple Direct Media (SDL) cross-platform API layer.
+sdl2-image           2.0.5            SDL_image is an image file loading library. It loads images as SDL surfaces and textures, and supports the following formats: BMP, GIF, JPEG, LBM, PCX, PNG, PNM, TGA, TIFF, WEBP, XCF, XPM, XV
+sdl2-image[libjpeg-turbo]             Support for JPEG image format
+sdl2-image[tiff]                      Support for TIFF image format
+sdl2-image[libwebp]                   Support for WEBP image format.
+sdl2-mixer           2.0.4-6          Multi-channel audio mixer library for SDL.
+sdl2-mixer[libflac]                   Support for FLAC audio format.
+sdl2-mixer[mpg123]                    Support for MP3 audio format.
+sdl2-mixer[libmodplug]                Support for MOD audio format.
+sdl2-mixer[libvorbis]                 Support for OGG Vorbis audio format.
+sdl2-mixer[opusfile]                  Support for Opus audio format.
+sdl2-net             2.0.1-7          Networking library for SDL
+sdl2-ttf             2.0.15-3         A library for rendering TrueType fonts with SDL
+sdl2pp               0.16.0-1         C++11 bindings/wrapper for SDL2
+secp256k1            2017-19-10-0b7024185045a49a1a6a4c5615bf31c94f63d9c4-2 Optimized C library for EC operations on curve
+selene               0.3.1-1          A C++17 image representation, processing and I/O library.
+sentencepiece        v0.1.82          SentencePiece is an unsupervised text tokenizer and detokenizer mainly for Neural Network-based text generation systems where the vocabulary size is predetermined prior to the neural model training
+septag-sx            2019-05-07-2     Portable base library for C programmers, designed for performance and simplicity.
+seqan                2.4.0            SeqAn is an open source C++ library of efficient algorithms and data structures for the analysis of sequences with the focus on biological data.
+sf2cute              0.2.0-1          C++14 Library for SoundFont 2
+sf2cute[example]                      Installs an example application
+sfgui                0.4.0            simple and fast graphical user interface library
+sfml                 2.5.1-2          Simple and fast multimedia library
+shaderc              2019-06-26-1     A collection of tools, libraries and tests for shader compilation.
+shapelib             1.4.1-1          Shapefile C Library is simple C API for reading and writing ESRI Shapefiles
+shiva                1.0-2            Modern C++ Game Engine
+shiva-sfml           1.0              shiva-sfml plugins of shiva C++ engine
+shogun               6.1.4            Unified and efficient Machine Learning
+signalrclient        1.0.0-beta1-7    C++ client for SignalR.
+sigslot              1.0.0            Portable C++ type-safe, thread-safe signal/slot library for ISO C++, Unix/BSD/Linux and Win32. Sigslot allows C++ code to use the signal/slot paradigm made popular by, for example, Qt.
+simde                2019-06-05       Implementations of SIMD instruction sets for systems which don't natively support them
+simdjson             2019-08-05       A extremely fast JSON library that can parse gigabytes of JSON per second
+simpleini            2018-08-31-2     Cross-platform C++ library providing a simple API to read and write INI-style configuration files
+smpeg2               2.0.0-6          SDL MPEG Player Library
+snappy               1.1.7-2          A fast compressor/decompressor.
+sndfile              0                x Library to read, write and manipulate many soundfile types.
+sndfile[external-libs]                Support Ogg Vorbis and FLAC audio files
+snowhouse            3.1.1            An assertion library for C++
+so5extra             1.3.1-1          A set of additional tools for SObjectizer framework.
+sobjectizer          5.6.1            SObjectizer is a C++ in-process message dispatching framework with implementation of Actor Model, Publish-Subscribe Model and CSP-like channels.
+soci                 3.2.3-4          SOCI database access library
+soci[boost]                           Integration with Boost
+soci[sqlite3]                         Build sqlite3 backend
+soci[postgresql]                      Build postgresql backend
+soci[odbc]                            Build odbc backend
+socket-io-client     1.6.1-1          C++11 implementation of Socket.IO client
+soil                 2008.07.07-1     Simple OpenGL Image Library
+soil2                release-1.11     Simple OpenGL Image Library 2
+sokol                2019-09-09       Minimal cross-platform standalone C headers
+sol2                 3.0.3-1          Sol v2.0 - a C++ <-> Lua API wrapper with advanced features and top notch performance - is here, and it's great
+solid3               3.5.8            Software Library for Interference Detection
+sophus               1.0.0-6          Lie group library for C++
+soundtouch           2.0.0-3          SoundTouch is an open-source audio processing library for changing the Tempo, Pitch and Playback Rates of audio streams or audio files.
+soxr                 0.1.3.           High quality audio resampling
+spaceland            7.8.2-3          Spaceland Lib (sl) is a suite for geometric computation, specifically adapted to OpenGL.
+span-lite            0.5.0            A C++20-like span for C++98, C++11 and later in a single-file header-only library
+sparsehash           2.0.3            The sparsehash package consists of two hashtable implementations: sparse, which is designed to be very space efficient, and dense, which is designed to be very time efficient.
+sparsepp             1.22-1           A fast, memory efficient hash map for C++
+spatialite-tools     4.3.0-1          Contains spatialite.exe and other command line tools to work with SpatiaLite databases (import, export, SQL queries)
+spdk                 19.01.1          Storage Performance Development Kit
+spdk-dpdk            20181124         SPDK mirror of DPDK. A set of libraries and drivers for fast packet processing
+spdk-ipsec           20180711         SPDK mirror of ipsec. Intel(R) Multi-Buffer Crypto for IPsec Library
+spdk-isal            20181006         SPDK mirror of isa-l. Intel(R) Intelligent Storage Acceleration Library
+spdlog               1.3.1-2          Very fast, header only, C++ logging library
+spdlog[benchmark]                     Use google benchmark
+spectra              0.8.1            A header-only C++ library for large scale eigenvalue problems
+speex                1.2.0-4          Speex is an Open Source/Free Software patent-free audio compression format designed for speech.
+speexdsp             1.2.0            A patent-free, Open Source/Free Software DSP library.
+spirit-po            1.1.2-1          A header-only C++ library for localization using GNU gettext po files, based on Boost.Spirit.
+spirv-cross          2019-07-26       SPIRV-Cross is a practical tool and library for performing reflection on SPIR-V and disassembling SPIR-V back to high level languages.
+spirv-headers        2019-05-05       Machine-readable files for the SPIR-V Registry
+spirv-tools          2019.3-dev-1     API and commands for processing SPIR-V modules
+sprout               2019-06-20       C++11/14 constexpr based Containers, Algorithms, Random numbers, Parsing, Ray tracing, Synthesizer, and others
+spscqueue            2019-07-26       A bounded single-producer single-consumer wait-free and lock-free queue written in C++11
+sqlite-modern-cpp    3.2-936cd0c8     The C++14 wrapper around sqlite library
+sqlite-orm           1.4              SQLite ORM light header only library for modern C++
+sqlite3              3.29.0-1         SQLite is a software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine.
+sqlite3[tool]                         sqlite3 executable
+sqlitecpp            2.3.0            SQLiteC++ (SQLiteCpp) is a smart and easy to use C++ SQLite3 wrapper.
+sqlpp11              0.58-1           A type safe embedded domain specific language for SQL queries and results in C++.
+sqlpp11-connector-mysql 0.25-2           A C++ wrapper for MySQL meant to be used in combination with sqlpp11.
+sqlpp11-connector-sqlite3 0.29-2           A C++ wrapper for sqlite3 meant to be used in combination with sqlpp11.
+status-value-lite    1.1.0            status_value is a single-file header-only library for objects that represent a status and an optional value. It is intended for use with C++11 and later. 
+status-value-lite[test]               Build with test
+stb                  2019-07-11       stb single-file public domain libraries for C/C++
+stlab                1.4.1-1          
+  stlab is the ongoing work of what was Adobe’s Software Technology Lab.
+  The Concurrency library provides futures and channels, high level constructs for implementing algorithms that eases the use of multiple CPU cores while minimizing contention. This library solves several problems of the C++11 and C++17 TS futures.
+stormlib             2019-05-10       StormLib is a library for opening and manipulating Blizzard MPQ files
+strict-variant       0.5              Tagged union implementation that will never throw an exception or make a dynamic allocation in the effort of supporting types that have throwing moves.
+string-theory        2.2              Flexible C++11 string library with type-safe formatting.
+string-view-lite     1.3.0            A C++17-like string_view for C++98, C++11 and later in a single-file header-only library
+strtk                2019-01-09       robust, optimized and portable string processing algorithms for the C++ language
+stxxl                2018-11-15-2     Standard Template Library for Extra Large Data Sets
+suitesparse          5.4.0-3          algebra library
+suitesparse[metis]                    Use metis in SuiteSparse
+sundials             3.1.1-1          SUNDIALS (SUite of Nonlinear and DIfferential/ALgebraic equation Solvers)
+systemc              2.3.3-3          A set of C++ classes and macros which provide an event-driven simulation kernel in C++
+szip                 2.1.1-5          Szip compression software, providing lossless compression of scientific data
+tacopie              3.2.0-2          Tacopie is a TCP Client & Server C++11 library
+taglib               1.11.1-20190531  TagLib Audio Meta-Data Library
+taocpp-json          2019-07-11       C++ header-only JSON library
+tap-windows6         9.21.2-0e30f5c   an NDIS 6 implementation of the TAP-Windows driver, used by OpenVPN and other apps. Note: This package only contains the headers for the driver.
+tbb                  2019_U8-1        Intel's Threading Building Blocks.
+tcl                  8.6.5            Tcl provides a powerful platform for creating integration applications that tie together diverse applications, protocols, devices, and frameworks. When paired with the Tk toolkit, Tcl provides the fastest and most powerful way to create GUI applications that run on PCs, Unix, and Mac OS X. Tcl can also be used for a variety of web-related tasks and for creating powerful command languages for applications.
+tclap                1.2.2            Templatized command-line argument parser for C++
+telnetpp             2.0-2            Telnet++ is an implementation of the Telnet Session Layer protocol using C++14
+telnetpp[zlib]                        Zlib support
+tensorflow-cc        1.14-1           Library for computation using data flow graphs for scalable machine learning
+tesseract            4.1.0-2          An OCR Engine that was developed at HP Labs between 1985 and 1995... and now at Google.
+tesseract[training_tools]             build training tools
+tesseract[cpu_independed]             build on any cpu extension commands support
+tgc                  2019-08-11       A tiny garbage collector for C
+tgui                 0.8.5            TGUI is an easy to use, cross-platform, C++ GUI for SFML.
+tgui[tool]                            Build GUI builder
+theia                0.8-2            An open source library for multiview geometry and structure from motion
+think-cell-range     498839d-1        think-cell's range library
+thor                 2.0-3            Extends the multimedia library SFML with higher-level features
+thrift               2019-05-07-3     Apache Thrift is a software project spanning a variety of programming languages and use cases. Our goal is to make reliable, performant communication and data serialization across languages as efficient and seamless as possible.
+tidy-html5           5.7.28           Tidy tidies HTML and XML. It can tidy your documents by itself, and developers can easily integrate its features into even more powerful tools.
+tiff                 4.0.10-7         A library that supports the manipulation of TIFF image files
+tinkerforge          2.1.25           Tinkerforge C API bindings for bricks and bricklets
+tiny-aes-c           2019-07-31       Small portable AES128/192/256 in C
+tiny-bignum-c        2019-07-31       Small portable multiple-precision unsigned integer arithmetic in C
+tiny-dnn             2018-10-25       A C++14 implementation of deep learning. It is suitable for deep learning on limited computational resource.
+tiny-process-library 2018-12-06       A small platform independent library
+tiny-regex-c         2019-07-31       A small regex implementation in C
+tinycthread          2019-08-06       Small, portable implementation of the C11 threads API
+tinydir              1.2.4            Lightweight, portable and easy to integrate C directory and file reader
+tinyexif             1.0.2-6          tiny ISO-compliant C++ EXIF and XMP parsing library for JPEG images
+tinyexr              0.9.5-d16ea6-1   Library to load and save OpenEXR(.exr) images
+tinyfiledialogs      3.3.8            Highly portable and cross-platform dialogs for native inputbox, passwordbox, colorpicker and more
+tinygltf             2.2.0            A header only C++11 glTF 2.0 library.
+tinynpy              1.0.0-3          tiny C++ loader/exporter of python numpy array NPY/NPZ files
+tinyobjloader        1.0.7-1          Tiny but powerful single file wavefront obj loader
+tinyspline           0.2.0-3          Library for NURBS, B-Splines, and B?zier curves, allowing you to handle splines with ease
+tinythread           1.1-2            Implements a fairly compatible subset of the C++11 thread management classes
+tinytoml             20180219-1       A header only C++11 library for parsing TOML.
+tinyutf8             3.0.1            TINYUTF8 is a library for extremely easy integration of Unicode into an arbitrary C++11 project.
+tinyxml              2.6.2-4          A simple, small, minimal, C++ XML parser that can be easily integrating into other programs.
+tinyxml2             7.0.1-2          A simple, small, efficient, C++ XML parser
+tl-expected          1.0.0-1          C++11/14/17 std::expected implementation with functional-style extensions 
+tl-function-ref      1.0.0-1          A lightweight, non-owning reference to a callable.
+tl-optional          1.0.0-1          C++11/14/17 std::optional implementation with functional-style extensions 
+tmx                  1.0.0-1          A portable C library to load tiled maps in your games.
+tmxlite              2019-03-05       A lightweight C++14 parsing library for tmx map files created with the Tiled map editor.
+tmxparser            2.1.0-2          C++11 library for parsing the maps generated by the Map Editor called Tiled.
+torch-th             2019-04-19-1     Torch's TH library
+tre                  0.8.0-1          TRE is a lightweight, robust, and efficient POSIX compliant regexp matching library with some exciting features such as approximate (fuzzy) matching.
+treehopper           1.11.3-3         Treehopper connects the physical world to your computer, tablet, or smartphone.
+trompeloeil          34-1             A thread-safe header-only mocking framework for C++11/14 using the Boost Software License 1.0
+tsl-hopscotch-map    2.2.1-1          C++ implementation of a fast hash map and hash set using hopscotch hashing 
+tsl-ordered-map      0.8.1-1          C++ hash map and hash set which preserve the order of insertion
+tsl-sparse-map       0.6.1-1          C++ implementation of a memory efficient hash map and hash set
+tweeny               3.0              A modern C++ tweening library
+type-lite            0.1.0            Strong types for C++98, C++11 and later in a single-file header-only library.
+type-lite[test]                       Build with test
+umock-c              2019-08-20.1     A pure C mocking library
+unicorn              2019-07-11       Unicorn is a lightweight multi-platform, multi-architecture CPU emulator framework
+unicorn-lib          2019-07-11       Unicode library for C++ by Ross Smith
+units                2.3.0            A compile-time, header-only, dimensional analysis and unit conversion library built on c++14 with no dependencies. 
+unittest-cpp         2.0.0-1          A lightweight unit testing framework for C++
+unrar                5.8.1            rarlab's unrar libary
+urdfdom              1.0.3-1          Provides core data structures and a simple XML parsers for populating the class data structures from an URDF file.
+urdfdom-headers      1.0.4-1          The URDF (U-Robot Description Format) headers provides core data structure headers for URDF.
+uriparser            0.9.3-4          uriparser is a strictly RFC 3986 compliant URI parsing and handling library written in C89 ("ANSI C"). uriparser is cross-platform, fast, supports Unicode, and is licensed under the New BSD license.
+uriparser[tool]                       Builds tools (e.g. CLI "uriparse")
+usbmuxd              1.2.76           A socket daemon to multiplex connections from and to iOS devices
+usd                  0.8.4-2          Universal Scene Description (USD) is an efficient, scalable system for authoring, reading, and streaming time-sampled scene description for interchange between graphics applications.
+usockets             0.3.1            Miniscule cross-platform eventing, networking & crypto for async applications
+usrsctp              35c1d97020a-2    This is a userland SCTP stack supporting FreeBSD, Linux, Mac OS X and Windows.
+utf8h                841cb2deb8eb806e73fff0e1f43a11fca4f5da45 Single header utf8 string functions for C and C++
+utf8proc             2.4.0            Clean C library for processing UTF-8 Unicode data.
+utfcpp               3.1              UTF-8 with C++ in a Portable Way
+utfz                 1.2-1            A tiny C++ library for parsing and encoding utf-8
+uvatlas              apr2019          UVAtlas isochart texture atlas
+uvw                  1.18.0           Header-only, event based, tiny and easy to use libuv wrapper in modern C++.
+uwebsockets          0.15.7           Simple, secure & standards compliant web I/O for the most demanding of applications
+valijson             2018-11-17       Header-only C++ library for JSON Schema validation
+value-ptr-lite       0.2.1            A C++ smart-pointer with value semantics for C++98, C++11 and later in a single-file header-only library. 
+value-ptr-lite[test]                  Build with test
+variant-lite         1.2.2            A C++17-like variant, a type-safe union for C++98, C++11 and later in a single-file header-only library
+vcglib               1.0.1            library for manipulation, processing, cleaning, simplifying triangle meshes.
+vectorclass          2.00.01          C++ class library for using the Single Instruction Multiple Data (SIMD) instructions in modern Microprocessors
+visit-struct         1.0-1            A header-only library providing structure visitors for C++11 and C++14
+vlpp                 0.10.0.0         Common C++ construction, including string operation / generic container / linq / General-LR parser generator / multithreading / reflection for C++ / etc
+volk                 2019-09-26       Meta loader for Vulkan API.
+  Note that the static library target volk::volk is built without platform-specific defines.
+  Use the header-only target volk::volk_headers if you require platform-specific extensions.
+vtk                  8.2.0-8          Software system for 3D computer graphics, image processing, and visualization
+vtk[openvr]                           OpenVR functionality for VTK
+vtk[qt]                               Qt functionality for VTK
+vtk[mpi]                              MPI functionality for VTK
+vtk[python]                           Python functionality for VTK
+vtk-dicom            0.8.10           DICOM for VTK
+vtk-dicom[gdcm]                       Use gdcm for decompressing DICOM files.
+vulkan               1.1.82.1-1       A graphics and compute API that provides high-efficiency, cross-platform access to modern GPUs on a wide variety of devices.
+vulkan-hpp           2019-05-11       Header only C++ bindings for the Vulkan C API
+vulkan-memory-allocator 2.2.0            Easy to integrate Vulkan memory allocation library from GPUOpen
+vxl                  v1.18.0-4        A multi-platform collection of C++ software libraries for Computer Vision and Image Understanding.
+vxl[core_imaging]                     core_imaging support for vxl
+wampcc               2019-09-04       Wampcc is C++ library that implements the Web Application Messaging Protocol (WAMP) protocol.
+wampcc[utils]                         Build utility apps
+wampcc[examples]                      Build example apps
+wangle               2019.07.08.00    Wangle is a framework providing a set of common client/server abstractions for building services in a consistent, modular, and composable way.
+wavpack              5.1.0-2          WavPack encode/decode library, command-line programs, and several plugins
+websocketpp          0.8.1-1          Library that implements RFC6455 The WebSocket Protocol
+wepoll               1.5.5            Fast epoll for windows
+wg21-sg14            2019-08-13       A library for Study Group 14 of Working Group 21 (C++)
+wil                  2019-07-16       The Windows Implementation Libraries (WIL) is a header-only C++ library created to make life easier for developers on Windows through readable type-safe C++ interfaces for common Windows coding patterns.
+wildmidi             0.4.3            MIDI software synthesizer library.
+wincrypt             0.0-1            Windows Cryptography.
+winpcap              4.1.3-2          WinPcap is the industry-standard tool for link-layer network access in Windows environments.
+winreg               1.2.1-1          High-level C++ wrapper around the Windows Registry C API.
+winsock2             0.0-1            Windows Sockets.
+wintoast             1.2.0            WinToast is a lightly library written in C++ which brings a complete integration of the modern toast notifications of Windows 8 & Windows 10.
+woff2                1.0.2            font compression reference code
+wpilib               2019.6.1         WPILib is the software library package for the FIRST Robotics Competition. The core install includes wpiutil, a common utilies library, and ntcore, the base NetworkTables library.
+wpilib[cameraserver]                  Enables the CameraServer and CSCore libraries for manipulating USB Cameras and HTTP Camera Streams
+wpilib[allwpilib]                     Enables the simulation HAL, and the high level wpilibc library.
+wren                 2019-07-01       Wren is a small, fast, class-based concurrent scripting language.
+wt                   4.0.5-1          Wt is a C++ library for developing web applications
+wtl                  10.0-3           Windows Template Library (WTL) is a C++ library for developing Windows applications and UI components.
+wxwidgets            3.1.2-2          wxWidgets is a widget toolkit and tools library for creating graphical user interfaces (GUIs) for cross-platform applications.
+x-plane              3.0.1            The X-Plane Plugin SDK.
+x264                 157-303c484ec828ed0-2 x264 is a free software library and application for encoding video streams into the H.264/MPEG-4 AVC compression format
+x265                 3.0-1            x265 is a H.265 / HEVC video encoder application library, designed to encode video or images into an H.265 / HEVC encoded bitstream.
+xalan-c              1.11-8           Xalan is an XSLT processor for transforming XML documents into HTML, text, or other XML document types
+xerces-c             3.2.2-11         Xerces-C++ is a XML parser, for parsing, generating, manipulating, and validating XML documents using the DOM, SAX, and SAX2 APIs.
+xerces-c[icu]                         ICU support
+xerces-c[xmlch_wchar]                 XMLCh type uses wchar_t
+xeus                 0.20.0           C++ implementation of the Jupyter kernel protocol
+xlnt                 1.3.0-2          Cross-platform user-friendly xlsx library for C++14
+xmlsec               1.2.28           XML Security Library is a C library based on LibXML2. The library supports major XML security standards.
+xmsh                 0.4.1            Reference Implementation of XMSH Library
+xorstr               2019-08-10       Heavily vectorized c++17 compile time string encryption
+xproperty            0.8.1            Traitlets-like C++ properties and implementation of the observer pattern
+xsimd                7.2.5            Modern, portable C++ wrappers for SIMD intrinsics
+xsimd[xcomplex]                       xtl complex support
+xtensor              0.20.8           C++ tensors with broadcasting and lazy computing
+xtensor[xsimd]                        xtensor with xsimd support
+xtensor[tbb]                          xtensor with tbb support
+xtensor-blas         0.16.1           BLAS extension to xtensor
+xtensor-io           0.7.0            xtensor plugin to read and write images, audio files, numpy (compressed) npz and HDF5
+xtl                  0.6.5            The x template library.
+xxhash               0.7.0            Extremely fast hash algorithm
+yajl                 2.1.0-1          Yet Another JSON Library
+yaml-cpp             0.6.2-3          yaml-cpp is a YAML parser and emitter in C++ matching the YAML 1.2 spec.
+yara                 3.10.0           The pattern matching swiss knife
+yasm                 1.3.0            Yasm is a complete rewrite of the NASM assembler under the “new” BSD License.
+yato                 1.0-2            Modern C++14 containers and utilities, actors system, typesafe config
+yoga                 1.14.0           Yoga is a cross-platform layout engine which implements Flexbox
+z3                   4.8.5-1          An SMT solver
+z85                  1.0              Z85 is a binary-to-text encoding library. It implements ZeroMQ Base-85 Encoding Algorithm and provides custom padding.
+zeromq               2019-09-20       The ZeroMQ lightweight messaging kernel is a library which extends the standard socket interfaces with features traditionally provided by specialised messaging middleware products
+zeromq[sodium]                        Using libsodium for CURVE security
+zeromq[websockets-sha1]               Enable WebSocket transport through builtin sha1 (libzmq#3676)
+zfp                  0.5.5-1          Zfp is an open source C/C++ library for compressed numerical arrays that support high throughput read and write random access. zfp also supports streaming compression of integer and floating-point data, e.g., for applications that read and write large data sets to and from disk. zfp is primarily written in C and C++ but also includes Python and Fortran bindings.
+zfp[all]                              Build all components
+zfp[cfp]                              cfp support for cfp
+zfp[test]                             Build test
+zfp[example]                          Build example
+zfp[utility]                          Build utility
+zlib                 1.2.11-5         A compression library
+zookeeper            3.5.5            ZooKeeper C bindings
+zookeeper[sync]                       ZooKeeper with the sync API
+zopfli               2019-01-19-1     Zopfli Compression Algorithm compression library programmed in C
+zserge-webview       2019-04-27-2     Tiny cross-platform webview library for C/C++/Golang.
+zstd                 1.4.0            Zstandard - Fast real-time compression algorithm
+zstr                 1.0.1            This C++ header-only library enables the use of C++ standard iostreams to access ZLib-compressed streams.
+zxing-cpp            3.3.3-6          Barcode detection and decoding library.
+zydis                2.0.3            Fast and lightweight x86/x86-64 disassembler library.
+zyre                 2019-07-07       An open-source framework for proximity-based peer-to-peer applications
+zziplib              0.13.69-4        library providing read access on ZIP-archives
+
+If your library is not listed, please open an issue at and/or consider making a pull request:
+    https://github.com/Microsoft/vcpkg/issues

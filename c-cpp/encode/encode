@@ -22,6 +22,7 @@ ffmpeg straming good article - https://github.com/leandromoreira/ffmpeg-libav-tu
 encoding - https://stackoverflow.com/questions/11713882/lossless-ffmpeg-conversion-encoding
 
 https://teradek.com/blogs/articles/what-is-the-optimal-bi
+https://stackoverflow.com/questions/8187745/audio-output-with-video-processing-with-opencv
 
 OpenGL encoding - https://www.codeproject.com/Articles/1271925/H264-Video-Encoder-for-OpenGL
 https://cs.uwaterloo.ca/research/tr/2001/10/thesis.pdf
@@ -34,3 +35,6 @@ ffmpeg exammples - https://github.com/FFmpeg/FFmpeg/blob/master/doc/examples/enc
 libvpx - https://chromium.googlesource.com/webm/libvpx/+/master/examples/simple_encoder.c
 
 Opencv ffnpeg streaming cam as well as video - https://github.com/andreanobile/opencv_ffmpeg_streaming/blob/master/main.cpp
+Opencv ffmpeg browser - https://www.nobile-engineering.com/wordpress/index.php/2018/10/30/video-streaming-hls-apache-nginx/
+
+SDL FFmpeg solution with audio - https://stackoverflow.com/questions/8187745/audio-output-with-video-processing-with-opencv
