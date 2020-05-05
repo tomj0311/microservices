@@ -12,7 +12,7 @@
                 "/EHsc",
                 "/MD",
                 "/Fe:",
-                "${fileDirname}\\bin\\debug\\${fileBasenameNoExtension}.exe",
+                "${fileDirname}\\build\\${fileBasenameNoExtension}.exe",
                 "${file}",
                 "C:\\vcpkg\\installed\\x64-windows\\lib\\SDL2.lib",
                 "C:\\vcpkg\\installed\\x64-windows\\lib\\SDL2_image.lib",

@@ -38,3 +38,11 @@ Opencv ffnpeg streaming cam as well as video - https://github.com/andreanobile/o
 Opencv ffmpeg browser - https://www.nobile-engineering.com/wordpress/index.php/2018/10/30/video-streaming-hls-apache-nginx/
 
 SDL FFmpeg solution with audio - https://stackoverflow.com/questions/8187745/audio-output-with-video-processing-with-opencv
+
+CV2FF -> https://gist.github.com/yohhoy/52b31522dbb751e5296e
+FF2CV - https://stackoverflow.com/questions/44852117/libav-avframe-to-opencv-mat-to-avpacket-conversion
+ChromaSubSampling - https://stackoverflow.com/questions/17450526/formatting-buffer-according-to-the-yuv420p-format
+
+Super code - https://github.com/fosterseth/sdl2_video_player/blob/master/vidserv.c
+SDL2 Tutorial - Updated to SDL2
+SDL autidio with video

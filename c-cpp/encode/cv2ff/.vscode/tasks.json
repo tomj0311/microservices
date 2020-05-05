@@ -1,0 +1,34 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558 
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "cl.exe build - Debug",
+            "command": "cl.exe",
+            "args": [
+                "/Zi",
+                "/EHsc",
+                "/MD",
+                "/Fe:",
+                "${fileDirname}\\build\\${fileBasenameNoExtension}.exe",
+                "${file}",
+				"C:\\vcpkg\\installed\\x64-windows\\lib\\avformat.lib",
+				"C:\\vcpkg\\installed\\x64-windows\\lib\\avcodec.lib",
+				"C:\\vcpkg\\installed\\x64-windows\\lib\\avutil.lib",
+				"C:\\vcpkg\\installed\\x64-windows\\lib\\swscale.lib",
+				"C:\\vcpkg\\installed\\x64-windows\\lib\\opencv_core.lib",
+				"C:\\vcpkg\\installed\\x64-windows\\lib\\opencv_highgui.lib",
+				"C:\\vcpkg\\installed\\x64-windows\\lib\\opencv_imgproc.lib",
+				"C:\\vcpkg\\installed\\x64-windows\\lib\\opencv_videoio.lib",
+                // "/link",
+                // "/SUBSYSTEM:CONSOLE"
+            ],
+            "problemMatcher": [
+                "$msCompile"
+            ],
+            "group": "build"
+        },
+    ]
+}

@@ -50,6 +50,7 @@ int main(int agc, char * agrv[])
     av_register_all();
 
     char * fileName = "/users/tomj0/downloads/1280.avi";
+    
     //open video file C:\Users\tomj0\Downloads\1280.avi
     if (avformat_open_input(&pFormatCtx, fileName, NULL, NULL) !=0){
         printf("Cannot open file\n");

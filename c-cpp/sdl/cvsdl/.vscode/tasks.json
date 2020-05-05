@@ -13,7 +13,7 @@
                 "/MD",
                 "/Fe:",
                 "${fileDirname}\\build\\${fileBasenameNoExtension}.exe",
-                "${fileDirName}*.cpp",
+                "${file}",
                 "C:\\vcpkg\\installed\\x64-windows\\lib\\SDL2.lib",
                 "C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link\\SDL2main.lib",
                 "C:\\vcpkg\\installed\\x64-windows\\lib\\opencv_core.lib",

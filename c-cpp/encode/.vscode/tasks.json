@@ -15,10 +15,10 @@
 				"C:\\vcpkg\\installed\\x64-windows\\lib\\avcodec.lib",
 				"C:\\vcpkg\\installed\\x64-windows\\lib\\avutil.lib",
 				"C:\\vcpkg\\installed\\x64-windows\\lib\\swscale.lib",
-				"C:\\vcpkg\\installed\\x64-windows\\lib\\opencv_core.lib",
-				"C:\\vcpkg\\installed\\x64-windows\\lib\\opencv_highgui.lib",
-				"C:\\vcpkg\\installed\\x64-windows\\lib\\opencv_imgproc.lib",
-				"C:\\vcpkg\\installed\\x64-windows\\lib\\opencv_videoio.lib",
+				"C:\\vcpkg\\installed\\x64-windows\\lib\\SDL2.lib",
+				"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link\\SDL2main.lib",
+				"/link",
+                "/SUBSYSTEM:WINDOWS"
 			],
 			"problemMatcher": [
 				"$msCompile"
