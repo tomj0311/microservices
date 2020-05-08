@@ -35,7 +35,7 @@ int main(int argc, char * argv[]){
 
     if(SDL_Init(SDL_INIT_VIDEO | SDL_INIT_AUDIO | SDL_INIT_TIMER)) {
         fprintf(stderr, "Could not initialize SDL - %s\n", SDL_GetError());
-        exit(1);
+        return -1;
     }
 
     //Open vide file
@@ -46,7 +46,7 @@ int main(int argc, char * argv[]){
 
     // Retrive steram information
     if (avformat_find_stream_info(pFormatContext, NULL) <0 ){
-        printf("Cannnot open stream from video file\n");
+        printf("Cannnot open stream information\n");
     }
 
     // Dump information about file onto standard error

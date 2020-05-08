@@ -4,12 +4,12 @@ good stuff -
 https://blog.video.ibm.com/streaming-video-tips/what-is-video-encoding-codecs-compression-techniques/
 https://www.theoplayer.com/blog/basics-of-video-encoding
 
+https://blogs.gnome.org/rbultje/2015/09/28/vp9-encodingdecoding-performance-vs-hevch-264/
+
 https://www.stormingrobots.com/prod/tutorial/CommandLine%20Build.pdf
 
 If your input data is just a bunch of random images, not video, you're not going to do "video streaming". You're just going to be sending a bunch of full images. No need to involve video encoding technology, just do the simplest possible transmission of images. Video encoders rely on each frame having various relationships to the previous, as is common in actual video. For inputs of random images, they're not going to be able to compress that much, and single-frame compression (e.g. JPEG/PNG/whatever) is very likely already going to be applied to your input data. https://stackoverflow.com/questions/26577025/c-opencv-webcam-stream-to-html
 
-ffmpeg useful stuff - 
-Tutorial - https://dranger.com/ffmpeg/tutorial01.html
 good explanation - https://lembergsolutions.com/blog/how-process-live-video-stream-using-ffmpeg-and-opencv
 
 Opencv - https://github.com/JPery/MJPEGWriter
@@ -45,4 +45,9 @@ ChromaSubSampling - https://stackoverflow.com/questions/17450526/formatting-buff
 
 Super code - https://github.com/fosterseth/sdl2_video_player/blob/master/vidserv.c
 SDL2 Tutorial - Updated to SDL2
-SDL autidio with video
+
+Perfect example tutorias with code  c++, SDL2, ffmpeg 4:
+https://github.com/raullalves/player-cpp-ffmpeg-sdl
+https://github.com/rambodrahmani/ffmpeg-video-player/blob/master/tutorial02/tutorial02.c
+
+

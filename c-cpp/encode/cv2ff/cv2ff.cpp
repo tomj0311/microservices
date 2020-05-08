@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+
 // FFmpeg dependencies
 extern "C" {
     #include <libavformat/avformat.h>
@@ -8,6 +9,7 @@ extern "C" {
     #include <libavutil/pixdesc.h>
     #include <libswscale/swscale.h>
 }
+
 // OpenCV
 #include <opencv2/opencv.hpp>
 #include <opencv2/highgui.hpp>
@@ -94,7 +96,7 @@ int main(int argc, char* argv[])
     // initialize sample scaler
     SwsContext* swsctx = sws_getCachedContext(
         nullptr, dst_width, dst_height, AV_PIX_FMT_BGR24,
-        dst_width, dst_height, vstrm->codec->pix_fmt, SWS_BICUBIC, nullptr, nullptr, nullptr);
+        dst_width, dst_height, vstrm->codec->pix_fmt, SWS_BILINEAR, nullptr, nullptr, nullptr);
     if (!swsctx) {
         std::cerr << "fail to sws_getCachedContext";
         return 2;
@@ -149,6 +151,7 @@ int main(int argc, char* argv[])
         }
         av_free_packet(&pkt);
     } while (!end_of_stream || got_pkt);
+
     av_write_trailer(outctx);
     std::cout << nb_frames << " frames encoded" << std::endl;
 
