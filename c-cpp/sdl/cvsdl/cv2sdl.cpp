@@ -1,7 +1,7 @@
 #include <iostream>
 
 #include "SDL2/SDL.h"
-#include "opencv2/highgui.hpp"
+#include "opencv2/opencv.hpp"
 // #include "opencv2/core/types_c.h" FOR Iplimage struct reference
 
 void fillTexture(SDL_Texture * texture, cv::Mat const &mat)

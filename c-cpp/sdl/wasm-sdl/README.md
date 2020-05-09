@@ -29,6 +29,9 @@ emcc main.c -s USE_SDL=2 -s USE_SDL_IMAGE=2 -s USE_SDL_MIXER=2 -s SDL2_IMAGE_FOR
 
 Working compile command for C in windows
 emcc main.c -s WASM=1 -s USE_SDL=2 -s USE_SDL_IMAGE=2 -s SDL2_IMAGE_FORMATS=["png"] -O3 -o index.js --preload-file assets -v
+emcc main.c -s WASM=1 -s USE_SDL=2 -s USE_SDL_IMAGE=2 -O3 -o index.js 
+
+Simple HTML with js and wasm - emcc .\texture.c -s WASM=1 -o index.html -s USE_SDL=2  -s ALLOW_MEMORY_GROWTH=1 //Allow memory length is optional for large memory access
 
 perfect examples
 http://main.lv/writeup/web_assembly_sdl_example.md
@@ -38,7 +41,7 @@ https://medium.com/@martin.sikora/libwebsockets-simple-websocket-server-68195343
 
 It seems you are comparing frame size (2.34MBit) with the network speed (54MBit/sec). If that's the case, and you are getting 10 fps, your actual rate is 23.4 MBit/sec –– which is not that bad on a 54 MBit/sec connection.
 
-https://webrtchacks.com/zoom-avoids-using-webrtc/ - webrt + webassembly
+https://webrtchacks.com/zoom-avoids-using-webrtc/ - webrtc + webassembly
 
 https://livebook.manning.com/book/webassembly-in-action/b-ccall-cwrap-and-direct-function-calls/v-7/27
 https://marcoselvatici.github.io/WASM_tutorial/

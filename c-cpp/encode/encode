@@ -12,7 +12,7 @@ If your input data is just a bunch of random images, not video, you're not going
 
 good explanation - https://lembergsolutions.com/blog/how-process-live-video-stream-using-ffmpeg-and-opencv
 
-Opencv - https://github.com/JPery/MJPEGWriter
+FFMPEG Source examples in Doc folder - https://github.com/FFmpeg/FFmpeg
 
 images in C - http://homepages.inf.ed.ac.uk/rbf/BOOKS/PHILLIPS/cips2ed.pdf
 article on streaming - https://blog.mi.hdm-stuttgart.de/index.php/2018/03/21/livestreaming-with-libav-tutorial-part-2/
