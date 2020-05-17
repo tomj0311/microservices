@@ -25,3 +25,9 @@ https://hacks.mozilla.org/2019/08/webassembly-interface-types/
 https://blog.logrocket.com/image-styling-and-filters-using-webassembly/
 
 WebGL good source - https://dannywoodz.wordpress.com/2015/10/14/webgl-from-scratch-updating-textures/
+SDL2 + C++11 + OpenGL -> http://headerphile.com/
+https://caveofprogramming.com/guest-posts/drawing-an-image-sdl.html
+
+SDL_Rect for defining dimensions of the rendering image
+We learned some of the basics. Now, we can render images easily but there is still one problem: how can we simply put it to a specific position on the window with a particular size? Well, SDL solves this issue with the structure called SDL_Rect. SDL_Rect contains four integers called as x, y, w and h.
+Link to article very good -> https://caveofprogramming.com/guest-posts/drawing-an-image-sdl.html

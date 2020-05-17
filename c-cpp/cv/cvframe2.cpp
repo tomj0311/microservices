@@ -25,7 +25,7 @@ int main(int argc, char** argv)
     
 
     // Number of frames to capture
-    int num_frames = 120;
+    int num_frames = 480;
     
     // Start and end times
     time_t start, end;

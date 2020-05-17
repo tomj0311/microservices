@@ -6,9 +6,7 @@
 int main()
 {
     WSADATA WSAData;
- 
     SOCKET server, client;
- 
     SOCKADDR_IN serverAddr, clientAddr;
  
     WSAStartup(MAKEWORD(2,0), &WSAData);

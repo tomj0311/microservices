@@ -17,3 +17,6 @@ Textures - https://stackoverflow.com/questions/37644732/sdl-c-rendering-multiple
 Specifying SDL_HWSURFACE would cause the surface to be created using video memory. PCs without GPUs still have video memory and it is faster to put data in that memory area onto the screen than to copy it from system RAM.
 
 Textures are uploaded to the GPU's own dedicated RAM and data must be passed through that memory in order to be put on the screen at all. SDL2 no longer has the SDL_HWSURFACE flag because the rendering subsystem uses the GPU via OpenGL or Direct3D and cannot use the old way to get graphics on the screen.
+
+Good tutorials -> https://lazyfoo.net/tutorials/SDL/36_multiple_windows/index.php
+CPP hot examples - https://cpp.hotexamples.com/examples/-/-/SDL_GetWindowSurface/cpp-sdl_getwindowsurface-function-examples.html
